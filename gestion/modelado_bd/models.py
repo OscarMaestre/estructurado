@@ -173,6 +173,8 @@ class Centro(models.Model):
         ("EOI", "(EOI) Escuela Oficial de Idiomas"),
         ("CEPA", "(CEPA) Centro Educación Personas Adultas"),
         ("AEPA", "(AEPA) Aul Educación Personas Adultas"),
+        ("UO", "(UO) Unidad de Orientacion"),
+        ("DP", "(DP) Delegación Provincial de Educación"),
         ("DESC", "(DESC) Desconocido")
     ]
     codigo_centro       =   models.CharField(max_length=10, primary_key=True, db_index=True)

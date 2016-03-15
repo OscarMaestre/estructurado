@@ -55,3 +55,29 @@ with transaction.atomic():
             codigo_centro = ies[0],nombre_centro=ies[1], localidad=localidad_asociada
         )
         objeto_centro.save()
+        
+#La academia de Infanteria de Toledo no aparece en listados, pero existe
+#y es asignable
+
+toledo=Localidad.objects.get( codigo_localidad = "451680001")
+academia_infanteria=Centro( codigo_centro = "45600235C",
+                           nombre_centro="Academia de Infanteria de Toledo",
+                           localidad=toledo, tipo_centro="IES")
+academia_infanteria.save()
+                             
+                             
+#La UO del CEIP Francisco Giner de los Rios aun parece existir
+villarrobledo=Localidad.objects.get( codigo_localidad = "020810003")
+uo_giner_rios=Centro( codigo_centro = "02008439C",
+                           nombre_centro="UO CP Francisco Giner de los Rios",
+                           localidad=villarrobledo, tipo_centro="IES")
+uo_giner_rios.save()
+
+
+#La DP de ciudad real
+ciudad_real=Localidad.objects.get( codigo_localidad = "130340002")
+dp_ciudad_real=Centro( codigo_centro = "13003683C",
+                           nombre_centro="Deleg Prov Educación Ciudad Real",
+                           localidad=ciudad_real, tipo_centro="DP")
+dp_ciudad_real.save()
+
