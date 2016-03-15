@@ -1,0 +1,52 @@
+                                                                  Anexo III
+
+
+
+
+Listado de Centros
+Escuelas Oficiales de Idiomas
+
+Comunidad:     Comunidad Autonoma de Castilla-La Mancha
+
+
+
+  Cod.Centro         Provincia                               Denominación              Cod.Loc.              Localidad
+  02004094C      Albacete        EOI Albacete (Albacete)                               020030002 Albacete
+
+  02004343C      Albacete        EOI María Moliner (Almansa)                           020090001 Almansa
+
+  02010197C      Albacete        Eeoi de Caudete (Caudete)                             020250001 Caudete
+
+  02004355C      Albacete        EOI Conde de Floridablanca (Hellin)                   020370005 Hellin
+
+  02010185C      Albacete        Eeoi de Roda (La) (Roda (La))                         020690001 Roda (La)
+
+  02004471C      Albacete        EOI Menéndez Pelayo (VIllarrobledo)                   020810003 VIllarrobledo
+
+  13004705C      Ciudad Real     EOI la Equidad (Alcazar de San Juan)                  130050002 Alcazar de San Juan
+
+  13004134C      Ciudad Real     EOI Prado de Alarcos (Ciudad Real)                    130340002 Ciudad Real
+
+  13004596C      Ciudad Real     EOI Pozo Norte (Puertollano)                          130710004 Puertollano
+
+  13004742C      Ciudad Real     EOI Mar de VIñas (Tomelloso)                          130820002 Tomelloso
+
+  13004845C      Ciudad Real     EOI Ciudad de Valdepeñas (Valdepeñas)                 130870001 Valdepeñas
+
+  16003682C      Cuenca          EOI Sebastián de Covarrubias (Cuenca)                 160780003 Cuenca
+
+  16009994C      Cuenca          Eeoi de Motilla del Palancar (Motilla del Palancar)   161340001 Motilla del Palancar
+
+  19003191C      Guadalajara     EOI Guadalajara (Guadalajara)                         191300001 Guadalajara
+
+  19009609C      Guadalajara     Eeoi de Siguenza (Siguenza)                           192570025 Siguenza
+
+  45005537C      Toledo          EOI Talavera de la Reina (Talavera de la Reina)       451650006 Talavera de la Reina
+
+  45005483C      Toledo          EOI Raimundo de Toledo (Toledo)                       451680001 Toledo
+
+
+
+
+  Concurso de Traslados 2015/2016
+                                                                                                          Página 1 de 1

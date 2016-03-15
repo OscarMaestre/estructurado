@@ -1,0 +1,32 @@
+                                                                  Anexo V
+
+
+
+
+Listado de Centros
+Escuelas de Arte
+
+Comunidad:     Comunidad Autonoma de Castilla-La Mancha
+
+
+
+  Cod.Centro           Provincia                             Denominación   Cod.Loc.               Localidad
+  02007794C          Albacete      EA Albacete (Albacete)                   020030002   Albacete
+
+  13001406C          Ciudad Real   EA Pedro Almodóvar (Ciudad Real)         130340002   Ciudad Real
+
+  13004122C          Ciudad Real   EA Antonio López (Tomelloso)             130820002   Tomelloso
+
+  16008667C          Cuenca        EA José María Cruz Novillo (Cuenca)      160780003   Cuenca
+
+  19008101C          Guadalajara   EA Guadalajara (Guadalajara)             191300001   Guadalajara
+
+  45005057C          Toledo        EA Talavera (Talavera de la Reina)       451650006   Talavera de la Reina
+
+  45003930C          Toledo        EA Toledo (Toledo)                       451680001   Toledo
+
+
+
+
+  Concurso de Traslados 2015/2016
+                                                                                            Página 1 de 1

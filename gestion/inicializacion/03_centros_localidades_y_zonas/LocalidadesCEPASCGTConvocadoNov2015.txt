@@ -1,0 +1,299 @@
+                                                             Anexo II-C)
+
+
+
+
+  Listado de Centros
+  Educación de Personas Adultas
+
+
+
+
+Comunidad:                 Comunidad Autonoma de Castilla-la Mancha
+
+Provincia:                 Albacete
+
+
+Cod.Centro                                  Denominación                     Cod.Loc.                    Localidad
+
+02003673C     CEPA los Llanos (Albacete)                                     020030002   Albacete
+
+02005232C     AEPA Centro Penitenciario (Albacete)                           020030002   Albacete
+
+02010045C     AEPA Albacete (Albacete)                                       020030002   Albacete
+
+02004902C     AEPA Alcaraz (Alcaraz)                                         020080001   Alcaraz
+
+02003685C     CEPA Castillo de Almansa (Almansa)                             020090001   Almansa
+
+02008920C     AEPA Alpera (Alpera)                                           020100001   Alpera
+
+02004768C     AEPA Balazote (Balazote)                                       020120001   Balazote
+
+02004811C     AEPA Barrax (Barrax)                                           020150001   Barrax
+
+02004896C     AEPA Bonillo (El) (Bonillo (El))                               020190001   Bonillo (El)
+
+02004781C     CEPA la Manchuela (Casas-Ibañez)                               020240001   Casas-Ibañez
+
+02004926C     AEPA Caudete (Caudete)                                         020250001   Caudete
+
+02008944C     AEPA Cenizate (Cenizate)                                       020260001   Cenizate
+
+02008890C     AEPA Chinchilla de Monte-Aragon (Chinchilla de Monte-Aragon)   020290002   Chinchilla de Monte-Aragon
+
+02004847C     AEPA Elche de la Sierra (Elche de la Sierra)                   020300001   Elche de la Sierra
+
+02008907C     AEPA Fuente-Alamo (Fuente-Alamo)                               020330001   Fuente-Alamo
+
+02003697C     CEPA López del Oro (Hellin)                                    020370005   Hellin
+
+02010161C     AEPA Hellin (Hellin)                                           020370005   Hellin
+
+02008956C     AEPA Lezuza (Lezuza)                                           020430001   Lezuza
+
+02004835C     AEPA Madrigueras (Madrigueras)                                 020450001   Madrigueras
+
+02004914C     AEPA Munera (Munera)                                           020530001   Munera
+
+02008762C     AEPA Nerpio (Nerpio)                                           020550009   Nerpio
+
+02008853C     AEPA Ossa de Montiel (Ossa de Montiel)                         020570002   Ossa de Montiel
+
+02004771C     AEPA Pozo Cañada (Pozo Cañada)                                 029010001   Pozo Cañada
+
+02004793C     AEPA Roda (La) (Roda (La))                                     020690001   Roda (La)
+
+02004801C     AEPA Tarazona de la Mancha (Tarazona de la Mancha)             020730001   Tarazona de la Mancha
+
+02004872C     AEPA Tobarra (Tobarra)                                         020740006   Tobarra
+
+02004823C     AEPA VIllamalea (VIllamalea)                                   020790001   VIllamalea
+
+02003880C     CEPA Alonso Quijano (VIllarrobledo)                            020810003   VIllarrobledo
+
+02004884C     AEPA Yeste (Yeste)                                             020860014   Yeste
+
+
+
+
+Concurso de Traslados 2015/2016
+                                                                                                           Página 1 de 5
+Comunidad:                Comunidad Autonoma de Castilla-la Mancha
+
+Provincia:                Ciudad Real
+
+
+Cod.Centro                                Denominación                  Cod.Loc.                    Localidad
+
+13004055C    CEPA Enrique Tierno Galván (Alcazar de San Juan)           130050002   Alcazar de San Juan
+
+13005473C    AEPA Centro Penitenciario (Alcazar de San Juan)            130050002   Alcazar de San Juan
+
+13005072C    AEPA Alcolea de Calatrava (Alcolea de Calatrava)           130070001   Alcolea de Calatrava
+
+13004298C    CEPA Almaden (Almaden)                                     130110001   Almaden
+
+13010811C    AEPA Almagro (Almagro)                                     130130001   Almagro
+
+13005126C    AEPA Almodovar del Campo (Almodovar del Campo)             130150001   Almodovar del Campo
+
+13005151C    AEPA Argamasilla de Alba (Argamasilla de Alba)             130190001   Argamasilla de Alba
+
+13005138C    AEPA Argamasilla de Calatrava (Argamasilla de Calatrava)   130200001   Argamasilla de Calatrava
+
+13010821C    AEPA Bolaños de Calatrava (Bolaños de Calatrava)           130230001   Bolaños de Calatrava
+
+13005141C    AEPA Calzada de Calatrava (Calzada de Calatrava)           130270001   Calzada de Calatrava
+
+13005011C    AEPA Campo de Criptana (Campo de Criptana)                 130280002   Campo de Criptana
+
+13004067C    CEPA Antonio Gala (Ciudad Real)                            130340002   Ciudad Real
+
+13004641C    CEPA Miguel de Cervantes (Daimiel)                         130390001   Daimiel
+
+13005023C    AEPA Herencia (Herencia)                                   130470001   Herencia
+
+13005485C    AEPA Centro Penitenciario (Herrera de la Mancha)           130530001   Herrera de la Mancha
+
+13005035C    AEPA Malagon (Malagon)                                     130520003   Malagon
+
+13004079C    CEPA San Blas (Manzanares)                                 130530003   Manzanares
+
+13005102C    AEPA Membrilla (Membrilla)                                 130540001   Membrilla
+
+13005047C    AEPA Miguelturra (Miguelturra)                             130560001   Miguelturra
+
+13010985C    AEPA Moral de Calatrava (Moral de Calatrava)               130580001   Moral de Calatrava
+
+13010808C    AEPA Pedro Muñoz (Pedro Muñoz)                             130610001   Pedro Muñoz
+
+13009582C    CEPA Montes Norte (Piedrabuena)                            130630002   Piedrabuena
+
+13005084C    AEPA Porzuna (Porzuna)                                     130650002   Porzuna
+
+13005059C    AEPA Pozuelo de Calatrava (Pozuelo de Calatrava)           130660001   Pozuelo de Calatrava
+
+13004213C    CEPA Antonio Machado (Puertollano)                         130710004   Puertollano
+
+13005096C    AEPA Robledo (El) (Robledo (El))                           139010001   Robledo (El)
+
+13010869C    AEPA Santa Cruz de Mudela (Santa Cruz de Mudela)           130770001   Santa Cruz de Mudela
+
+13005163C    AEPA Socuellamos (Socuellamos)                             130780001   Socuellamos
+
+13004559C    CEPA Simienza (Tomelloso)                                  130820002   Tomelloso
+
+13004225C    CEPA Francisco de Quevedo (Valdepeñas)                     130870001   Valdepeñas
+
+13005175C    CEPA Miguel de Cervantes (VIllanueva de los Infantes)      130930001   VIllanueva de los Infantes
+
+13005060C    AEPA VIllarrubia de los Ojos (VIllarrubia de los Ojos)     130960001   VIllarrubia de los Ojos
+
+
+
+
+Concurso de Traslados 2015/2016
+                                                                                                      Página 2 de 5
+Comunidad:                Comunidad Autonoma de Castilla-la Mancha
+
+Provincia:                Cuenca
+
+
+Cod.Centro                               Denominación                Cod.Loc.                     Localidad
+
+16004376C    AEPA Carrascosa del Campo (Carrascosa del Campo)        169010001   Carrascosa del Campo
+
+16004273C    AEPA Casasimarro (Casasimarro)                          160660001   Casasimarro
+
+16003207C    CEPA Lucas Aguirre (Cuenca)                             160780003   Cuenca
+
+16004650C    AEPA Centro Penitenciario (Cuenca)                      160780003   Cuenca
+
+16004352C    AEPA Horcajo de Santiago (Horcajo de Santiago)          161060001   Horcajo de Santiago
+
+16008679C    AEPA Huete (Huete)                                      161120005   Huete
+
+16004261C    AEPA Iniesta (Iniesta)                                  161130003   Iniesta
+
+16004303C    AEPA Mesas (Las) (Mesas (Las))                          161240001   Mesas (Las)
+
+16004327C    AEPA Mota del Cuervo (Mota del Cuervo)                  161330001   Mota del Cuervo
+
+16004251C    CEPA Cervantes (Motilla del Palancar)                   161340001   Motilla del Palancar
+
+16004297C    AEPA Pedroñeras (Las) (Pedroñeras (Las))                161540001   Pedroñeras (Las)
+
+16009416C    AEPA Provencio (El) (Provencio (El))                    161710001   Provencio (El)
+
+16008655C    AEPA Quintanar del Rey (Quintanar del Rey)              161750001   Quintanar del Rey
+
+16004340C    CEPA Campos del Záncara (San Clemente)                  161900002   San Clemente
+
+16003657C    CEPA Altomira (Tarancon)                                162030001   Tarancon
+
+16004364C    AEPA VIllamayor de Santiago (VIllamayor de Santiago)    162490001   VIllamayor de Santiago
+
+
+
+
+Concurso de Traslados 2015/2016
+                                                                                                   Página 3 de 5
+Comunidad:                 Comunidad Autonoma de Castilla-la Mancha
+
+Provincia:                 Guadalajara
+
+
+Cod.Centro                                  Denominación              Cod.Loc.                   Localidad
+
+19003723C    AEPA Albalate de Zorita (Albalate de Zorita)             190060001   Albalate de Zorita
+
+19008711C    AEPA Alovera (Alovera)                                   190240001   Alovera
+
+19002950C    CEPA Clara Campoamor (Azuqueca de Henares)               190460001   Azuqueca de Henares
+
+19003681C    AEPA Casar (El) (Casar (El))                             190710001   Casar (El)
+
+19002858C    CEPA Río Sorbe (Guadalajara)                             191300001   Guadalajara
+
+19003760C    AEPA Humanes (Humanes)                                   191510002   Humanes
+
+19008721C    AEPA Marchamalo (Marchamalo)                             191710001   Marchamalo
+
+19003802C    AEPA Molina (Molina)                                     191900004   Molina
+
+19003701C    CEPA Alcarria Baja (Mondejar)                            191920001   Mondejar
+
+19003693C    AEPA Pastrana (Pastrana)                                 192120001   Pastrana
+
+19003711C    AEPA Sacedon (Sacedon)                                   192450004   Sacedon
+
+19003772C    AEPA Siguenza (Siguenza)                                 192570025   Siguenza
+
+19003759C    AEPA Trijueque (Trijueque)                               192900001   Trijueque
+
+19003796C    AEPA Trillo (Trillo)                                     192910005   Trillo
+
+
+
+
+Concurso de Traslados 2015/2016
+                                                                                                   Página 4 de 5
+Comunidad:               Comunidad Autonoma de Castilla-la Mancha
+
+Provincia:               Toledo
+
+
+Cod.Centro                              Denominación                      Cod.Loc.                    Localidad
+
+45004880C    CEPA Castillo de Consuegra (Consuegra)                       450530001   Consuegra
+
+45011719C    AEPA Fuensalida (Fuensalida)                                 450660001   Fuensalida
+
+45005914C    CEPA Pedro Gumiel (Illescas)                                 450810001   Illescas
+
+45010478C    AEPA Madridejos (Madridejos)                                 450870001   Madridejos
+
+45012049C    AEPA Mocejon (Mocejon)                                       451020002   Mocejon
+
+45010466C    AEPA Mora (Mora)                                             451060001   Mora
+
+45010341C    CEPA la Raña (Navahermosa)                                   451090001   Navahermosa
+
+45012037C    AEPA Noblejas (Noblejas)                                     451150001   Noblejas
+
+45005631C    CEPA Gutierre de Cárdenas (Ocaña)                            451210001   Ocaña
+
+45006293C    AEPA Centro Penitenciario (Ocaña)                            451210001   Ocaña
+
+45012141C    AEPA Polan (Polan)                                           451330001   Polan
+
+45012153C    AEPA Puebla de Almoradiel (La) (Puebla de Almoradiel (La))   451350001   Puebla de Almoradiel (La)
+
+45005941C    AEPA Puebla de Montalban (La) (Puebla de Montalban (La))     451360001   Puebla de Montalban (La)
+
+45005288C    CEPA Luis VIves (Quintanar de la Orden)                      451420001   Quintanar de la Orden
+
+45010399C    CEPA Seseña Nuevo (Seseña Nuevo)                             451610004   Seseña Nuevo
+
+45005926C    CEPA Cum Laude (Sonseca)                                     451630002   Sonseca
+
+45004958C    CEPA Río Tajo (Talavera de la Reina)                         451650006   Talavera de la Reina
+
+45004946C    CEPA Gustavo Adolfo Bécquer (Toledo)                         451680001   Toledo
+
+45005641C    CEPA Polígono (Toledo)                                       451680001   Toledo
+
+45005276C    CEPA Teresa Enríquez (Torrijos)                              451730001   Torrijos
+
+45012165C    AEPA Valmojado (Valmojado)                                   451800001   Valmojado
+
+45010338C    AEPA VIllacañas (VIllacañas)                                 451850001   VIllacañas
+
+45012050C    AEPA Yebenes (Los) (Yebenes (Los))                           452000005   Yebenes (Los)
+
+
+
+
+Concurso de Traslados 2015/2016
+                                                                                                       Página 5 de 5
