@@ -189,8 +189,12 @@ for i in range(0, total_lineas):
         
         cod_centro=extraer_codigo_centro(linea[0:19])
         cod_centro=cod_centro + "C"
-        print (cod_centro)
-        centro_asociado=Centro.objects.get( codigo_centro=cod_centro )
+        #print (cod_centro)
+        try:
+            centro_asociado=Centro.objects.get( codigo_centro=cod_centro )
+        except:
+            print ("El centro {0} no parece existir!!!".format (cod_centro))
+            continue
         
         nombre_localidad=linea[26:65].strip()
         fecha_inicio=extraer_patron(re_fecha, linea_posterior[111:141])

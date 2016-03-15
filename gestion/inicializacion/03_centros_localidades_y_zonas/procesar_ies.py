@@ -81,3 +81,20 @@ dp_ciudad_real=Centro( codigo_centro = "13003683C",
                            localidad=ciudad_real, tipo_centro="DP")
 dp_ciudad_real.save()
 
+uo_ciudad_jardin=Centro( codigo_centro = "13010274C",
+                           nombre_centro="UO Ciudad Jardin",
+                           localidad=ciudad_real, tipo_centro="UO")
+uo_ciudad_jardin.save()
+#puertollano=Localidad.objects.get( codigo_localidad = "1307100004")
+#virgen_de_gracia=Centro( codigo_centro = "13003683C",
+#                           nombre_centro="Ifp Virgen de Gracia",
+#                           localidad=puertollano)
+#virgen_de_gracia.save()
+
+
+#UO CEE Ciudad de toledo
+toledo=Localidad.objects.get( codigo_localidad = "451680001")
+uo_cee_toledo=Centro( codigo_centro = "45011707C",
+                           nombre_centro="UO CEE Ciudad de Toledo",
+                           localidad=ciudad_real, tipo_centro="UO")
+uo_cee_toledo.save()

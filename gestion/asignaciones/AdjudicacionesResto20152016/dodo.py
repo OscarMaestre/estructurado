@@ -38,16 +38,5 @@ for f in ficheros_pdf:
     
 ficheros_txt=glob.glob("*.txt")
 for f in ficheros_txt:
-    gf.aplicar_comando(PROCESAR, f)
-    
-utilidades.borrar_fichero(FICH_RESULTADO)
-
-for f in ficheros_txt:
-    
-    utilidades.concatenar_fichero(f+".res",  FICH_RESULTADO)
-
-
-utilidades.copiar_fichero( PROCESAR, " procesar_tabla.pytxt")
-utilidades.copiar_fichero("dodo.py", " dodo.pytxt")
-    
+    gf.aplicar_comando(PROCESAR, f)  
     
