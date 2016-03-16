@@ -6,7 +6,7 @@ from utilidades.basedatos.Configurador import Configurador
 from utilidades.basedatos.GestorBD import GestorBD
 from utilidades.fechas.GestorFechas import GestorFechas
 from utilidades.ficheros.GestorFicheros import GestorFicheros
-
+    
 import os
 import sys
 import django
