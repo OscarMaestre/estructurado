@@ -71,6 +71,12 @@ class Gaseosa(models.Model):
         db_table = 'gaseosa'
         ordering=['apellido_1', 'apellido_2', 'nombre']
         
+        
+class GaseoWeb(Gaseosa):
+    class Meta:
+        db_table="web"
+        
+        
 class Provincia(models.Model):
     PROVINCIAS=[
         ("CR", "Ciudad Real"),
