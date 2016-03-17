@@ -4,11 +4,11 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
-from utilidades.ficheros.GestorFicheros import GestorFicheros
+
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 import time
 import os
-import zipfile
+
 import sys
 
 usuario=sys.argv[1]
@@ -47,14 +47,9 @@ elem_lista.click()
 time.sleep(4)
 elem_exportar=browser.find_element_by_name("btnExcel")
 
-elem_exportar.click()
+
 elem_exportar.click()
 
 time.sleep(5) # Let the page load, will be added to the API
 
 browser.close()
-gf=GestorFicheros()
-zip_ref = zipfile.ZipFile("Afiliados.zip", 'r')
-zip_ref.extractall(path)
-zip_ref.close()
-gf.borrar_fichero ( "Afiliados.zip")
