@@ -67,12 +67,21 @@ class Gaseosa(models.Model):
             return "{0} {1}, {2}".format (self.apellido_1, self.apellido_2, self.nombre)
         else:
             return "{0} {1}, {2}".format (self.nombre, self.apellido_1, self.apellido_2)
+        
+    def __str__(self):
+        return self.get_nombre_completo()
+        pass
+    
     class Meta:
         db_table = 'gaseosa'
         ordering=['apellido_1', 'apellido_2', 'nombre']
         
         
-class GaseoWeb(Gaseosa):
+class GaseoWeb(models.Model):
+    dni                 = models.CharField(primary_key=True, max_length=10, db_index=True)
+    apellido_1          = models.CharField(max_length=100, blank=True, null=True, db_index=True)
+    apellido_2          = models.CharField(max_length=100, blank=True, null=True, db_index=True)
+    nombre              = models.CharField(max_length=60, blank=True, null=True)
     class Meta:
         db_table="web"
         
@@ -147,14 +156,19 @@ def quitar_pueblo_entre_parentesis(cadena):
         return cadena[:pos_parentesis-1]
     return cadena
 
+
+def rectificar_nombre_localidad (nombre_localidad):
+    nombre_localidad=corregir_articulo(nombre_localidad)
+    nombre_localidad=corregir_vi(nombre_localidad)
+    nombre_localidad=quitar_pueblo_entre_parentesis(nombre_localidad)
+    return nombre_localidad
+
 @receiver(pre_save, sender=Localidad)
 def corregir_nombre_localidad(sender, **argumentos):
     instancia_pueblo=argumentos["instance"]
     nombre_localidad=instancia_pueblo.nombre_localidad
-    nombre_localidad=corregir_vi(nombre_localidad)
-    nombre_localidad=quitar_pueblo_entre_parentesis(nombre_localidad)
-    nombre_localidad=corregir_articulo(nombre_localidad)
-    instancia_pueblo.nombre_localidad=nombre_localidad
+    
+    instancia_pueblo.nombre_localidad=rectificar_nombre_localidad ( nombre_localidad )
     return 
 
 
@@ -183,11 +197,17 @@ class Centro(models.Model):
         ("DP", "(DP) Delegación Provincial de Educación"),
         ("DESC", "(DESC) Desconocido")
     ]
+    NATURALEZAS=[
+        ("Público", "Público"),
+        ("Privado", "Privado"),
+        ("Concertado", "Concertado"),
+        ("Desconocida", "Desconocida")
+    ]
     codigo_centro       =   models.CharField(max_length=10, primary_key=True, db_index=True)
     nombre_centro       =   models.CharField(max_length=60)
     tipo_centro         =   models.CharField(max_length=12, choices=TIPOS)
     localidad           =   models.ForeignKey(Localidad)
-
+    naturaleza          =   models.CharField(max_length=15, choices=NATURALEZAS, default="Público")
     class Meta:
         db_table = 'centros'
 
@@ -239,14 +259,13 @@ def corregir_nombre_localidad_cra(sender, **argumentos):
 
 
 class DireccionesCentro(models.Model):
-    codigo_centro       =   models.CharField(max_length=12, primary_key=True)
-    naturaleza          =   models.CharField(max_length=20)
-    nombre_centro       =   models.CharField(max_length=100, blank=False)
+    centro              =   models.ForeignKey ( Centro )
     direccion_postal    =   models.CharField(max_length=120, blank=False)
     codigo_postal       =   models.CharField(max_length=6, blank=False)
-    codigo_localidad    =   models.ForeignKey(Localidad)
+    localidad           =   models.ForeignKey(Localidad)
     tlf                 =   models.CharField(max_length=15)
     fax                 =   models.CharField(max_length=15)
+    email               =   models.CharField(max_length=160)
     web                 =   models.CharField(max_length=160)
     
     def __str__(self):
