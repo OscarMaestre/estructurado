@@ -293,3 +293,24 @@ class Nombramiento(models.Model):
     
     class Meta:
         db_table="nombramientos"
+        
+class InscripcionJornadas(models.Model):
+    TIPOS_PAGO  = [
+        ("Ignorar", "Ignorar"),
+        ("Efectivo", "Pagado en efectivo"),
+        ("Transferencia", "Pagado por transf"),
+        ("No pagado", "No pagado")
+    ]
+    id_inscripcion  =   models.IntegerField(primary_key=True)
+    nif             =   models.CharField(max_length=12, blank=True, null=True)
+    apellido1       =   models.CharField(max_length=60)
+    apellido2       =   models.CharField(max_length=60)
+    nombre          =   models.CharField(max_length=80)
+    email           =   models.EmailField()
+    telefono        =   models.CharField(max_length=15)
+    anios_exp       =   models.IntegerField()
+    especialidad    =   models.CharField(max_length=30)
+    afiliado        =   models.CharField(max_length=10)
+    pago            =   models.CharField(max_length=20, choices=TIPOS_PAGO)
+    class Meta:
+        db_table="inscripciones_jornadas"
