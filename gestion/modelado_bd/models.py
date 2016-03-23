@@ -294,12 +294,16 @@ class Nombramiento(models.Model):
     class Meta:
         db_table="nombramientos"
         
+        
+
+    
 class InscripcionJornadas(models.Model):
     TIPOS_PAGO  = [
-        ("Ignorar", "Ignorar"),
+        ("Por procesar", "Por procesar"),
         ("Efectivo", "Pagado en efectivo"),
         ("Transferencia", "Pagado por transf"),
-        ("No pagado", "No pagado")
+        ("No pagado", "No pagado"),
+        ("Descartada", "Descartada")
     ]
     id_inscripcion  =   models.IntegerField(primary_key=True)
     nif             =   models.CharField(max_length=12, blank=True, null=True)
@@ -312,5 +316,16 @@ class InscripcionJornadas(models.Model):
     especialidad    =   models.CharField(max_length=30)
     afiliado        =   models.CharField(max_length=10)
     pago            =   models.CharField(max_length=20, choices=TIPOS_PAGO)
+    def  __str__(self):
+        return "{0} {1}, {2} ({3}-{4})".format(
+            self.apellido1, self.apellido2, self.nombre, self.id_inscripcion, self.pago)
+    
     class Meta:
         db_table="inscripciones_jornadas"
+        
+@receiver(pre_save, sender=InscripcionJornadas)
+def corregir_nombre_localidad_cra(sender, **argumentos):
+    inscripcion=argumentos["instance"]
+    inscripcion.apellido1=inscripcion.apellido1.upper()
+    inscripcion.apellido2=inscripcion.apellido2.upper()
+    inscripcion.nombre=inscripcion.nombre.upper()

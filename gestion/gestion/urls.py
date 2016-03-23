@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from modelado_bd import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^datos/', views.datos_inscripciones, name="form_datos"),
+    url(r'^index/', views.index, name="index"),
+    url(r'^get_excel/', views.get_excel_inscripciones, name="get_excel")
 ]

@@ -39,7 +39,7 @@ for f in cursor:
             id_inscripcion=f[0],
             nif=f[1], apellido1=f[2], apellido2=f[3], nombre=f[4],
             email=f[5], telefono=f[6], anios_exp=f[7], especialidad=f[8],
-            pago="Ignorar")
+            afiliado=f[9], pago="Por procesar")
         i.save()
         
 cnx.close()
