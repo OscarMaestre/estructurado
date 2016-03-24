@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'modelado_bd',
+    'documentos',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-ES'
 
 TIME_ZONE = 'UTC'
 
@@ -120,3 +121,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+URL_BASE="http://localhost:8000/"
+DIRECTORIO_ALMACEN_FICHEROS="/almacen_ficheros/"
+MEDIA_ROOT="/home/usuario/repos/estructurado/gestion/"+DIRECTORIO_ALMACEN_FICHEROS
+MEDIA_URL=DIRECTORIO_ALMACEN_FICHEROS

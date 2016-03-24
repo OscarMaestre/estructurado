@@ -14,12 +14,26 @@ Including another URLconf
     2. Import the include() function: from django.conf.urls import url, include
     3. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
 from modelado_bd import views
+
+from django.conf import settings
+from documentos import urls
+from django.conf.urls.static import static
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^datos/', views.datos_inscripciones, name="form_datos"),
     url(r'^index/', views.index, name="index"),
-    url(r'^get_excel/', views.get_excel_inscripciones, name="get_excel")
-]
+    url(r'^get_excel/', views.get_excel_inscripciones, name="get_excel"),
+    url(r'^docs/', include ('documentos.urls'))
+]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+print ("Patrones")
+print (urlpatterns)
+print ("Media ROOT:"+settings.MEDIA_ROOT)
+print ("Media URL:"+settings.MEDIA_URL)
+print (static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))
+
+
