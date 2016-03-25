@@ -10,7 +10,7 @@ configurador=Configurador (os.path.sep.join (["..",".."]) )
 configurador.activar_configuracion ( "gestion.settings")
 from documentos.models import *
 
-etiquetas=["boe", "docm", "instrucciones", "interinos"]
+etiquetas=["boe", "docm", "instrucciones", "interinos", "retribuciones", "modelos"]
 with transaction.atomic():
     for e in etiquetas:
         print ("Creando etiqueta "+e)

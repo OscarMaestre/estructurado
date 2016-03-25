@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'index',
     'modelado_bd',
     'documentos',
     'django.contrib.admin',
