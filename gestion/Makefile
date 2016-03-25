@@ -11,3 +11,5 @@ ini:
 	cd inicializacion/04_direc_postales_y_electronicas_centros && ./dodo.py
 	cd inicializacion/30_etiquetas && ./dodo.py
 
+nombramientos:
+	cd asignaciones/AdjudicacionesResto20152016 && ./dodo.py

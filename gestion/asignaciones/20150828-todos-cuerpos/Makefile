@@ -1,0 +1,33 @@
+CONVERSOR=pdftotext
+FLAGS=-nopgbrk -layout
+
+FICHERO_SQL_FINAL=asignacion_28-Ago-2015.sql
+
+all: c590 c591 c594 c595 
+	touch $(FICHERO_SQL_FINAL);
+	cat c590.txt > $(FICHERO_SQL_FINAL);
+	cat c591.txt >> $(FICHERO_SQL_FINAL);
+	cat c594.txt >> $(FICHERO_SQL_FINAL);
+	cat c595.txt >> $(FICHERO_SQL_FINAL);
+    
+
+c590: Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0590.pdf
+	$(CONVERSOR) $(FLAGS) Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0590.pdf
+	./procesar_tabla.py Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0590.txt > c590.txt
+    
+c591: Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0591.pdf
+	$(CONVERSOR) $(FLAGS) Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0591.pdf
+	./procesar_tabla.py Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0591.txt > c591.txt
+  
+c594: Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0594.pdf
+	$(CONVERSOR) $(FLAGS) Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0594.pdf
+	./procesar_tabla.py Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0594.txt > c594.txt
+    
+c595: Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0595.pdf
+	$(CONVERSOR) $(FLAGS) Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0595.pdf
+	./procesar_tabla.py Asignacion2015_20150825_Provisional_EEMM_Resultado_Convocadas_Interinos_0595.txt > c595.txt    
+
+
+
+clean:
+	rm *.txt;rm *.sql

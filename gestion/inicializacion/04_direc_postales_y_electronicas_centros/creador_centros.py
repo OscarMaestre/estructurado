@@ -151,6 +151,7 @@ with transaction.atomic():
                                    localidad=tupla[5],
                                    naturaleza=tupla[0]
                                    )
+            centro_asociado.save()
             print ("El centro {0}, {1}, {2} no existía".format ( tupla[1]+"C", tupla[2], tupla[0]) )
         direccion_centro=DireccionesCentro (
             centro=centro_asociado,

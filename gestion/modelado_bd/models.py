@@ -128,7 +128,7 @@ class Localidad(models.Model):
     provincia           =   models.ForeignKey(Provincia)
     latitud             =   models.DecimalField(max_digits=11, decimal_places=8, default=0.0)
     longitud            =   models.DecimalField(max_digits=11, decimal_places=8, default=0.0)
-    zona                =   models.ForeignKey ( Zona )
+    zona                =   models.ForeignKey ( Zona , blank=True)
     class Meta:
         db_table = 'localidades'
      
