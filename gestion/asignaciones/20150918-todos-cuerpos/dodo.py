@@ -5,15 +5,8 @@ from subprocess import call
 import platform
 import os, sys
 
-NUM_SUBDIRECTORIOS_ANTERIORES=1
-SEPARADOR=os.sep
-
-RUTA_PAQUETE_BD=(".."+SEPARADOR) * NUM_SUBDIRECTORIOS_ANTERIORES
-DIRECTORIO= RUTA_PAQUETE_BD + "db_nombramientos"
-#aqui = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, DIRECTORIO)
-import GestorDB
-import utilidades
+from utilidades.ficheros.GestorFicheros import GestorFicheros
+gf=GestorFicheros()
 
 
 CONVERTIR="pdftotext -layout -nopgbrk "
@@ -40,18 +33,11 @@ ficheros=["0590", "0591", "0592", "0594", "0595", "0596", "0597"]
 
 
 for f in ficheros:
-    if not utilidades.existe_fichero(f+".txt"):
-        utilidades.aplicar_comando(CONVERTIR, f+".pdf")
+    if not gf.existe_fichero(f+".txt"):
+        gf.aplicar_comando(CONVERTIR, f+".pdf")
     
 for f in ficheros:
-    utilidades.aplicar_comando(PROCESAR, f+".txt", "> "+f+".res")
+    gf.aplicar_comando(PROCESAR, f+".txt")
     
-utilidades.borrar_fichero(FICH_RESULTADO)
 
-for f in ficheros:
-    utilidades.concatenar_fichero(f+".res",  FICH_RESULTADO)
-
-
-utilidades.copiar_fichero(PROCESAR, " procesar_tabla.pytxt")
-    
     

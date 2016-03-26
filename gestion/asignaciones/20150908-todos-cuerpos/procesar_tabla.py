@@ -1,31 +1,40 @@
 #!/usr/bin/env python3
-
+#coding=utf-8
 
 import re
 import sys
 import os
 
 
-NUM_SUBDIRECTORIOS_ANTERIORES=1
-SEPARADOR=os.sep
-
-RUTA_PAQUETE_BD=(".."+SEPARADOR) * NUM_SUBDIRECTORIOS_ANTERIORES
-DIRECTORIO= RUTA_PAQUETE_BD + "db_nombramientos"
-
-#aqui = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, DIRECTORIO)
-import GestorDB
-import ListaCampos
-import utilidades
+from utilidades.basedatos.Configurador import Configurador
+from utilidades.fechas.GestorFechas import GestorFechas
+import django
+from django.db import transaction
+configurador=Configurador (os.path.sep.join (["..", ".."]) )
+configurador.activar_configuracion ( "gestion.settings")
+from modelado_bd.models import *
 
 
-archivo=sys.argv[1]
-re_dni="[0-9]{7,8}[A-Z]"
-#especialidad="[PWB0]59[0-9][0-9]{3}"
-re_especialidad="\- [PWB0]59([0-9]{4})"
-re_codigo_centro="[0-9]{8}"
-re_codigo_centro_ciudad_real="^13[0-9]{6}$"
-re_fecha="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+def get_localidad( cod_localidad, nom_localidad):
+    inicio_prov=cod_localidad[0:2]
+    zona_asociada=Zona.objects.get(codigo_zona=Zona.ZONA_CLM)
+    print (inicio_prov)
+    provs={
+        "13":"CR",
+        "02":"AB",
+        "45":"TO",
+        "19":"GU",
+        "16":"CU"
+    }
+    prov_asociada=Provincia.objects.get(provincia=provs[inicio_prov])
+    localidad=Localidad (
+                codigo_localidad=cod_localidad,
+                nombre_localidad=nom_localidad,
+                provincia=prov_asociada,
+                zona=zona_asociada
+    )
+    localidad.save()
+    return localidad
 
 def linea_contiene_patron(patron, linea):
     expresion=re.compile(patron)
@@ -64,52 +73,42 @@ def extraer_nombre(linea):
         return "Error:"+linea
     return linea[pos+2:].strip()
     
-    
-cadena_sql="""insert into asignaciones_18092015 values
-                    (
-                        *C1*'{0}'*C1*,
-                        *C2*'{1}'*C2*,
-                        *C3*'{2}'*C3*,
-                        *C4*'{3}'*C4*,
-                        *C5*'{4}'*C5*,
-                        *C6*'{5}'*C6*,
-                        *C7*'{6}'*C7*,
-                        *C8*'{7}'*C8*
-                        
-                    );
-                    
-                    """
 
-def generar_linea_sql(lista_campos):
-    dni=lista_campos[0]
-    cod_centro=lista_campos[3]
-    fecha_fin=lista_campos[7]
-    if not linea_contiene_patron(re_codigo_centro_ciudad_real, cod_centro):
-        cod_centro="9888"
-    sql= "update gaseosa set cod_centro='"+cod_centro+"' where dni='"+dni+"';\n"
-    sql+="update gaseosa set auxiliar='HACIENDO SUSTITUCION HASTA "+fecha_fin+"' where dni='"+dni+"';\n"
-    return sql
-                    
-def generar_linea_sql2(lista_campos):
-    valores=":".join(lista_campos)
-    return valores
+
+
+archivo=sys.argv[1]
+re_dni="[0-9]{7,8}[A-Z]"
+#especialidad="[PWB0]59[0-9][0-9]{3}"
+re_especialidad="\- [PWB0]59([0-9]{4})"
+re_codigo_centro="[0-9]{8}"
+re_codigo_localidad="[0-9]{9}"
+re_codigo_centro_ciudad_real="^13[0-9]{6}$"
+re_fecha="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+    
+procedimiento_adjudicacion=ProcedimientoAdjudicacion(
+    nombre="Vacantes 08-09-2015", fecha="2015-09-08")
+procedimiento_adjudicacion.save()
 
 archivo=open(archivo,"r", encoding="utf-8")
 lineas=archivo.readlines()
 total_lineas=len(lineas)
 codigo_especialidad=""
-lista_inserts_sql3=[]
+nombramientos=[]
+gestor_fechas=GestorFechas()
 for i in range(0, total_lineas):
     linea=lineas[i]
-    lista_campos=[]
-    lista_campos_para_insertar=ListaCampos.ListaCampos()
+    
+    
     if (linea_contiene_patron(re_especialidad, linea)):
-        codigo_especialidad=extraer_patron(re_especialidad, linea)
-        codigo_especialidad=codigo_especialidad[2:]
+        codigo_espe=extraer_patron(re_especialidad, linea)
+        codigo_espe=codigo_espe[2:]
+        
     if (linea_contiene_patron(re_dni, linea)):
         linea_limpia=linea.strip()
-        codigo_centro=extraer_codigo_centro(linea_limpia)
-        
+        cod_centro=extraer_codigo_centro(linea_limpia)
+        #Todos los centros de nuestra BD llevan C al final, pero
+        #en esta adjudicación no lo han puesto. Lo añadimos a mano
+        cod_centro+="C"
         localidad=extraer_localidad(linea_limpia)
         
         dni = extraer_dni(linea_limpia)
@@ -122,25 +121,43 @@ for i in range(0, total_lineas):
         fecha_1=extraer_patron(re_fecha, trozo_fecha1)
         trozo_fecha2=linea_siguiente[133:]
         fecha_2=extraer_patron(re_fecha, trozo_fecha2)
-        fecha_1=utilidades.convertir_fecha_a_formato_iso(fecha_1)
-        fecha_2=utilidades.convertir_fecha_a_formato_iso(fecha_2)
-        lista_campos=[dni, nombre, codigo_especialidad, codigo_centro, nombre_centro, localidad, fecha_1, fecha_2]
-        linea_sql=generar_linea_sql(lista_campos)
+        fecha_1=gestor_fechas.convertir_fecha_a_formato_iso(fecha_1)
+        fecha_2=gestor_fechas.convertir_fecha_a_formato_iso(fecha_2)
+        especialidad_asociada=Especialidad.objects.get ( codigo_especialidad=codigo_espe )
+        try:
+            centro_asociado=Centro.objects.get( codigo_centro=cod_centro )
+        except:
+            loc_asociada=get_localidad (cod_localidad, nom_localidad)
+            centro_asociado=Centro(
+                codigo_centro=cod_centro, nombre_centro=nom_centro,
+                localidad=loc_asociada
+            )
+            centro_asociado.save()
+            
+            print ("No existe el centro {0}".format(cod_centro))
         
-        lista_campos_para_insertar.anadir("nif", dni, ListaCampos.ListaCampos.CADENA)
-        lista_campos_para_insertar.anadir("nombre_completo", nombre, ListaCampos.ListaCampos.CADENA)
-        lista_campos_para_insertar.anadir("fecha_inicio", fecha_1, ListaCampos.ListaCampos.CADENA)
-        lista_campos_para_insertar.anadir("fecha_fin", fecha_2, ListaCampos.ListaCampos.CADENA)
-        lista_campos_para_insertar.anadir("procedimiento", "Adjudicacion 08-09-2015", ListaCampos.ListaCampos.CADENA)
-        lista_campos_para_insertar.anadir("fecha_procedimiento", "2015-09-08")
-        lista_campos_para_insertar.anadir("especialidad", codigo_especialidad, ListaCampos.ListaCampos.CADENA)
-        lista_campos_para_insertar.anadir("codigo_centro", codigo_centro, ListaCampos.ListaCampos.CADENA)
         
-        print (linea_sql)
+        nombramientos.append(
+            (
+                dni, nombre, especialidad_asociada, centro_asociado,
+                fecha_1, fecha_2
+            )
+            
+        )
+        
         #print cadena_sql.format(codigo_especialidad, codigo_centro, localidad, dni, nombre, nombre_centro, fecha_1, fecha_2)
         i=i+1
-        lista_inserts_sql3.append(lista_campos_para_insertar.generar_insert("nombramientos"))
 
     
-archivo.close()
-GestorDB.BD_RESULTADOS.ejecutar_sentencias(lista_inserts_sql3)
+with transaction.atomic():
+    for n in nombramientos:
+        n=Nombramiento (
+            nif = n[0],
+            nombre_completo = n[1],
+            centro = n[3],
+            fecha_inicio =n[4],
+            fecha_fin=n[5],
+            proceso = procedimiento_adjudicacion,
+            especialidad = n[2]
+        )
+        n.save()

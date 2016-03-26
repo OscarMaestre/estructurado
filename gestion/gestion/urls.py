@@ -31,10 +31,3 @@ urlpatterns = [
     url(r'^docs/', include ('documentos.urls'))
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-print ("Patrones")
-print (urlpatterns)
-print ("Media ROOT:"+settings.MEDIA_ROOT)
-print ("Media URL:"+settings.MEDIA_URL)
-print (static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))
-
-

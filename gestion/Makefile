@@ -12,4 +12,7 @@ ini:
 	cd inicializacion/30_etiquetas && ./dodo.py
 
 nombramientos:
+	cd asignaciones/20150828-todos-cuerpos && ./dodo.py
+	cd asignaciones/20150908-todos-cuerpos && ./dodo.py
 	cd asignaciones/AdjudicacionesResto20152016 && ./dodo.py
+	cd tests && ./test_asignaciones.py

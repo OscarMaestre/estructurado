@@ -19,7 +19,7 @@ configurador.activar_configuracion ( "gestion.settings")
 from modelado_bd.models import *
 
 procedimiento_adjudicacion=ProcedimientoAdjudicacion(
-    nombre="Vacantes 28-ago-2015", fecha="2015-08-28")
+    nombre=ProcedimientoAdjudicacion.VACANTES_28_08_2015, fecha="2015-08-28")
 procedimiento_adjudicacion.save()
 
 archivo=sys.argv[1]
@@ -97,6 +97,11 @@ def generar_linea_sql2(lista_campos):
     return valores
 
 def get_localidad( cod_localidad, nom_localidad):
+    try:
+        loc=Localidad.objects.get(codigo_localidad=cod_localidad)
+        return loc
+    except:
+        pass
     inicio_prov=cod_localidad[0:2]
     zona_asociada=Zona.objects.get(codigo_zona=Zona.ZONA_CLM)
     print (inicio_prov)

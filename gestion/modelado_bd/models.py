@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from django.db import models
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
-
+from utilidades.internet.internet import get_latitud_longitud
 # Create your models here.
 
 
@@ -167,8 +167,13 @@ def rectificar_nombre_localidad (nombre_localidad):
 def corregir_nombre_localidad(sender, **argumentos):
     instancia_pueblo=argumentos["instance"]
     nombre_localidad=instancia_pueblo.nombre_localidad
-    
     instancia_pueblo.nombre_localidad=rectificar_nombre_localidad ( nombre_localidad )
+    if instancia_pueblo.latitud==0.0:
+        (latitud, longitud) = get_latitud_longitud(
+            instancia_pueblo.nombre_localidad
+        )
+        instancia_pueblo.latitud=latitud
+        instancia_pueblo.longitud=longitud
     return 
 
 
@@ -244,6 +249,10 @@ class LocalidadAsociadaCRA(models.Model):
         db_table="localidades_de_cra"
 
         
+        
+def corregir_latitud_longitud(instancia):
+    (latitud_longitud)=get_latitud_longitud( nombre_localidad )
+    return (latitud, longitud)
 
 @receiver(pre_save, sender=LocalidadAsociadaCRA)
 def corregir_nombre_localidad_cra(sender, **argumentos):
@@ -276,7 +285,9 @@ class DireccionesCentro(models.Model):
         
         
 class ProcedimientoAdjudicacion(models.Model):
-    nombre      =   models.CharField(max_length=150)
+    VACANTES_28_08_2015="Vacantes 28-08-2015"
+    VACANTES_18_09_2015="Vacantes 18-09-2015"
+    nombre      =   models.CharField(max_length=150, primary_key=True)
     fecha       =   models.DateField()
     class Meta:
         db_table="procedimientos_adjudicacion"
