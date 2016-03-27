@@ -55,7 +55,9 @@ with transaction.atomic():
             codigo_centro = ies[0],nombre_centro=ies[1], localidad=localidad_asociada
         )
         objeto_centro.save()
-        
+  
+
+
 #La academia de Infanteria de Toledo no aparece en listados, pero existe
 #y es asignable
 
@@ -80,6 +82,31 @@ dp_ciudad_real=Centro( codigo_centro = "13003683C",
                            nombre_centro="Deleg Prov Educación Ciudad Real",
                            localidad=ciudad_real, tipo_centro="DP")
 dp_ciudad_real.save()
+
+#Localidades "vacías"
+paro_interinos=Centro(codigo_centro="9999C", nombre_centro="En paro maestros",
+                      localidad=ciudad_real, tipo_centro="CEIP")
+paro_interinos.save()
+paro_eemm=Centro(codigo_centro="9998C", nombre_centro="En paro EEMM",
+                      localidad=ciudad_real, tipo_centro="IES")
+paro_eemm.save()
+
+jubilados=Centro(codigo_centro="90C", nombre_centro="Jubilados",
+                      localidad=ciudad_real, tipo_centro="IES")
+jubilados.save()
+
+fuera_prov=Centro(codigo_centro="9559C", nombre_centro="Def. fuera provincia",
+                      localidad=ciudad_real, tipo_centro="IES")
+fuera_prov.save()
+
+int_fuera_prov=Centro(codigo_centro="9555C", nombre_centro="Int. fuera provincia",
+                      localidad=ciudad_real, tipo_centro="IES")
+int_fuera_prov.save()
+
+desconocido=Centro(codigo_centro="9000C", nombre_centro="Desconocido",
+                      localidad=ciudad_real, tipo_centro="IES")
+desconocido.save()
+
 
 uo_ciudad_jardin=Centro( codigo_centro = "13010274C",
                            nombre_centro="UO Ciudad Jardin",

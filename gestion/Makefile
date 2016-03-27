@@ -1,3 +1,4 @@
+DATOS=../../../..
 all:
 
 clean:
@@ -14,5 +15,12 @@ ini:
 nombramientos:
 	cd asignaciones/20150828-todos-cuerpos && ./dodo.py
 	cd asignaciones/20150908-todos-cuerpos && ./dodo.py
+	cd asignaciones/20150918-todos-cuerpos && ./dodo.py
 	cd asignaciones/AdjudicacionesResto20152016 && ./dodo.py
 	cd tests && ./test_asignaciones.py
+	
+gaseosa:
+	cd inicializacion/20_gaseosa && ./insertar_bd.py $(DATOS)/toshiba.txt $(DATOS)/correspondencia_especialidades.csv
+	
+subir:
+	echo "delete from gaseosa;" | sqlite3 db.sqlite3 ; git commit -a; git push

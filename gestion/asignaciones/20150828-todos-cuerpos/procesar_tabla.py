@@ -25,7 +25,7 @@ procedimiento_adjudicacion.save()
 archivo=sys.argv[1]
 re_dni="[0-9]{7,8}[A-Z]"
 #especialidad="[PWB0]59[0-9][0-9]{3}"
-re_especialidad="[FRPWB0]59([0-9]{4})"
+re_especialidad="[FRWBP0]59([0-9]{4})"
 re_codigo_centro="[0-9]{8}"
 re_codigo_localidad="[0-9]{9}"
 re_codigo_centro_ciudad_real="^13[0-9]{6}$"

@@ -17,7 +17,7 @@ from modelado_bd.models import *
 archivo=sys.argv[1]
 re_dni="[0-9]{7,8}[A-Z]"
 #especialidad="[PWB0]59[0-9][0-9]{3}"
-re_especialidad="\- [PWB0]59([0-9]{4})"
+re_especialidad="\- [PWBF0]59([0-9]{4})"
 re_codigo_centro="[0-9]{8}"
 re_codigo_localidad="[0-9]{9}"
 re_codigo_centro_ciudad_real="^13[0-9]{6}$"
@@ -38,7 +38,8 @@ def extraer_patron(patron, linea):
         inicio=concordancia.start()
         final=concordancia.end()
         return concordancia.string[inicio:final]
-    print ("No concordancia")
+    #print ("No concordancia")
+    return False
 
 
 
@@ -46,7 +47,7 @@ def extraer_codigo_centro(linea):
     return extraer_patron(re_codigo_centro, linea)
 
 def extraer_localidad(linea):
-    localidad=linea[9:51]
+    localidad=linea[15:57]
     return localidad.strip()
 
 def extraer_dni(linea):
@@ -91,6 +92,7 @@ procedimiento_adjudicacion=ProcedimientoAdjudicacion(
 procedimiento_adjudicacion.save()
 gestor_fechas=GestorFechas()
 nombramientos=[]
+#print ("Procesando")
 for i in range(0, total_lineas):
     linea=lineas[i]
     if (linea_contiene_patron(re_especialidad, linea)):
@@ -98,8 +100,9 @@ for i in range(0, total_lineas):
         codigo_espe=codigo_espe[2:]
     if (linea_contiene_patron(re_dni, linea)):
         linea_limpia=linea.strip()
-        cod_localidad=extraer_patron(re_codigo_localidad, linea)
-        nom_localidad=linea[16:53].strip()
+        cod_localidad=linea[:15].strip()
+        #print ("Codigo localidad:"+cod_localidad)
+        nom_localidad=linea[15:53].strip()
         cod_centro=extraer_codigo_centro(linea_limpia)
         #Todos los centros de nuestra BD llevan C al final, pero
         #en esta adjudicación no lo han puesto. Lo añadimos a mano
@@ -142,3 +145,15 @@ for i in range(0, total_lineas):
         i=i+1
         
 
+with transaction.atomic():
+    for n in nombramientos:
+        n=Nombramiento (
+            nif = n[0],
+            nombre_completo = n[1],
+            centro = n[3],
+            fecha_inicio =n[4],
+            fecha_fin=n[5],
+            proceso = procedimiento_adjudicacion,
+            especialidad = n[2]
+        )
+        n.save()

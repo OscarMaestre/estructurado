@@ -155,6 +155,7 @@ def crear_entidades(procesador_pdf):
                                  zona=zona_asociada, provincia=provincia_asociada,
                                  latitud=l[4], longitud=l[5])
             localidad.save()
+        
     with transaction.atomic():
         for c in centros:
             cod_loc_asociada=c[2]
@@ -167,6 +168,7 @@ def crear_entidades(procesador_pdf):
             cra=Centro.objects.get ( pk=l[0] )
             localidad_de_cra=LocalidadAsociadaCRA ( cra_cabecera = cra, nombre_localidad=l[1])
             localidad_de_cra.save()
+        
         
 if __name__ == '__main__':
     procesador_pdf=ProcesadorPDF()

@@ -163,7 +163,7 @@ for i in range(0, total_lineas):
         if (fecha_adjudicacion!=FECHA_NO_ENCONTRADA):
             fecha_adjudicacion_formato_iso=gestor_fechas.convertir_fecha_a_formato_iso(fecha_adjudicacion)
             procedimiento_adjudicacion=ProcedimientoAdjudicacion(
-                nombre="Asignacion sustituciones de " + fecha_adjudicacion,
+                nombre=ProcedimientoAdjudicacion.ASIGNACION_SUSTITUCIONES+ fecha_adjudicacion,
                 fecha=fecha_adjudicacion_formato_iso
             )
             procedimiento_adjudicacion.save()

@@ -34,48 +34,7 @@ class Especialidad(models.Model):
         db_table = 'especialidades'
         
         
-class Gaseosa(models.Model):
-    dni                 = models.CharField(primary_key=True, max_length=10, db_index=True)
-    cuota               = models.CharField(max_length=10, blank=True, null=True)
-    apellido_1          = models.CharField(max_length=100, blank=True, null=True, db_index=True)
-    apellido_2          = models.CharField(max_length=100, blank=True, null=True, db_index=True)
-    nombre              = models.CharField(max_length=60, blank=True, null=True)
-    sexo                = models.CharField(max_length=2, blank=True, null=True)
-    direccion           = models.CharField(max_length=100, blank=True, null=True)
-    codigo_postal       = models.CharField(max_length=6, blank=True, null=True)
-    ciudad              = models.CharField(max_length=100, blank=True, null=True)
-    provincia           = models.CharField(max_length=20, blank=True, null=True)
-    email               = models.CharField(max_length=100, blank=True, null=True)
-    especialidad        = models.ForeignKey(Especialidad)
-    fecha_nacimiento    = models.DateField(blank=True, null=True)
-    tlf_casa            = models.CharField(max_length=18, blank=True, null=True)
-    tlf_movil           = models.CharField(max_length=18, blank=True, null=True)
-    fecha_alta          = models.DateField(blank=True, null=True)
-    fecha_baja          = models.DateField(blank=True, null=True)
-    cuerpo              = models.CharField(max_length=10, blank=True, null=True)
-    cod_centro_def      = models.CharField(max_length=12, blank=True, null=True)
-    cod_centro_actual   = models.CharField(max_length=12, blank=True, null=True, db_index=True)
-    auxiliar            = models.TextField(max_length=2048, blank=True, null=True)
-    iban                = models.CharField(max_length=4, blank=True, null=True)
-    ccc                 = models.CharField(max_length=20, blank=True, null=True)
-    
-    def get_ambos_apellidos(self):
-        return self.apellido_1 + " " + self.apellido_2
-    
-    def get_nombre_completo(self, nombre_al_final=True):
-        if nombre_al_final:
-            return "{0} {1}, {2}".format (self.apellido_1, self.apellido_2, self.nombre)
-        else:
-            return "{0} {1}, {2}".format (self.nombre, self.apellido_1, self.apellido_2)
-        
-    def __str__(self):
-        return self.get_nombre_completo()
-        pass
-    
-    class Meta:
-        db_table = 'gaseosa'
-        ordering=['apellido_1', 'apellido_2', 'nombre']
-        
+
         
 class GaseoWeb(models.Model):
     dni                 = models.CharField(primary_key=True, max_length=10, db_index=True)
@@ -286,7 +245,9 @@ class DireccionesCentro(models.Model):
         
 class ProcedimientoAdjudicacion(models.Model):
     VACANTES_28_08_2015="Vacantes 28-08-2015"
+    VACANTES_08_09_2015="Vacantes 08-09-2015"
     VACANTES_18_09_2015="Vacantes 18-09-2015"
+    ASIGNACION_SUSTITUCIONES="Asignación de sustituciones de "
     nombre      =   models.CharField(max_length=150, primary_key=True)
     fecha       =   models.DateField()
     class Meta:
@@ -340,3 +301,49 @@ def corregir_nombre_localidad_cra(sender, **argumentos):
     inscripcion.apellido1=inscripcion.apellido1.upper()
     inscripcion.apellido2=inscripcion.apellido2.upper()
     inscripcion.nombre=inscripcion.nombre.upper()
+    
+    
+    
+    
+class Gaseosa(models.Model):
+    dni                 = models.CharField(primary_key=True, max_length=10, db_index=True)
+    cuota               = models.CharField(max_length=10, blank=True, null=True)
+    apellido_1          = models.CharField(max_length=100, blank=True, null=True, db_index=True)
+    apellido_2          = models.CharField(max_length=100, blank=True, null=True, db_index=True)
+    nombre              = models.CharField(max_length=60, blank=True, null=True)
+    sexo                = models.CharField(max_length=2, blank=True, null=True)
+    direccion           = models.CharField(max_length=100, blank=True, null=True)
+    codigo_postal       = models.CharField(max_length=6, blank=True, null=True)
+    ciudad              = models.CharField(max_length=100, blank=True, null=True)
+    provincia           = models.CharField(max_length=20, blank=True, null=True)
+    email               = models.CharField(max_length=100, blank=True, null=True)
+    especialidad        = models.ForeignKey(Especialidad)
+    fecha_nacimiento    = models.DateField(blank=True, null=True)
+    tlf_casa            = models.CharField(max_length=18, blank=True, null=True)
+    tlf_movil           = models.CharField(max_length=18, blank=True, null=True)
+    fecha_alta          = models.DateField(blank=True, null=True)
+    fecha_baja          = models.DateField(blank=True, null=True)
+    cuerpo              = models.CharField(max_length=10, blank=True, null=True)
+    cod_centro_def      = models.ForeignKey(Centro, related_name="centro_definitivo")
+    cod_centro_actual   = models.ForeignKey(Centro, related_name="centro_actual")
+    auxiliar            = models.TextField(max_length=2048, blank=True, null=True)
+    iban                = models.CharField(max_length=4, blank=True, null=True)
+    ccc                 = models.CharField(max_length=20, blank=True, null=True)
+    
+    def get_ambos_apellidos(self):
+        return self.apellido_1 + " " + self.apellido_2
+    
+    def get_nombre_completo(self, nombre_al_final=True):
+        if nombre_al_final:
+            return "{0} {1}, {2}".format (self.apellido_1, self.apellido_2, self.nombre)
+        else:
+            return "{0} {1}, {2}".format (self.nombre, self.apellido_1, self.apellido_2)
+        
+    def __str__(self):
+        return self.get_nombre_completo()
+        pass
+    
+    class Meta:
+        db_table = 'gaseosa'
+        ordering=['apellido_1', 'apellido_2', 'nombre']
+        
