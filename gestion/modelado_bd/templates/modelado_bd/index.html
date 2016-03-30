@@ -6,6 +6,7 @@
 <a href="{% url 'form_datos' %}">Si lo deseas puedes editar datos</a>
 
 <h2>Hay {{cantidad}} inscripciones validadas <a href="{% url 'get_excel' %}">(Descarga un Excel)</a></h2>
+<h3>En total hay {{total_sin_pagar}} sin pagar y {{total_pagadas}} pagadas ({{en_efectivo}} en efectivo y {{por_transferencia}} por transferencia)</h3>
 <p>
     <table border="1">
         <thead>

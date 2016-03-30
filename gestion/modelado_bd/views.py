@@ -40,9 +40,18 @@ def datos_inscripciones ( peticion ):
     
 def index(peticion):
     inscripciones=get_inscripciones()
+    pagadas_en_efectivo=InscripcionJornadas.objects.filter(pago="Efectivo").count()
+    pagadas_por_transferencia=InscripcionJornadas.objects.filter(pago="Transferencia").count()
+    total_pagadas=pagadas_en_efectivo + pagadas_por_transferencia
+    total_inscripciones=len(inscripciones)
+    total_sin_pagar=total_inscripciones - total_pagadas
     contexto={
         "inscripciones":inscripciones,
-        "cantidad":len(inscripciones)
+        "cantidad":len(inscripciones),
+        "en_efectivo":pagadas_en_efectivo,
+        "por_transferencia":pagadas_por_transferencia,
+        "total_pagadas":total_pagadas,
+        "total_sin_pagar":total_sin_pagar
     }
     return render(peticion, "modelado_bd/index.html", contexto)
 
