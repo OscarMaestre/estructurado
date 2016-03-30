@@ -1,0 +1,38 @@
+{% extends 'index/base.html'%}
+
+{%block contenido%}
+
+<row>
+    <column cols="5">
+        <blocks cols="3">
+        {%for e in etiquetas%}
+            <div><input class="etiqueta" type="checkbox" id="{{e.valor}}">{{e.valor}}</div>
+        {%endfor%}
+        </blocks>
+    </column>
+    <column cols="7">
+        <h2>Resultados</h2>
+        <div id="resultados_busqueda">
+            
+        </div>
+    </column>
+</row>
+
+<script language="Javascript">
+    function datos_cargados(datos){
+        $("#resultados_busqueda").html (datos)
+    }
+    function marcados() {
+        var elem_marcados=$(".etiqueta:checked")
+        var url="http://localhost:8000/docs/get_docs/"
+        for (var pos=0; pos<elem_marcados.length; pos++){
+            var obj=elem_marcados[pos]
+            url+= obj.id + "/"
+        }
+        $.get(
+            url, datos_cargados
+        )
+    }
+    $(".etiqueta").click( marcados )
+</script>
+{%endblock%}

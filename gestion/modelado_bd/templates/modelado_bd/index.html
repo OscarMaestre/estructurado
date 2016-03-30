@@ -1,0 +1,42 @@
+{% extends 'index/base.html'%}
+
+{%block contenido%}
+<h1>Bienvenido a la gestión de inscripciones</h1>
+
+<a href="{% url 'form_datos' %}">Si lo deseas puedes editar datos</a>
+
+<h2>Hay {{cantidad}} inscripciones validadas <a href="{% url 'get_excel' %}">(Descarga un Excel)</a></h2>
+<p>
+    <table border="1">
+        <thead>
+        <tr>
+            <td>NIF</td>
+            <td>Apellido 1</td>
+            <td>Apellido 2</td>
+            <td>Nombre</td>
+            <td>Email</td>
+            <td>Telefono</td>
+            <td>Años exp.</td>
+            <td>Especialidad</td>
+            <td>¿Está afiliado?</td>
+            <td>Forma de pago</td>
+        </tr>
+        </thead>
+    {%for i in inscripciones %}
+    <tr>
+        <td>{{i.nif}}</td>
+        <td>{{i.apellido1}}</td>
+        <td>{{i.apellido2}}</td>
+        <td>{{i.nombre}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.telefono}}</td>
+        <td>{{i.anios_exp}}</td>
+        <td>{{i.especialidad}}</td>
+        <td>{{i.afiliado}}</td>
+        <td>{{i.pago}}</td>
+    </tr>
+    {%endfor%}
+    </table>
+</p>
+
+{% endblock %}

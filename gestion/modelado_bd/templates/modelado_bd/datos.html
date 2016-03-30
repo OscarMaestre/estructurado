@@ -1,0 +1,10 @@
+{% extends 'index/base.html'%}
+
+{%block contenido%}
+<form action="{% url 'form_datos' %}" method="post">
+    {% csrf_token %}
+    {{ formulario.as_ul }}
+    <input type="submit" value="Enviar" />
+</form>
+
+{% endblock %}

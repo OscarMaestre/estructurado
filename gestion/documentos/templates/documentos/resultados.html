@@ -1,0 +1,8 @@
+<h3>Lista de ficheros</h3>
+
+
+Resultados:{{cantidad}}<br/>
+{%for f in ficheros%}
+<a href="{{f.archivo.url}}">{{f.archivo.name}}</a>
+<br/>
+{%endfor%}
