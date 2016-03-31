@@ -4,3 +4,4 @@ __pycache__/
 *$py.class
 *.xls
 *.zip
+db.sqlite3
