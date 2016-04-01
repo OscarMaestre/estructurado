@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #coding=utf-8
 
-import sys, os, re
+import sys, os, re, csv
 from utilidades.basedatos.Configurador import Configurador
 from utilidades.ficheros.ProcesadorPDF import ProcesadorPDF
 import django
@@ -15,6 +15,8 @@ configurador.activar_configuracion ( "gestion.settings")
 from modelado_bd.models import *
 
 ARCHIVO=sys.argv[1]
+ARCHIVO_RESULTADO=ARCHIVO[:-4]+".csv"
+
 procesador_pdf=ProcesadorPDF()
 lineas_fichero=procesador_pdf.abrir_fichero_txt(ARCHIVO)
 
@@ -52,8 +54,9 @@ def extraer_codigo_centro ( linea ):
         procesador_pdf.expr_regular_codigo_centro_sin_c, linea )
     return cod_centro
 
-
-
+fichero_resultado=open ( ARCHIVO_RESULTADO, "w", newline="")
+fichero_csv = csv.writer ( fichero_resultado, delimiter=",",
+                          quotechar="\"")
 while not procesador_pdf.eof():
     linea=procesador_pdf.get_linea_actual().strip()
     (ini, fin, dni)=procesador_pdf.linea_actual_contiene_patron ( procesador_pdf.expr_regular_dni )
@@ -66,6 +69,7 @@ while not procesador_pdf.eof():
         procesador_pdf.siguiente_linea()
         linea=procesador_pdf.get_linea_actual().strip()
         punt_total      = extraer_puntuacion_total ( linea )
+        punt_total      = punt_total.strip()
         
         #Los subapartados estan en la siguiente linea
         procesador_pdf.siguiente_linea()
@@ -76,7 +80,7 @@ while not procesador_pdf.eof():
         procesador_pdf.siguiente_linea()
         linea=procesador_pdf.get_linea_actual().strip()
         cod_centro_anterior =extraer_codigo_centro ( linea )
-        especialidad_anterior=linea[-4:]
+        especialidad_anterior=linea[-4:].strip()
         
         #El destino siguiente está dos lineas mas adelante
         procesador_pdf.siguiente_linea()
@@ -84,8 +88,9 @@ while not procesador_pdf.eof():
         linea=procesador_pdf.get_linea_actual().strip()
         cod_centro_def =extraer_codigo_centro ( linea )
         especialidad_def=linea[-4:].strip()
-        print (dni, nombre_persona, cuerpo, punt_total,
+        fichero_csv.writerow  ( [dni, nombre_persona, cuerpo, punt_total,
                cod_centro_anterior, especialidad_anterior,
-               cod_centro_def, cuerpo+especialidad_def)
+               cod_centro_def, cuerpo+especialidad_def] )
         continue
     procesador_pdf.siguiente_linea()
+#print (ARCHIVO_RESULTADO)
