@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'index',
+    'intcalc',
     'traslados',
     'modelado_bd',
     'documentos',
