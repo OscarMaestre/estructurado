@@ -288,6 +288,7 @@ class InscripcionJornadas(models.Model):
     especialidad    =   models.CharField(max_length=30)
     afiliado        =   models.CharField(max_length=10)
     pago            =   models.CharField(max_length=20, choices=TIPOS_PAGO)
+    confirmada      =   models.BooleanField(default=False)
     def  __str__(self):
         return "{0} {1}, {2} ({3}-{4})".format(
             self.apellido1, self.apellido2, self.nombre, self.id_inscripcion, self.pago)
