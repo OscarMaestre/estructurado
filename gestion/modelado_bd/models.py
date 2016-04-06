@@ -349,3 +349,34 @@ class Gaseosa(models.Model):
         db_table = 'gaseosa'
         ordering=['apellido_1', 'apellido_2', 'nombre']
         
+class InterinoDisponible(models.Model):
+    POSIBLES_BOLSAS=[
+        ("0",   "Bolsa 0"),
+        ("4",   "Bolsa 4"),
+        ("8",   "Bolsa 8"),
+        ("P0",  "Bolsa P0"),
+        ("P1",  "Bolsa P1"),
+        ("P1B",  "Bolsa P1B"),
+        ("P2",  "Bolsa P2"),
+        ("P4",  "Bolsa P4"),
+        ("R1",  "Bolsa R1"),
+        ("2N",  "Bolsa 2N"),
+        ("4E",  "Bolsa 4E"),
+        ("4G",  "Bolsa 4G"),
+        ("7P",  "Bolsa 7P"),
+        ("R1H",  "Bolsa R1H"),
+        ("R1F",  "Bolsa R1F"),
+        ("R1D",  "Bolsa R1D"),
+        ("R1G",  "Bolsa R1G"),
+        ("R1I",  "Bolsa R1I"),
+    ]
+    orden           =   models.IntegerField()
+    dni             =   models.CharField( max_length=12 )
+    nombre_completo =   models.CharField ( max_length=100 )
+    tipo_bolsa      =   models.CharField( max_length=10, choices=POSIBLES_BOLSAS )
+    orden_bolsa     =   models.IntegerField()
+    provincia       =   models.ManyToManyField ( Provincia )
+    ingles          =   models.BooleanField()
+    frances         =   models.BooleanField()
+
+
