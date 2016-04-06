@@ -60,11 +60,13 @@ def get_excel_inscripciones(peticion):
     lista=[]
     lista.append(
             ("NIF", "Apellido1", "Apellido 2", "Nombre","Especialidad",
-             "Afiliado", "Años exp.", "Email", "Telefono", "Forma pago")
+             "Afiliado", "Años exp.", "Email", "Telefono", "Forma pago",
+             "Confirma asist")
         )
     for i in inscripciones:
         lista.append(
             (i.nif, i.apellido1, i.apellido2, i.nombre,i.especialidad,
-             i.afiliado, i.anios_exp, i.email, i.telefono,i.pago)
+             i.afiliado, i.anios_exp, i.email, i.telefono,i.pago,
+             i.confirmacion)
         )
     return excel.make_response_from_array(lista, 'xls', file_name="InscripcionesJornadas.xls")
