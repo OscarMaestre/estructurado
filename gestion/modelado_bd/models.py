@@ -295,6 +295,7 @@ class InscripcionJornadas(models.Model):
     
     class Meta:
         db_table="inscripciones_jornadas"
+        ordering=['apellido1', 'apellido2']
         
 @receiver(pre_save, sender=InscripcionJornadas)
 def corregir_nombre_localidad_cra(sender, **argumentos):
