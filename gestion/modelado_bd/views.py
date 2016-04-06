@@ -64,9 +64,13 @@ def get_excel_inscripciones(peticion):
              "Confirma asist")
         )
     for i in inscripciones:
+        if i.confirmada==True:
+            confirmada="SI"
+        else:
+            confirmada="NO"
         lista.append(
             (i.nif, i.apellido1, i.apellido2, i.nombre,i.especialidad,
              i.afiliado, i.anios_exp, i.email, i.telefono,i.pago,
-             i.confirmada)
+             confirmada)
         )
     return excel.make_response_from_array(lista, 'xls', file_name="InscripcionesJornadas.xls")
