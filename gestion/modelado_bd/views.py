@@ -38,6 +38,24 @@ def datos_inscripciones ( peticion ):
         return render(peticion, "modelado_bd/datos.html", contexto)
     
     
+def listado_alfabetico(peticion):
+    pagadas=Q(pago="Efectivo") | Q(pago="Transferencia")
+    inscripciones=InscripcionJornadas.objects.filter(pagadas)
+    lista=[]
+    lista.append(
+            ("Apellido1", "Apellido 2", "Nombre")
+        )
+    for i in inscripciones:
+        if i.confirmada==True:
+            confirmada="SI"
+        else:
+            confirmada="NO"
+        lista.append(
+            (i.apellido1, i.apellido2, i.nombre)
+        )
+    return excel.make_response_from_array(lista, 'xls', file_name="ListadoAlumnos.xls")
+    
+
 def index(peticion):
     inscripciones=get_inscripciones()
     pagadas_en_efectivo=InscripcionJornadas.objects.filter(pago="Efectivo").count()

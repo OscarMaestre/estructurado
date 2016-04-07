@@ -27,6 +27,7 @@ urlpatterns = [
     url(r'^$', index_views.index),
     url(r'^datos/', views.datos_inscripciones, name="form_datos"),
     url(r'^inscripciones/', views.index, name="inscripciones"),
+    url (r'^listado/', views.listado_alfabetico, name="listado_alfabetico"),
     url(r'^get_excel/', views.get_excel_inscripciones, name="get_excel"),
     url(r'^docs/', include ('documentos.urls'))
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
