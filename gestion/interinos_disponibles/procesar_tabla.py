@@ -31,6 +31,7 @@ def con_frances(linea):
         return True
     return False
 
+
 bolsas=[]
 for tupla in InterinoDisponible.POSIBLES_BOLSAS:
     bolsas.append("("+tupla[0]+")")

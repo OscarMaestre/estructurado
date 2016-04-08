@@ -53,6 +53,14 @@ class Provincia(models.Model):
         ("TO", "Toledo"),
         ("CU", "Cuenca")
     ]
+    CODIGOS_PROVINCIAS={
+        "13":"CR",
+        "45":"TO",
+        "02":"AB",
+        "06":"CU",
+        "19":"GU"
+    }
+        
     provincia=models.CharField(max_length=4, primary_key=True, choices=PROVINCIAS)
     class Meta:
         db_table = 'provincias'
@@ -390,5 +398,5 @@ class InterinoDisponible(models.Model):
     provincia       =   models.ManyToManyField ( Provincia )
     ingles          =   models.BooleanField()
     frances         =   models.BooleanField()
-
+    especialidad    =   models.ManyToManyField ( Especialidad )
 
