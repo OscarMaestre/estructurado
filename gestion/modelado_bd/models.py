@@ -396,7 +396,6 @@ class InterinoDisponible(models.Model):
     nombre_completo =   models.CharField ( max_length=100 )
     tipo_bolsa      =   models.CharField( max_length=10, choices=POSIBLES_BOLSAS )
     orden_bolsa     =   models.IntegerField()
-    provincia       =   models.ManyToManyField ( Provincia )
     ingles          =   models.BooleanField()
     frances         =   models.BooleanField()
     especialidad    =   models.ManyToManyField ( Especialidad )
