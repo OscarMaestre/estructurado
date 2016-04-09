@@ -12,8 +12,11 @@ from django.db import transaction
 
 
 class ProcesadorTablaDisponibles(object):
-    def __init__(self, nombre_fichero, ClaseBolsas, codigo_cuerpo):
+    def __init__(self, nombre_fichero, ClaseBolsas,
+                 codigo_cuerpo, ClaseInterino, ClaseEspecialidad):
         self.codigo_cuerpo=codigo_cuerpo
+        self.ClaseInterino=ClaseInterino
+        self.ClaseEspecialidad=ClaseEspecialidad
         re_especialidad="Especialidad\s+[0-9]{3}"
         re_nombre_completo="  [A-ZÁÉÍÓÚÜÑ ]+, [A-ZÁÉÍÓÚÜÑ ]+"
         re_lista_provincias="[0-9]{2}( , [0-9]{2})*"
@@ -54,13 +57,26 @@ class ProcesadorTablaDisponibles(object):
         bolsa=bolsa.strip()
         orden=bolsa[4:].strip()
         return orden
-    def construir_modelos(self, tupla):
+    def get_modelo(self, tupla):
         provincias=tupla[6].split(" , ")
-        print (provincias)
+        quiere_ab=True if "02" in provincias else False
+        quiere_cr=True if "13" in provincias else False
+        quiere_cu=True if "16" in provincias else False
+        quiere_gu=True if "19" in provincias else False
+        quiere_to=True if "45" in provincias else False
+        especialidad_relacionada=self.ClaseEspecialidad.objects.get(
+            codigo_especialidad=self.codigo_cuerpo+tupla[1]
+        )
+        i=self.ClaseInterino(
+            orden=tupla[0]
+        )
+        i.codigo_especialidad=especialidad_relacionada
+        return i
         
     def procesar_tabla(self):
         self.procesador_pdf.abrir_fichero_txt ( self.fich_txt )
         especialidad=""
+        modelos=[]
         while not self.procesador_pdf.eof():
             linea=self.procesador_pdf.get_linea_actual().strip()
             #Comprobamos si la linea contiene una especialidad
@@ -104,8 +120,9 @@ class ProcesadorTablaDisponibles(object):
                 habla_ingles=self.con_ingles(linea)
                 habla_frances=self.con_frances(linea)
                 if True:
-                    self.construir_modelos(
+                    m=self.get_modelo(
                         (num_orden, especialidad, dni, nombre_completo, tipo_bolsa,
                            orden_bolsa, lista_provincias, habla_ingles, habla_frances)
                     )
+                    modelos.append( m )
             self.procesador_pdf.siguiente_linea()
