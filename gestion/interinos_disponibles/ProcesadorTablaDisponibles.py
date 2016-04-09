@@ -78,6 +78,7 @@ class ProcesadorTablaDisponibles(object):
                 if bolsa==self.procesador_pdf.PATRON_NO_ENCONTRADO:
                     print ("Error, bolsa no encontrada en esta linea")
                     print (linea)
+                    linea=self.procesador_pdf.siguiente_linea()
                     continue
                 tipo_bolsa=self.extraer_tipo_bolsa ( bolsa )
                 orden_bolsa=self.extraer_orden_bolsa ( bolsa ) 
@@ -96,6 +97,9 @@ class ProcesadorTablaDisponibles(object):
                 if lista_provincias==self.procesador_pdf.PATRON_NO_ENCONTRADO:
                     print("No se encontro ninguna provincia en la linea siguiente")
                     print (linea)
+                    print ("Le presuponemos todas las provincias")
+                    print ("-----------------------------------")
+                    linea=self.procesador_pdf.siguiente_linea()
                     continue
                 habla_ingles=self.con_ingles(linea)
                 habla_frances=self.con_frances(linea)

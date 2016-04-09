@@ -356,7 +356,15 @@ class Gaseosa(models.Model):
     class Meta:
         db_table = 'gaseosa'
         ordering=['apellido_1', 'apellido_2', 'nombre']
-        
+     
+class ProvinciaInterinoDisponible(models.Model):
+    dni             =   models.CharField( max_length=12 )
+    tipo_bolsa      =   models.CharField( max_length=10, choices=POSIBLES_BOLSAS )
+    orden_bolsa     =   models.IntegerField()
+    provincia       =   models.ForeignKey ( Provincia )
+    
+    especialidad    =   models.ForeignKey ( Especialidad )
+    
 class InterinoDisponible(models.Model):
     POSIBLES_BOLSAS=[
         ("0",   "Bolsa 0"),
