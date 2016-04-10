@@ -6,10 +6,22 @@
 </head>
 
 <body>
+<table border="1">
+    
 
 {% for p in personas %}
-{{p.nombre_completo}}
+    <tr>
+        <td>{{p.numero}}</td>
+        <td>{{p.dni}}</td>
+        <td>
+            {% if p.peticiones.0 %}
+                Pos en AB:{{(p.posiciones)}}
+            {% else %}
+                Pos en AB
+            {% endif %}
+        </td>
+    </tr>
 {%endfor%}
-
+</table>
 </body>
 </html>
