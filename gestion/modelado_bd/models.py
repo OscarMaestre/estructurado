@@ -1,10 +1,12 @@
 #coding=utf-8
 from __future__ import unicode_literals
-
+import os
 from django.db import models
+from django.db import transaction
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
 from utilidades.internet.internet import get_latitud_longitud
+from utilidades.modelos.Modelos import get_directorio_archivos_especialidades,extraer_tuplas_especialidades_de_fichero
 # Create your models here.
 
 
@@ -29,11 +31,93 @@ class Especialidad(models.Model):
     descripcion         = models.CharField( max_length=80, blank=False, null=False) 
     idioma              = models.CharField( max_length=15, blank=False, null=False)
     tipo_de_jornada     = models.CharField( max_length=40, choices = JORNADAS)
-
+    
+    def __str__(self ):
+        return self.codigo_especialidad + " " + self.descripcion
+    
     class Meta:
         db_table = 'especialidades'
+        verbose_name_plural="especialidades"
         
-        
+    @staticmethod
+    def crear_especialidad(codigo_cuerpo, crear_bolsas_asociadas=False):
+        f=codigo_cuerpo
+        sql=[]
+        dir_datos=get_directorio_archivos_especialidades()
+        ruta_fichero=dir_datos+os.path.sep+"Especialidades0{0}.txt".format(f)
+        especialidades=extraer_tuplas_especialidades_de_fichero( ruta_fichero )
+        lista_especialidades_a_insertar=[]
+        for tupla in especialidades:
+            codigo_especialidad_extraida=tupla[0]
+            nombre=tupla[1]
+            exige_bilingue_ingles=True
+            no_exige_bilingue_ingles=False
+            exige_bilingue_frances=True
+            no_exige_bilingue_frances=False
+            es_a_tiempo_parcial=True
+            no_es_a_tiempo_parcial=False
+            #Creamos todas las especialidades con todas las combinaciones
+            #de ingles y frances
+            
+            #0590107 es 0(Tiempo completo, sin bilingüismo) 590 Secund 107 Informatica
+            especialidad=Especialidad(
+                codigo_especialidad="0"+codigo_cuerpo+codigo_especialidad_extraida,
+                descripcion=nombre,
+                idioma=Especialidad.IDIOMA_ESPANOL,
+                tipo_de_jornada=Especialidad.JORNADA_COMPLETA
+            )
+            especialidad.save()
+            #P590107 es P(Tiempo completo, sin bilingüismo) 590 Secund 107 Informatica
+            especialidad=Especialidad(
+                codigo_especialidad="P"+codigo_cuerpo+codigo_especialidad_extraida,
+                descripcion=nombre,
+                idioma=Especialidad.IDIOMA_ESPANOL,
+                tipo_de_jornada=Especialidad.MEDIA_JORNADA
+            )
+            especialidad.save()
+            
+            #B590107 es B(Tiempo completo, bilingüe inglés) 590 Secund 107 Informatica
+            especialidad=Especialidad(
+                codigo_especialidad="B"+codigo_cuerpo+codigo_especialidad_extraida,
+                descripcion=nombre,
+                idioma=Especialidad.IDIOMA_INGLES,
+                tipo_de_jornada=Especialidad.JORNADA_COMPLETA
+            )
+            especialidad.save()
+            
+            #W590107 es W(Tiempo parcial, bilingüe inglés) 590 Secund 107 Informatica
+            especialidad=Especialidad(
+                codigo_especialidad="W"+codigo_cuerpo+codigo_especialidad_extraida,
+                descripcion=nombre,
+                idioma=Especialidad.IDIOMA_INGLES,
+                tipo_de_jornada=Especialidad.MEDIA_JORNADA
+            )
+            especialidad.save()
+            
+            #F590107 es F(Tiempo completo, bilingüe francés) 590 Secund 107 Informatica
+            especialidad=Especialidad(
+                codigo_especialidad="F"+codigo_cuerpo+codigo_especialidad_extraida,
+                descripcion=nombre,
+                idioma=Especialidad.IDIOMA_FRANCES,
+                tipo_de_jornada=Especialidad.JORNADA_COMPLETA
+            )
+            especialidad.save()
+            
+            #R590107 es R(Tiempo parcial, bilingüe francés) 590 Secund 107 Informatica
+            especialidad=Especialidad(
+                codigo_especialidad="R"+codigo_cuerpo+codigo_especialidad_extraida,
+                descripcion=nombre,
+                idioma=Especialidad.IDIOMA_FRANCES,
+                tipo_de_jornada=Especialidad.MEDIA_JORNADA
+            )
+            especialidad.save()
+    
+    @staticmethod
+    def crear_todas_especialidades():
+        with transaction.atomic():
+            cuerpos=["590", "591", "592", "594", "595", "511","597", "596"]
+            for cuerpo in cuerpos:
+                Especialidad.crear_especialidad( cuerpo )
 
         
 class GaseoWeb(models.Model):
@@ -362,7 +446,7 @@ class InterinoDisponible(models.Model):
     POSIBLES_BOLSAS=[
         ("0",   "Bolsa 0"),
         ("1",   "Bolsa 1"),
-        ("2",   "Bolsa 2"),
+        
         ("2D",   "Bolsa 2D"),
         ("2F",   "Bolsa 2F"),
         ("2H",   "Bolsa 2H"),
@@ -370,21 +454,27 @@ class InterinoDisponible(models.Model):
         ("2K",   "Bolsa 2K"),
         ("2L",   "Bolsa 2L"),
         ("2M",   "Bolsa 2M"),
-        ("3",   "Bolsa 3"),
+        ("3H",   "Bolsa 3H"),
         ("3G",   "Bolsa 3G"),
+        ("2",   "Bolsa 2"),
+        ("3",   "Bolsa 3"),
+        ("4F",   "Bolsa 4F"),
         ("4",   "Bolsa 4"),
+        ("6M",   "Bolsa 6M"),
         ("6",   "Bolsa 6"),
+        ("7G",  "Bolsa 7G"),
+        ("7P",  "Bolsa 7P"),
+        ("7J",   "Bolsa 7J"),
         ("8",   "Bolsa 8"),
         ("P0",  "Bolsa P0"),
-        ("P1",  "Bolsa P1"),
         ("P1B",  "Bolsa P1B"),
+        ("P1",  "Bolsa P1"),
         ("P2",  "Bolsa P2"),
         ("P4",  "Bolsa P4"),
         ("R1",  "Bolsa R1"),
         ("2N",  "Bolsa 2N"),
         ("4E",  "Bolsa 4E"),
         ("4G",  "Bolsa 4G"),
-        ("7P",  "Bolsa 7P"),
         ("R1H",  "Bolsa R1H"),
         ("R1F",  "Bolsa R1F"),
         ("R1D",  "Bolsa R1D"),
@@ -405,6 +495,7 @@ class InterinoDisponible(models.Model):
     elige_cu        =   models.BooleanField(default=False)
     elige_gu        =   models.BooleanField(default=False)
     elige_to        =   models.BooleanField(default=False)
-    
+    def __str__(self):
+        return self.dni + " orden bolsa:" + str ( self.orden_bolsa )
     class Meta:
         db_table = 'interinos_disponibles'

@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'traslados',
     'modelado_bd',
     'documentos',
+    'html_disponibles',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
