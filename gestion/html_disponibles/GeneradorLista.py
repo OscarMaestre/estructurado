@@ -7,16 +7,8 @@ from django.db.models import Q
 from django.conf import settings
 from copy import copy
 import sys
-configurador=Configurador ( ".." )
-configurador.activar_configuracion ( "gestion.settings" )
-from modelado_bd.models import *
 
 
-POS_AB=0
-POS_CR=1
-POS_CU=2
-POS_GU=3
-POS_TO=4
 
 
 class Posiciones(object):
@@ -51,16 +43,16 @@ class GeneradorLista(object):
         self.ClasePersona=ClasePersona
         
     def get_personas_por_orden_bolsa(self,
-            fichero_plantilla, codigo_especialidad):
+            fichero_plantilla, codigo_especialidad,
+            descripcion_especialidad, fichero_salida):
         
         posiciones = Posiciones()
-        
         personas=self.ClasePersona.objects.all().order_by("orden_bolsa")
         #print (dir(personas[0]))
         personas=self.ClasePersona.objects.filter(
             especialidad__codigo_especialidad=codigo_especialidad).order_by("orden_bolsa")
         #print (personas[0])
-        especialidad="0590"
+        
         resultados=[]
         
         for p in personas:
@@ -100,13 +92,11 @@ class GeneradorLista(object):
             resultados.append(entrada)
         contexto={
             "personas":resultados,
-            "especialidad":especialidad
+            "especialidad":descripcion_especialidad,
+            "codigo_especialidad":codigo_especialidad
         }
         cad=render_to_string(fichero_plantilla, contexto)
-        print (cad)
+        descriptor=open(fichero_salida, "w")
+        descriptor.write (cad)
+        descriptor.close()
         
-            
-            
-if __name__ == '__main__':
-    g=GeneradorLista(InterinoDisponible)
-    g.get_personas_por_orden_bolsa("html_disponibles/plantilla_lista.html", "0597031")
