@@ -42,7 +42,7 @@ class GeneradorLista(object):
     def __init__(self, ClasePersona):
         self.ClasePersona=ClasePersona
         
-    def get_personas_por_orden_bolsa(self,
+    def generar_lista_html(self,
             fichero_plantilla, codigo_especialidad,
             descripcion_especialidad, fichero_salida):
         

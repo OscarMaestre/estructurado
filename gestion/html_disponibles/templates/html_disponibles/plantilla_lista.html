@@ -7,123 +7,145 @@ en las distintas listas a las que pertenezcas. Además, si tienes la cualificaci
 en algún idioma podrás saber por separado qué puesto tienes dentro los que tengan
 el mismo idioma que tú. Así por ejemplo, en las tablas que puedes ver a continuación, puedes
 observar números como AB:10, AB(IN.):3, AB(FR.):1. Esto significa que tienes el número 10
-por Albacete en la lista general, pero tienes el número 3 dentro los que tienen
-el B2 de Inglés y el puesto número 1 dentro los que tienen B2 de Francés.
+por Albacete en la lista general, pero tienes el número 3 dentro de los que tienen
+el B2 de Inglés y el puesto número 1 dentro los que tienen B2 de Francés. Si observas
+una X es que no pediste esa provincia.
 <br/>
 <br/>
-<table border="1">
-    
-
-{% for p in personas %}
-    <tr>
-        <td>{{p.persona.orden_bolsa}}</td>
-        <td>{{p.persona.dni}}</td>
-        <td>
-            {% if p.persona.elige_ab %}
-                AB:{{p.posiciones.POS_AB_SIN_IDIOMA}}
-            {% else %}
-                AB: X
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_ab and p.persona.ingles %}
-                AB (IN.):{{p.posiciones.POS_AB_CON_INGLES}}
-            {% else %}
-                AB (IN.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_ab and p.persona.frances %}
-                AB (FR.):{{p.posiciones.POS_AB_CON_FRANCES}}
-            {% else %}
-                AB (FR.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_cr %}
-                CR:{{p.posiciones.POS_CR_SIN_IDIOMA}}
-            {% else %}
-                CR: X
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_cr and p.persona.ingles %}
-                CR (IN.):{{p.posiciones.POS_CR_CON_INGLES}}
-            {% else %}
-                CR (IN.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_cr and p.persona.frances %}
-                CR (FR.):{{p.posiciones.POS_CR_CON_FRANCES}}
-            {% else %}
-                CR (FR.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_cu %}
-                CU:{{p.posiciones.POS_CU_SIN_IDIOMA}}
-            {% else %}
-                CU: X
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_cu and p.persona.ingles %}
-                CU (IN.):{{p.posiciones.POS_CU_CON_INGLES}}
-            {% else %}
-                CU (IN.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_cu and p.persona.frances %}
-                CU (FR.):{{p.posiciones.POS_CU_CON_FRANCES}}
-            {% else %}
-                CU (FR.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_gu %}
-                GU:{{p.posiciones.POS_GU_SIN_IDIOMA}}
-            {% else %}
-                GU: X
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_gu and p.persona.ingles %}
-                GU (IN.):{{p.posiciones.POS_GU_CON_INGLES}}
-            {% else %}
-                GU (IN.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_gu and p.persona.frances %}
-                GU (FR.):{{p.posiciones.POS_GU_CON_FRANCES}}
-            {% else %}
-                GU (FR.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_to %}
-                TO:{{p.posiciones.POS_TO_SIN_IDIOMA}}
-            {% else %}
-                TO: X
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_to and p.persona.ingles %}
-                TO (IN.):{{p.posiciones.POS_TO_CON_INGLES}}
-            {% else %}
-                TO (IN.): 
-            {% endif %}
-        </td>
-        <td>
-            {% if p.persona.elige_to and p.persona.frances %}
-                TO (FR.):{{p.posiciones.POS_TO_CON_FRANCES}}
-            {% else %}
-                TO (FR.): 
-            {% endif %}
-        </td>
+<center>
+    <table border="1">
         
-    </tr>
-{%endfor%}
+            <tr>
+                <td class="cabecera">Pos.bolsa</td>
+                <td class="cabecera">DNI</td>
+                <td class="cabecera">AB</td>
+                <td class="cabecera">AB-ING</td>
+                <td class="cabecera">AB-FRA</td>
+                <td class="cabecera">CR</td>
+                <td class="cabecera">CR-ING</td>
+                <td class="cabecera">CR-FRA</td>
+                <td class="cabecera">CU</td>
+                <td class="cabecera">CU-ING</td>
+                <td class="cabecera">CU-FRA</td>
+                <td class="cabecera">GU</td>
+                <td class="cabecera">GU-ING</td>
+                <td class="cabecera">GU-FRA</td>
+                <td class="cabecera">TO</td>
+                <td class="cabecera">TO-ING</td>
+                <td class="cabecera">TO-FRA</td>
+            </tr>
+    {% for p in personas %}
+        <tr>
+            <td>{{p.persona.orden_bolsa}}</td>
+            <td>{{p.persona.dni}}</td>
+            <td>
+                {% if p.persona.elige_ab %}
+                    AB:{{p.posiciones.POS_AB_SIN_IDIOMA}}
+                {% else %}
+                    AB: X
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_ab and p.persona.ingles %}
+                    AB (IN.):{{p.posiciones.POS_AB_CON_INGLES}}
+                {% else %}
+                    AB (IN.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_ab and p.persona.frances %}
+                    AB (FR.):{{p.posiciones.POS_AB_CON_FRANCES}}
+                {% else %}
+                    AB (FR.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_cr %}
+                    CR:{{p.posiciones.POS_CR_SIN_IDIOMA}}
+                {% else %}
+                    CR: X
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_cr and p.persona.ingles %}
+                    CR (IN.):{{p.posiciones.POS_CR_CON_INGLES}}
+                {% else %}
+                    CR (IN.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_cr and p.persona.frances %}
+                    CR (FR.):{{p.posiciones.POS_CR_CON_FRANCES}}
+                {% else %}
+                    CR (FR.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_cu %}
+                    CU:{{p.posiciones.POS_CU_SIN_IDIOMA}}
+                {% else %}
+                    CU: X
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_cu and p.persona.ingles %}
+                    CU (IN.):{{p.posiciones.POS_CU_CON_INGLES}}
+                {% else %}
+                    CU (IN.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_cu and p.persona.frances %}
+                    CU (FR.):{{p.posiciones.POS_CU_CON_FRANCES}}
+                {% else %}
+                    CU (FR.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_gu %}
+                    GU:{{p.posiciones.POS_GU_SIN_IDIOMA}}
+                {% else %}
+                    GU: X
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_gu and p.persona.ingles %}
+                    GU (IN.):{{p.posiciones.POS_GU_CON_INGLES}}
+                {% else %}
+                    GU (IN.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_gu and p.persona.frances %}
+                    GU (FR.):{{p.posiciones.POS_GU_CON_FRANCES}}
+                {% else %}
+                    GU (FR.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_to %}
+                    TO:{{p.posiciones.POS_TO_SIN_IDIOMA}}
+                {% else %}
+                    TO: X
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_to and p.persona.ingles %}
+                    TO (IN.):{{p.posiciones.POS_TO_CON_INGLES}}
+                {% else %}
+                    TO (IN.): 
+                {% endif %}
+            </td>
+            <td>
+                {% if p.persona.elige_to and p.persona.frances %}
+                    TO (FR.):{{p.posiciones.POS_TO_CON_FRANCES}}
+                {% else %}
+                    TO (FR.): 
+                {% endif %}
+            </td>
+            
+        </tr>
+    {%endfor%}
+    </table>
+</center>
 {% endblock %}

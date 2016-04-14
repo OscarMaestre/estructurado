@@ -499,3 +499,12 @@ class InterinoDisponible(models.Model):
         return self.dni + " orden bolsa:" + str ( self.orden_bolsa )
     class Meta:
         db_table = 'interinos_disponibles'
+        
+class Ruta(models.Model):
+    origen      =   models.ForeignKey ( Localidad, related_name="loc_origen" )
+    destino     =   models.ForeignKey ( Localidad, related_name="loc_destino" )
+    distancia   =   models.IntegerField()
+    minutos     =   models.IntegerField()
+    sumario     =   models.CharField ( max_length=250 )
+    class Meta:
+        db_table="rutas"
