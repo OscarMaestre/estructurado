@@ -500,9 +500,22 @@ class InterinoDisponible(models.Model):
     class Meta:
         db_table = 'interinos_disponibles'
         
+    
+    
+class ProvinciaOpos2016(models.Model):
+    codigo_provincia    =   models.CharField(max_length=15, primary_key=True, db_index=True)
+    nombre_provincia    =   models.CharField(max_length=15)
+    
+class LocalidadOpos2016(models.Model):
+    codigo_localidad    =   models.CharField(max_length=12, primary_key=True, db_index=True)
+    nombre_localidad    =   models.CharField(max_length=80, blank=False)
+    provincia           =   models.ForeignKey(ProvinciaOpos2016)
+    class Meta:
+        db_table = 'localidades_opos_2016'
+
 class Ruta(models.Model):
-    origen      =   models.ForeignKey ( Localidad, related_name="loc_origen" )
-    destino     =   models.ForeignKey ( Localidad, related_name="loc_destino" )
+    origen      =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_origen" )
+    destino     =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_destino" )
     distancia   =   models.IntegerField()
     minutos     =   models.IntegerField()
     sumario     =   models.CharField ( max_length=250 )

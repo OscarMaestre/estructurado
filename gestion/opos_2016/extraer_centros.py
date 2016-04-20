@@ -12,12 +12,18 @@ procesador_pdf.abrir_fichero_txt ( fich_txt )
 LOCALIDAD="Localidad:"
 CODIGO="Código:"
 
-def get_localidad(linea):
-    pos_inicio_localidad=linea.find(LOCALIDAD)
-    
+CODIGOS_PROVINCIAS={
+    "Toledo":"800566",
+    "Ciudad Real":"800299",
+    "Albacete":"800010",
+    "Cuenca":"800388",
+    "Guadalajara":"800477"
+}
+
+
 leyendo_centros=False
 while not procesador_pdf.eof():
-    linea=procesador_pdf.get_linea_actual()
+    linea=procesador_pdf.get_linea_actual().strip()
     if linea.find(LOCALIDAD)!=-1:
         #Averiguamos el nombre de la localidad
         pos_inicio_localidad=linea.find(LOCALIDAD)
@@ -32,16 +38,16 @@ while not procesador_pdf.eof():
         print (cod_localidad, nom_localidad)
     
     #Si nos encontramos la palabra "Centro" hay que empezar a leer centros
-    if linea.find("Centro"):
+    if linea.find("Centro")!=-1:
         leyendo_centros=True
         #Y pasamos a la siguiente linea
-        procesador_pdf.siguiente_linea()
+        #procesador_pdf.siguiente_linea()
         procesador_pdf.siguiente_linea()
         linea=procesador_pdf.get_linea_actual().strip()
         while linea!="":
             nombre_centro=linea[:88].strip()
             codigo_centro=linea[89:].strip()
-            print("\t{0}, {1}".format(codigo_centro, nombre_centro))
+            print("\t'{0}', '{1}'".format(codigo_centro, nombre_centro))
             procesador_pdf.siguiente_linea()
             linea=procesador_pdf.get_linea_actual().strip()
         
