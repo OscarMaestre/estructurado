@@ -513,7 +513,7 @@ class LocalidadOpos2016(models.Model):
     class Meta:
         db_table = 'localidades_opos_2016'
 
-class Ruta(models.Model):
+class RutaOpos2016(models.Model):
     origen      =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_origen" )
     destino     =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_destino" )
     distancia   =   models.IntegerField()

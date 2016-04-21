@@ -1,0 +1,987 @@
+800010:Albacete:801009:ibre:100086:Aula de Educación de Adultos de Abengibre
+800010:Albacete:801198:on:100175:Colegio Rural Agrupado Río Mundo
+800010:Albacete:801287:Nuevas:100264:Colegio de Educación Infantil y Primaria San Isidro Labrador
+800010:Albacete:801287:Nuevas:100353:Instituto de Educación Secundaria Pinar de Salomón
+800010:Albacete:801376:ete:106025:Aula de Educación de Adultos Centro Penitenciario
+800010:Albacete:801376:ete:106848:Aula de Educación de Adultos de Albacete
+800010:Albacete:801376:ete:103873:Centro de Educación Especial Eloy Camino
+800010:Albacete:801376:ete:104049:Centro Público de Educación de Personas Adultas los Llanos
+800010:Albacete:801376:ete:103695:Colegio de Educación Infantil y Primaria Ana Soto
+800010:Albacete:801376:ete:103239:Colegio de Educación Infantil y Primaria Antonio Machado
+800010:Albacete:801376:ete:103417:Colegio de Educación Infantil y Primaria Benjamín Palencia
+800010:Albacete:801376:ete:100442:Colegio de Educación Infantil y Primaria Carlos V
+800010:Albacete:801376:ete:103328:Colegio de Educación Infantil y Primaria Castilla-la Mancha
+800010:Albacete:801376:ete:100620:Colegio de Educación Infantil y Primaria Cervantes
+800010:Albacete:801376:ete:100531:Colegio de Educación Infantil y Primaria Cristóbal Colón
+800010:Albacete:801376:ete:100809:Colegio de Educación Infantil y Primaria Cristóbal Valera
+800010:Albacete:801376:ete:100998:Colegio de Educación Infantil y Primaria Diego Velázquez
+800010:Albacete:801376:ete:101074:Colegio de Educación Infantil y Primaria Doctor Fleming
+800010:Albacete:801376:ete:103506:Colegio de Educación Infantil y Primaria Federico Mayor Zaragoza
+800010:Albacete:801376:ete:105493:Colegio de Educación Infantil y Primaria Feria-Isabel Bonal
+800010:Albacete:801376:ete:106570:Colegio de Educación Infantil y Primaria Francisco Giner de los Ríos
+800010:Albacete:801376:ete:106203:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800010:Albacete:801376:ete:101252:Colegio de Educación Infantil y Primaria Inmaculada Concepción
+800010:Albacete:801376:ete:105037:Colegio de Educación Infantil y Primaria José Prat García
+800010:Albacete:801376:ete:105215:Colegio de Educación Infantil y Primaria José Salustiano Serna
+800010:Albacete:801376:ete:106114:Colegio de Educación Infantil y Primaria la Paz
+800010:Albacete:801376:ete:101341:Colegio de Educación Infantil y Primaria María de los Llanos Martínez
+800010:Albacete:801376:ete:104316:Colegio de Educación Infantil y Primaria Parque Sur
+800010:Albacete:801376:ete:104227:Colegio de Educación Infantil y Primaria Pedro Simón Abril
+800010:Albacete:801376:ete:101430:Colegio de Educación Infantil y Primaria Príncipe Felipe
+800010:Albacete:801376:ete:101619:Colegio de Educación Infantil y Primaria Reina Sofía
+800010:Albacete:801376:ete:104594:Colegio de Educación Infantil y Primaria San Antón
+800010:Albacete:801376:ete:101708:Colegio de Educación Infantil y Primaria San Fernando
+800010:Albacete:801376:ete:101897:Colegio de Educación Infantil y Primaria San Fulgencio
+800010:Albacete:801376:ete:104138:Colegio de Educación Infantil y Primaria San Pablo
+800010:Albacete:801376:ete:101163:Colegio de Educación Infantil y Primaria Severo Ochoa
+800010:Albacete:801376:ete:104772:Colegio de Educación Infantil y Primaria VIllacerrada
+800010:Albacete:801376:ete:102062:Colegio de Educación Infantil y Primaria VIrgen de los Llanos
+800010:Albacete:801376:ete:105126:Instituto de Educación Secundaria Al-Basit
+800010:Albacete:801376:ete:102240:Instituto de Educación Secundaria Alto de los Molinos
+800010:Albacete:801376:ete:103784:Instituto de Educación Secundaria Amparo Sanz
+800010:Albacete:801376:ete:102607:Instituto de Educación Secundaria Andrés de Vandelvira
+800010:Albacete:801376:ete:102429:Instituto de Educación Secundaria Bachiller Sabuco
+800010:Albacete:801376:ete:104683:Instituto de Educación Secundaria Diego de Siloé
+800010:Albacete:801376:ete:102796:Instituto de Educación Secundaria Don Bosco
+800010:Albacete:801376:ete:105760:Instituto de Educación Secundaria Federico García Lorca
+800010:Albacete:801376:ete:105304:Instituto de Educación Secundaria Julio Rey Pastor
+800010:Albacete:801376:ete:104405:Instituto de Educación Secundaria Leonardo Da VInci
+800010:Albacete:801376:ete:102151:Instituto de Educación Secundaria los Olmos
+800010:Albacete:801376:ete:102885:Instituto de Educación Secundaria Parque Lineal
+800010:Albacete:801376:ete:105582:Instituto de Educación Secundaria Ramón y Cajal
+800010:Albacete:801376:ete:102518:Instituto de Educación Secundaria Tomás Navarro Tomás
+800010:Albacete:801376:ete:103050:Instituto de Educación Secundaria Universidad Laboral
+800010:Albacete:801376:ete:106759:Sección de Instituto de Educación Secundaria de Albacete
+800010:Albacete:801465:ana:107102:Colegio Rural Agrupado Laguna de Alboraj
+800010:Albacete:801554:ea:107291:Colegio Rural Agrupado la Manchuela
+800010:Albacete:802097:a del Jucar:107380:Colegio Rural Agrupado Ribera del Júcar
+800010:Albacete:802186:az:107747:Aula de Educación de Adultos de Alcaraz
+800010:Albacete:802186:az:107569:Colegio de Educación Infantil y Primaria Nuestra Señora de Cortes
+800010:Albacete:802186:az:107658:Instituto de Educación Secundaria Pedro Simón Abril
+800010:Albacete:802275:sa:108468:Centro Público de Educación de Personas Adultas Castillo de Almansa
+800010:Albacete:802275:sa:108646:Colegio de Educación Infantil y Primaria Claudio Sánchez Albornoz
+800010:Albacete:802275:sa:107836:Colegio de Educación Infantil y Primaria Duque de Alba
+800010:Albacete:802275:sa:109189:Colegio de Educación Infantil y Primaria José Lloret Talens
+800010:Albacete:802275:sa:109278:Colegio de Educación Infantil y Primaria Miguel Pinilla
+800010:Albacete:802275:sa:108190:Colegio de Educación Infantil y Primaria Nuestra Señora de Belén
+800010:Albacete:802275:sa:108001:Colegio de Educación Infantil y Primaria Príncipe de Asturias
+800010:Albacete:802275:sa:108557:Instituto de Educación Secundaria Escultor José Luis Sánchez
+800010:Albacete:802275:sa:109367:Instituto de Educación Secundaria Herminio Almendros
+800010:Albacete:802275:sa:108379:Instituto de Educación Secundaria José Conde García
+800010:Albacete:802364:a:109634:Aula de Educación de Adultos de Alpera
+800010:Albacete:802364:a:109456:Colegio de Educación Infantil y Primaria Vera Cruz
+800010:Albacete:802364:a:109545:Instituto de Educación Secundaria Obligatoria Pascual Serrano
+800010:Albacete:802542:ote:109812:Aula de Educación de Adultos de Balazote
+800010:Albacete:802542:ote:109723:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800010:Albacete:802542:ote:110073:Instituto de Educación Secundaria Obligatoria Vía Heraclea
+800010:Albacete:803085:x:110251:Aula de Educación de Adultos de Barrax
+800010:Albacete:803085:x:110162:Colegio de Educación Infantil y Primaria Benjamín Palencia
+800010:Albacete:803174:ra:110340:Colegio Rural Agrupado Almenara
+800010:Albacete:803263:e:110529:Colegio de Educación Infantil y Primaria Pablo Picasso
+800010:Albacete:803352:lo (El):110896:Aula de Educación de Adultos de Bonillo (El)
+800010:Albacete:803352:lo (El):110618:Colegio de Educación Infantil y Primaria Antón Díaz
+800010:Albacete:803352:lo (El):110707:Instituto de Educación Secundaria las Sabinas
+800010:Albacete:803441:len:110985:Colegio Rural Agrupado los Almendros
+800010:Albacete:803530:de Juan Nuñez:111061:Colegio de Educación Infantil y Primaria San Pedro Apóstol
+800010:Albacete:804073:-Ibañez:111428:Centro Público de Educación de Personas Adultas la Manchuela
+800010:Albacete:804073:-Ibañez:111150:Colegio de Educación Infantil y Primaria San Agustín
+800010:Albacete:804073:-Ibañez:111339:Instituto de Educación Secundaria Bonifacio Sotos
+800010:Albacete:804162:te:112149:Aula de Educación de Adultos de Caudete
+800010:Albacete:804162:te:111517:Colegio de Educación Infantil y Primaria Alcázar y Serrano
+800010:Albacete:804162:te:111795:Colegio de Educación Infantil y Primaria el Paseo
+800010:Albacete:804162:te:111884:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800010:Albacete:804162:te:111606:Instituto de Educación Secundaria Pintor Rafael Requena
+800010:Albacete:804251:ate:112416:Aula de Educación de Adultos de Cenizate
+800010:Albacete:804251:ate:112327:Colegio Rural Agrupado Pinares de la Manchuela
+800010:Albacete:804340:hilla de Monte-Aragon:112783:Aula de Educación de Adultos de Chinchilla de Monte-Aragon
+800010:Albacete:804340:hilla de Monte-Aragon:112505:Colegio de Educación Infantil y Primaria Alcalde Galindo
+800010:Albacete:804340:hilla de Monte-Aragon:112694:Instituto de Educación Secundaria Obligatoria Cinxella
+800010:Albacete:804529:de la Sierra:113137:Aula de Educación de Adultos de Elche de la Sierra
+800010:Albacete:804529:de la Sierra:112872:Colegio de Educación Infantil y Primaria San Blas
+800010:Albacete:804529:de la Sierra:113048:Instituto de Educación Secundaria Sierra del Segura
+800010:Albacete:805061::113226:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800010:Albacete:805150:e-Alamo:113593:Aula de Educación de Adultos de Fuente-Alamo
+800010:Albacete:805150:e-Alamo:113315:Colegio de Educación Infantil y Primaria Don Quijote y Sancho
+800010:Albacete:805150:e-Alamo:113404:Instituto de Educación Secundaria Miguel de Cervantes
+800010:Albacete:805339:ealbilla:113682:Colegio de Educación Infantil y Primaria Cristo del Valle
+800010:Albacete:805428:a (La):113771:Colegio de Educación Infantil y Primaria Mariano Munera
+800010:Albacete:805517:n:115391:Aula de Educación de Adultos de Hellin
+800010:Albacete:805517:n:114859:Centro de Educación Especial Cruz de Mayo
+800010:Albacete:805517:n:114670:Centro Público de Educación de Personas Adultas López del Oro
+800010:Albacete:805517:n:115202:Colegio de Educación Infantil y Primaria Entre Culturas
+800010:Albacete:805517:n:114036:Colegio de Educación Infantil y Primaria Isabel la Católica
+800010:Albacete:805517:n:115113:Colegio de Educación Infantil y Primaria la Olivarera
+800010:Albacete:805517:n:114125:Colegio de Educación Infantil y Primaria Martínez Parras
+800010:Albacete:805517:n:114214:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800010:Albacete:805517:n:114492:Instituto de Educación Secundaria Cristóbal Lozano
+800010:Albacete:805517:n:113860:Instituto de Educación Secundaria Izpisúa Belmonte
+800010:Albacete:805517:n:114581:Instituto de Educación Secundaria Justo Millán
+800010:Albacete:805517:n:114303:Instituto de Educación Secundaria Melchor de Macanaz
+800010:Albacete:806149:ruela:115480:Colegio Rural Agrupado los Molinos
+800010:Albacete:806238::115669:Colegio de Educación Infantil y Primaria Santiago Apóstol
+800010:Albacete:806327::115758:Colegio de Educación Infantil y Primaria Nuestra Señora de la Asunción
+800010:Albacete:806416:a:116012:Aula de Educación de Adultos de Lezuza
+800010:Albacete:806416:a:115847:Colegio Rural Agrupado Camino de Aníbal
+800010:Albacete:806505:r:116101:Colegio de Educación Infantil y Primaria Martínez Parras
+800010:Albacete:807048:gueras:116568:Aula de Educación de Adultos de Madrigueras
+800010:Albacete:807048:gueras:116290:Colegio de Educación Infantil y Primaria Constitución Española
+800010:Albacete:807048:gueras:116479:Instituto de Educación Secundaria Río Júcar
+800010:Albacete:807137:a:116657:Colegio de Educación Infantil y Primaria Nuestra Señora de Gracia
+800010:Albacete:807226:a:116746:Colegio de Educación Infantil y Primaria Diego Ciller Montoya
+800010:Albacete:807315:icos:116835:Colegio de Educación Infantil y Primaria de Molinicos
+800010:Albacete:807404:alegre del Castillo:117000:Colegio de Educación Infantil y Primaria VIrgen de Consolación
+800010:Albacete:807593:a:117378:Aula de Educación de Adultos de Munera
+800010:Albacete:807593:a:117289:Colegio de Educación Infantil y Primaria Cervantes
+800010:Albacete:807593:a:117467:Instituto de Educación Secundaria Obligatoria Bodas de Camacho
+800010:Albacete:808036:o:117734:Aula de Educación de Adultos de Nerpio
+800010:Albacete:808036:o:117556:Colegio Rural Agrupado Río Taibilla
+800010:Albacete:808036:o:117645:Sección de Instituto de Educación Secundaria de Nerpio
+800010:Albacete:808125::117823:Colegio de Educación Infantil y Primaria San José de Calasanz
+800010:Albacete:808214:de Montiel:118277:Aula de Educación de Adultos de Ossa de Montiel
+800010:Albacete:808214:de Montiel:118099:Colegio de Educación Infantil y Primaria Enriqueta Sánchez
+800010:Albacete:808214:de Montiel:118188:Instituto de Educación Secundaria Obligatoria Belerma
+800010:Albacete:808303:de San Pedro:118366:Colegio Rural Agrupado Peñas
+800010:Albacete:808492:la:118455:Colegio Rural Agrupado Laguna de Pétrola
+800010:Albacete:808581:Cañada:118633:Aula de Educación de Adultos de Pozo Cañada
+800010:Albacete:808581:Cañada:118544:Colegio de Educación Infantil y Primaria VIrgen del Rosario
+800010:Albacete:808581:Cañada:118722:Instituto de Educación Secundaria Obligatoria Alfonso Iniesta
+800010:Albacete:809669:ondo:118811:Colegio Rural Agrupado Pozohondo
+800010:Albacete:809847:lo:119087:Colegio Rural Agrupado los Llanos
+800010:Albacete:810008:r:119176:Colegio Rural Agrupado Calar del Mundo
+800010:Albacete:810008:r:119265:Sección de Instituto de Educación Secundaria de Riopar
+800010:Albacete:810197:do:119354:Colegio Rural Agrupado Sierra de Alcaraz
+800010:Albacete:810286:(La):120338:Aula de Educación de Adultos de Roda (La)
+800010:Albacete:810286:(La):119443:Colegio de Educación Infantil y Primaria José Antonio
+800010:Albacete:810286:(La):119532:Colegio de Educación Infantil y Primaria Juan Ramón Ramírez
+800010:Albacete:810286:(La):120249:Colegio de Educación Infantil y Primaria Miguel Hernández
+800010:Albacete:810286:(La):120060:Colegio de Educación Infantil y Primaria Tomás Navarro Tomás
+800010:Albacete:810286:(La):119621:Instituto de Educación Secundaria Doctor Alarcón Santón
+800010:Albacete:810286:(La):119710:Instituto de Educación Secundaria Maestro Juan Rubio
+800010:Albacete:810375:ral (El):120516:Colegio de Educación Infantil y Primaria Príncipe Felipe
+800010:Albacete:810464:edro:120605:Colegio de Educación Infantil y Primaria Margarita Sotos
+800010:Albacete:810553:Ana:120794:Colegio de Educación Infantil y Primaria Pedro Simón Abril
+800010:Albacete:811096:os:120883:Colegio de Educación Infantil y Primaria León Felipe
+800010:Albacete:811096:os:120972:Instituto de Educación Secundaria Obligatoria Encomienda de Santiago
+800010:Albacete:811185:ona de la Mancha:121237:Aula de Educación de Adultos de Tarazona de la Mancha
+800010:Albacete:811185:ona de la Mancha:121059:Colegio de Educación Infantil y Primaria Eduardo Sanchiz
+800010:Albacete:811185:ona de la Mancha:121148:Instituto de Educación Secundaria José Isbert
+800010:Albacete:811274:a:121326:Colegio de Educación Infantil y Primaria Ramón y Cajal
+800010:Albacete:811363:ra:121871:Aula de Educación de Adultos de Tobarra
+800010:Albacete:811363:ra:121415:Colegio de Educación Infantil y Primaria Cervantes
+800010:Albacete:811363:ra:121504:Colegio de Educación Infantil y Primaria Cristo de la Antigua
+800010:Albacete:811363:ra:121782:Colegio de Educación Infantil y Primaria Nuestra Señora de la Asunción
+800010:Albacete:811363:ra:121693:Instituto de Educación Secundaria Cristóbal Pérez Pastor
+800010:Albacete:811452:ganga:122047:Colegio Rural Agrupado Nuestra Señora del Rosario
+800010:Albacete:811541:lgordo del Júcar:122136:Colegio de Educación Infantil y Primaria San Roque
+800010:Albacete:812084:malea:122314:Aula de Educación de Adultos de VIllamalea
+800010:Albacete:812084:malea:122225:Colegio de Educación Infantil y Primaria Ildefonso Navarro
+800010:Albacete:812084:malea:122403:Instituto de Educación Secundaria Obligatoria Río Cabriel
+800010:Albacete:812173:palacios:122592:Colegio Rural Agrupado los Olivos
+800010:Albacete:812262:rrobledo:123580:Centro Público de Educación de Personas Adultas Alonso Quijano
+800010:Albacete:812262:rrobledo:124112:Colegio de Educación Infantil y Primaria Barranco Cafetero
+800010:Albacete:812262:rrobledo:123769:Colegio de Educación Infantil y Primaria Diego Requena
+800010:Albacete:812262:rrobledo:122681:Colegio de Educación Infantil y Primaria Don Francisco Giner de los Ríos
+800010:Albacete:812262:rrobledo:122770:Colegio de Educación Infantil y Primaria Graciano Atienza
+800010:Albacete:812262:rrobledo:123035:Colegio de Educación Infantil y Primaria Jiménez de Córdoba
+800010:Albacete:812262:rrobledo:123302:Colegio de Educación Infantil y Primaria VIrgen de la Caridad
+800010:Albacete:812262:rrobledo:123124:Colegio de Educación Infantil y Primaria VIrrey Morcillo
+800010:Albacete:812262:rrobledo:124023:Instituto de Educación Secundaria Cencibel
+800010:Albacete:812262:rrobledo:123491:Instituto de Educación Secundaria Octavio Cuartero
+800010:Albacete:812262:rrobledo:123213:Instituto de Educación Secundaria VIrrey Morcillo
+800010:Albacete:812351::124390:Aula de Educación de Adultos de Yeste
+800010:Albacete:812351::124579:Colegio Rural Agrupado de Yeste
+800010:Albacete:812351::124201:Instituto de Educación Secundaria Beneche
+800299:Ciudad Real:812440:jar:136453:Colegio de Educación Infantil y Primaria Nuestra Señora de la Encarnación
+800299:Ciudad Real:813072::136542:Colegio de Educación Infantil y Primaria VIrgen de la Estrella
+800299:Ciudad Real:813161:llo:136631:Colegio Rural Agrupado de Alamillo
+800299:Ciudad Real:813250:adejo:136720:Colegio Rural Agrupado Orden de Santiago
+800299:Ciudad Real:813439:ar de San Juan:140312:Aula de Educación de Adultos Centro Penitenciario
+800299:Ciudad Real:813439:ar de San Juan:137808:Centro Público de Educación de Personas Adultas Enrique Tierno Galván
+800299:Ciudad Real:813439:ar de San Juan:137719:Colegio de Educación Infantil y Primaria Alces
+800299:Ciudad Real:813439:ar de San Juan:137085:Colegio de Educación Infantil y Primaria el Santo
+800299:Ciudad Real:813439:ar de San Juan:140223:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800299:Ciudad Real:813439:ar de San Juan:140401:Colegio de Educación Infantil y Primaria Jardín de Arena
+800299:Ciudad Real:813439:ar de San Juan:137263:Colegio de Educación Infantil y Primaria Jesús Ruiz de la Fuente
+800299:Ciudad Real:813439:ar de San Juan:137174:Colegio de Educación Infantil y Primaria Juan de Austria
+800299:Ciudad Real:813439:ar de San Juan:139973:Colegio de Educación Infantil y Primaria Pablo Ruiz Picasso
+800299:Ciudad Real:813439:ar de San Juan:137352:Colegio de Educación Infantil y Primaria Santa Clara
+800299:Ciudad Real:813439:ar de San Juan:137530:Instituto de Educación Secundaria Juan Bosco
+800299:Ciudad Real:813439:ar de San Juan:140045:Instituto de Educación Secundaria María Zambrano
+800299:Ciudad Real:813439:ar de San Juan:137441:Instituto de Educación Secundaria Miguel de Cervantes Saavedra
+800299:Ciudad Real:813528:a:140590:Colegio de Educación Infantil y Primaria Don Rodrigo
+800299:Ciudad Real:814060:ea de Calatrava:140868:Aula de Educación de Adultos de Alcolea de Calatrava
+800299:Ciudad Real:814060:ea de Calatrava:140779:Colegio de Educación Infantil y Primaria Tomasa Gallardo
+800299:Ciudad Real:814249:illas:140957:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800299:Ciudad Real:814338:del Rey:141033:Colegio de Educación Infantil y Primaria Maestro Navas
+800299:Ciudad Real:814427:bra:141122:Colegio de Educación Infantil y Primaria Nuestra Señora de Fátima
+800299:Ciudad Real:814516:en:141767:Centro Público de Educación de Personas Adultas de Almaden
+800299:Ciudad Real:814516:en:141300:Colegio de Educación Infantil y Primaria Hijos de Obreros
+800299:Ciudad Real:814516:en:141211:Colegio de Educación Infantil y Primaria Jesús Nazareno
+800299:Ciudad Real:814516:en:141678:Instituto de Educación Secundaria Mercurio
+800299:Ciudad Real:814516:en:141589:Instituto de Educación Secundaria Pablo Ruiz Picasso
+800299:Ciudad Real:815059:ro:142577:Aula de Educación de Adultos de Almagro
+800299:Ciudad Real:815059:ro:142021:Colegio de Educación Infantil y Primaria Diego de Almagro
+800299:Ciudad Real:815059:ro:141856:Colegio de Educación Infantil y Primaria Miguel de Cervantes Saavedra
+800299:Ciudad Real:815059:ro:142488:Colegio de Educación Infantil y Primaria Paseo VIejo de la Florida
+800299:Ciudad Real:815059:ro:142110:Instituto de Educación Secundaria Antonio Calvín
+800299:Ciudad Real:815059:ro:142399:Instituto de Educación Secundaria Clavero Fernández de Córdoba
+800299:Ciudad Real:815148:ovar del Campo:143109:Aula de Educación de Adultos de Almodovar del Campo
+800299:Ciudad Real:815148:ovar del Campo:142666:Colegio de Educación Infantil y Primaria Maestro Juan de Ávila
+800299:Ciudad Real:815148:ovar del Campo:142755:Colegio de Educación Infantil y Primaria VIrgen del Carmen
+800299:Ciudad Real:815148:ovar del Campo:142844:Instituto de Educación Secundaria San Juan Bautista de la Concepción
+800299:Ciudad Real:815237:adiel:143298:Colegio de Educación Infantil y Primaria Santiago Apóstol
+800299:Ciudad Real:815326:s de San Juan:143387:Colegio Rural Agrupado de Arenas de San Juan
+800299:Ciudad Real:815415:asilla de Alba:143743:Aula de Educación de Adultos de Argamasilla de Alba
+800299:Ciudad Real:815415:asilla de Alba:143654:Colegio de Educación Infantil y Primaria Azorín
+800299:Ciudad Real:815415:asilla de Alba:143476:Colegio de Educación Infantil y Primaria Divino Maestro
+800299:Ciudad Real:815415:asilla de Alba:143565:Colegio de Educación Infantil y Primaria Nuestra Señora de Peñarroya
+800299:Ciudad Real:815415:asilla de Alba:143832:Instituto de Educación Secundaria VIcente Cano
+800299:Ciudad Real:815504:asilla de Calatrava:144286:Aula de Educación de Adultos de Argamasilla de Calatrava
+800299:Ciudad Real:815504:asilla de Calatrava:144008:Colegio de Educación Infantil y Primaria Rodríguez Marín
+800299:Ciudad Real:815504:asilla de Calatrava:144197:Colegio de Educación Infantil y Primaria VIrgen del Socorro
+800299:Ciudad Real:815504:asilla de Calatrava:144375:Instituto de Educación Secundaria Alonso Quijano
+800299:Ciudad Real:816047:a de los Montes:144464:Colegio Rural Agrupado Río San Marcos
+800299:Ciudad Real:816136:steros de Calatrava:144553:Colegio de Educación Infantil y Primaria José María del Moral
+800299:Ciudad Real:816225:os de Calatrava:145274:Aula de Educación de Adultos de Bolaños de Calatrava
+800299:Ciudad Real:816225:os de Calatrava:144731:Colegio de Educación Infantil y Primaria Arzobispo Calzado
+800299:Ciudad Real:816225:os de Calatrava:144642:Colegio de Educación Infantil y Primaria Fernando III el Santo
+800299:Ciudad Real:816225:os de Calatrava:145185:Colegio de Educación Infantil y Primaria Molino de VIento
+800299:Ciudad Real:816225:os de Calatrava:144820:Colegio de Educación Infantil y Primaria VIrgen del Monte
+800299:Ciudad Real:816225:os de Calatrava:145096:Instituto de Educación Secundaria Berenguela de Castilla
+800299:Ciudad Real:816314:tortas:145363:Colegio de Educación Infantil y Primaria Cervantes
+800299:Ciudad Real:816403:arados:145452:Colegio de Educación Infantil y Primaria Nuestra Señora de Finibusterre
+800299:Ciudad Real:816592:da de Calatrava:146084:Aula de Educación de Adultos de Calzada de Calatrava
+800299:Ciudad Real:816592:da de Calatrava:145630:Colegio de Educación Infantil y Primaria Ignacio de Loyola
+800299:Ciudad Real:816592:da de Calatrava:145541:Colegio de Educación Infantil y Primaria Santa Teresa de Jesús
+800299:Ciudad Real:816592:da de Calatrava:145819:Instituto de Educación Secundaria Eduardo Valencia
+800299:Ciudad Real:817035:de Criptana:146807:Aula de Educación de Adultos de Campo de Criptana
+800299:Ciudad Real:817035:de Criptana:146629:Colegio de Educación Infantil y Primaria Domingo Miras
+800299:Ciudad Real:817035:de Criptana:146351:Colegio de Educación Infantil y Primaria Sagrado Corazón
+800299:Ciudad Real:817035:de Criptana:146262:Colegio de Educación Infantil y Primaria VIrgen de Criptana
+800299:Ciudad Real:817035:de Criptana:146173:Colegio de Educación Infantil y Primaria VIrgen de la Paz
+800299:Ciudad Real:817035:de Criptana:146440:Instituto de Educación Secundaria Isabel Perillán y Quirós
+800299:Ciudad Real:817124:on de Calatrava:147072:Colegio de Educación Infantil y Primaria Nuestra Señora de la Encarnación
+800299:Ciudad Real:817213:zosa:147161:Colegio de Educación Infantil y Primaria VIrgen del Salido
+800299:Ciudad Real:817302:(Las):147250:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800299:Ciudad Real:817491:llar de Santiago:147439:Colegio de Educación Infantil y Primaria San Juan de Ávila
+800299:Ciudad Real:817580:on:147528:Colegio de Educación Infantil y Primaria Nuestra Señora del Castillo
+800299:Ciudad Real:818023:Casas:147617:Colegio Rural Agrupado Alciares
+800299:Ciudad Real:818112:d Real:150677:Centro de Educación Especial Puerta de Santa María
+800299:Ciudad Real:818112:d Real:151665:Centro Público de Educación de Personas Adultas Antonio Gala
+800299:Ciudad Real:818112:d Real:147706:Colegio de Educación Infantil y Primaria Alcalde José Cruz Prado
+800299:Ciudad Real:818112:d Real:152742:Colegio de Educación Infantil y Primaria Alcalde José Maestro
+800299:Ciudad Real:818112:d Real:150032:Colegio de Educación Infantil y Primaria Ángel Andrade
+800299:Ciudad Real:818112:d Real:151020:Colegio de Educación Infantil y Primaria Carlos Eraña
+800299:Ciudad Real:818112:d Real:152019:Colegio de Educación Infantil y Primaria Carlos Vázquez
+800299:Ciudad Real:818112:d Real:149960:Colegio de Educación Infantil y Primaria Ciudad Jardín
+800299:Ciudad Real:818112:d Real:152386:Colegio de Educación Infantil y Primaria Cristóbal Colón
+800299:Ciudad Real:818112:d Real:152831:Colegio de Educación Infantil y Primaria Don Quijote
+800299:Ciudad Real:818112:d Real:150121:Colegio de Educación Infantil y Primaria Dulcinea del Toboso
+800299:Ciudad Real:818112:d Real:152108:Colegio de Educación Infantil y Primaria Ferroviario
+800299:Ciudad Real:818112:d Real:150499:Colegio de Educación Infantil y Primaria Jorge Manrique
+800299:Ciudad Real:818112:d Real:150210:Colegio de Educación Infantil y Primaria José María de la Fuente
+800299:Ciudad Real:818112:d Real:151487:Colegio de Educación Infantil y Primaria Juan Alcaide
+800299:Ciudad Real:818112:d Real:152653:Colegio de Educación Infantil y Primaria María de Pacheco
+800299:Ciudad Real:818112:d Real:151398:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800299:Ciudad Real:818112:d Real:147895:Colegio de Educación Infantil y Primaria Pérez Molina
+800299:Ciudad Real:818112:d Real:150588:Colegio de Educación Infantil y Primaria Pío XII
+800299:Ciudad Real:818112:d Real:152564:Colegio de Educación Infantil y Primaria Santo Tomás de VIllanueva Nº 16
+800299:Ciudad Real:818112:d Real:152475:Instituto de Educación Secundaria Atenea
+800299:Ciudad Real:818112:d Real:151576:Instituto de Educación Secundaria Hernán Pérez del Pulgar
+800299:Ciudad Real:818112:d Real:150766:Instituto de Educación Secundaria Maestre de Calatrava
+800299:Ciudad Real:818112:d Real:150855:Instituto de Educación Secundaria Maestro Juan de Ávila
+800299:Ciudad Real:818112:d Real:150944:Instituto de Educación Secundaria Santa María de Alarcos
+800299:Ciudad Real:818112:d Real:152297:Instituto de Educación Secundaria Torreón del Alcázar
+800299:Ciudad Real:818201:lacion:153007:Colegio de Educación Infantil y Primaria VIrgen de Consolación
+800299:Ciudad Real:818390:l de Calatrava:153196:Colegio de Educación Infantil y Primaria Nuestra Señora de la Paz
+800299:Ciudad Real:818579:jos de Arriba:153285:Colegio de Educación Infantil y Primaria Nuestra Señora de las Mercedes
+800299:Ciudad Real:819656::153374:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Veracruz
+800299:Ciudad Real:819745:el:154273:Centro Público de Educación de Personas Adultas Miguel de Cervantes
+800299:Ciudad Real:819745:el:154362:Colegio de Educación Infantil y Primaria Albuera
+800299:Ciudad Real:819745:el:154184:Colegio de Educación Infantil y Primaria Calatrava
+800299:Ciudad Real:819745:el:153552:Colegio de Educación Infantil y Primaria Infante Don Felipe
+800299:Ciudad Real:819745:el:153641:Colegio de Educación Infantil y Primaria la Espinosa
+800299:Ciudad Real:819745:el:153463:Colegio de Educación Infantil y Primaria San Isidro
+800299:Ciudad Real:819745:el:154095:Instituto de Educación Secundaria Juan D'Opazo
+800299:Ciudad Real:819745:el:153730:Instituto de Educación Secundaria Ojos del Guadiana
+800299:Ciudad Real:819834:n Caballero:154451:Colegio de Educación Infantil y Primaria Manuel Sastre Velasco
+800299:Ciudad Real:820095:aliente:154540:Colegio de Educación Infantil y Primaria Nuestra Señora de los Baños
+800299:Ciudad Real:820095:aliente:154729:Instituto de Educación Secundaria Obligatoria Peña Escrita
+800299:Ciudad Real:820184:e el Fresno:154818:Colegio de Educación Infantil y Primaria Miguel Delibes
+800299:Ciudad Real:820273:tula de Calatrava:155083:Colegio de Educación Infantil y Primaria Nuestra Señora Oreto y Zuqueca
+800299:Ciudad Real:820362:cia:155350:Aula de Educación de Adultos de Herencia
+800299:Ciudad Real:820362:cia:155172:Colegio de Educación Infantil y Primaria Carrasco Alcalde
+800299:Ciudad Real:820362:cia:155261:Instituto de Educación Secundaria Hermógenes Rodríguez
+800299:Ciudad Real:820451:ra de la Mancha:155539:Aula de Educación de Adultos Centro Penitenciario
+800299:Ciudad Real:820540:osas de Calatrava:155628:Colegio Rural Agrupado Valle de Alcudia
+800299:Ciudad Real:821083:jo de los Montes:155806:Colegio Rural Agrupado San Isidro
+800299:Ciudad Real:821083:jo de los Montes:155717:Instituto de Educación Secundaria Montes de Cabañeros
+800299:Ciudad Real:821172:s del Caudillo:156071:Colegio de Educación Infantil y Primaria el Oasis
+800299:Ciudad Real:821261:na:156160:Colegio de Educación Infantil y Primaria Isabel la Católica
+800299:Ciudad Real:821350:on:156616:Aula de Educación de Adultos de Malagon
+800299:Ciudad Real:821350:on:156349:Colegio de Educación Infantil y Primaria Cañada Real
+800299:Ciudad Real:821350:on:156438:Colegio de Educación Infantil y Primaria Santa Teresa
+800299:Ciudad Real:821350:on:156527:Instituto de Educación Secundaria Estados del Duque
+800299:Ciudad Real:821539:nares:157426:Centro Público de Educación de Personas Adultas San Blas
+800299:Ciudad Real:821539:nares:156894:Colegio de Educación Infantil y Primaria Altagracia
+800299:Ciudad Real:821539:nares:156705:Colegio de Educación Infantil y Primaria Divina Pastora
+800299:Ciudad Real:821539:nares:157515:Colegio de Educación Infantil y Primaria Enrique Tierno Galván
+800299:Ciudad Real:821539:nares:157337:Colegio de Educación Infantil y Primaria la Candelaria
+800299:Ciudad Real:821539:nares:157248:Instituto de Educación Secundaria Azuer
+800299:Ciudad Real:821539:nares:157159:Instituto de Educación Secundaria Pedro Álvarez Sotomayor
+800299:Ciudad Real:822071:illa:157882:Aula de Educación de Adultos de Membrilla
+800299:Ciudad Real:822071:illa:157793:Colegio de Educación Infantil y Primaria San José de Calasanz
+800299:Ciudad Real:822071:illa:157604:Colegio de Educación Infantil y Primaria VIrgen del Espino
+800299:Ciudad Real:822071:illa:159958:Instituto de Educación Secundaria Marmaria
+800299:Ciudad Real:822160:lturra:161107:Aula de Educación de Adultos de Miguelturra
+800299:Ciudad Real:822160:lturra:161018:Colegio de Educación Infantil y Primaria Benito Pérez Galdós
+800299:Ciudad Real:822160:lturra:161296:Colegio de Educación Infantil y Primaria Clara Campoamor
+800299:Ciudad Real:822160:lturra:160119:Colegio de Educación Infantil y Primaria el Pradillo
+800299:Ciudad Real:822160:lturra:160208:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Misericordia
+800299:Ciudad Real:822160:lturra:160397:Instituto de Educación Secundaria Campo de Calatrava
+800299:Ciudad Real:822349:el:161385:Colegio de Educación Infantil y Primaria Gutiérrez de la Vega
+800299:Ciudad Real:822438:de Calatrava:162373:Aula de Educación de Adultos de Moral de Calatrava
+800299:Ciudad Real:822438:de Calatrava:162006:Colegio de Educación Infantil y Primaria Agustín Sanz
+800299:Ciudad Real:822438:de Calatrava:162195:Colegio de Educación Infantil y Primaria Manuel Clemente
+800299:Ciudad Real:822438:de Calatrava:162284:Instituto de Educación Secundaria Peñalba
+800299:Ciudad Real:822527:Muñoz:164082:Aula de Educación de Adultos de Pedro Muñoz
+800299:Ciudad Real:822527:Muñoz:164171:Colegio de Educación Infantil y Primaria Hospitalillo
+800299:Ciudad Real:822527:Muñoz:163272:Colegio de Educación Infantil y Primaria Maestro Juan de Ávila
+800299:Ciudad Real:822527:Muñoz:163094:Colegio de Educación Infantil y Primaria María Luisa Cañas
+800299:Ciudad Real:822527:Muñoz:163183:Colegio de Educación Infantil y Primaria Nuestra Señora de los Ángeles
+800299:Ciudad Real:822527:Muñoz:163361:Instituto de Educación Secundaria Isabel Martínez Buendía
+800299:Ciudad Real:823159::164260:Colegio de Educación Infantil y Primaria José María del Moral
+800299:Ciudad Real:823248:abuena:166069:Centro Público de Educación de Personas Adultas Montes Norte
+800299:Ciudad Real:823248:abuena:165259:Colegio de Educación Infantil y Primaria Luis VIves
+800299:Ciudad Real:823248:abuena:165070:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800299:Ciudad Real:823248:abuena:165348:Instituto de Educación Secundaria Mónico Sánchez
+800299:Ciudad Real:823337:te:166158:Colegio de Educación Infantil y Primaria la Alameda
+800299:Ciudad Real:823426:na:166336:Aula de Educación de Adultos de Porzuna
+800299:Ciudad Real:823426:na:166247:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800299:Ciudad Real:823426:na:167057:Instituto de Educación Secundaria Ribera del Bullaque
+800299:Ciudad Real:823515:de la Serna:167146:Colegio de Educación Infantil y Primaria Sagrado Corazón
+800299:Ciudad Real:824058:lo de Calatrava:167324:Aula de Educación de Adultos de Pozuelo de Calatrava
+800299:Ciudad Real:824058:lo de Calatrava:167235:Colegio de Educación Infantil y Primaria José María de la Fuente
+800299:Ciudad Real:824147:los de Calatrava (Los):170017:Colegio de Educación Infantil y Primaria Santa Quiteria
+800299:Ciudad Real:824236:a de Don Rodrigo:170106:Colegio de Educación Infantil y Primaria San Fermín
+800299:Ciudad Real:824325:a del Principe:170295:Colegio de Educación Infantil y Primaria Miguel González Calero
+800299:Ciudad Real:824503:ollano:174347:Centro Público de Educación de Personas Adultas Antonio Machado
+800299:Ciudad Real:824503:ollano:175157:Colegio de Educación Infantil y Primaria Ángel Andrade
+800299:Ciudad Real:824503:ollano:171194:Colegio de Educación Infantil y Primaria Calderón de la Barca
+800299:Ciudad Real:824503:ollano:171005:Colegio de Educación Infantil y Primaria Cervantes
+800299:Ciudad Real:824503:ollano:175068:Colegio de Educación Infantil y Primaria David Jiménez Avendaño
+800299:Ciudad Real:824503:ollano:172360:Colegio de Educación Infantil y Primaria Doctor Limón
+800299:Ciudad Real:824503:ollano:175335:Colegio de Educación Infantil y Primaria Enrique Tierno Galván
+800299:Ciudad Real:824503:ollano:172093:Colegio de Educación Infantil y Primaria Giner de los Ríos
+800299:Ciudad Real:824503:ollano:172182:Colegio de Educación Infantil y Primaria Gonzalo de Berceo
+800299:Ciudad Real:824503:ollano:174258:Colegio de Educación Infantil y Primaria Juan Ramón Jiménez
+800299:Ciudad Real:824503:ollano:171283:Colegio de Educación Infantil y Primaria Menéndez Pelayo
+800299:Ciudad Real:824503:ollano:171372:Colegio de Educación Infantil y Primaria Miguel de Unamuno
+800299:Ciudad Real:824503:ollano:172271:Colegio de Educación Infantil y Primaria Ramón y Cajal
+800299:Ciudad Real:824503:ollano:173081:Colegio de Educación Infantil y Primaria Severo Ochoa
+800299:Ciudad Real:824503:ollano:170384:Colegio de Educación Infantil y Primaria VIcente Aleixandre
+800299:Ciudad Real:824503:ollano:176234:Instituto de Educación Secundaria Comendador Juan de Távora
+800299:Ciudad Real:824503:ollano:174169:Instituto de Educación Secundaria Dámaso Alonso
+800299:Ciudad Real:824503:ollano:173170:Instituto de Educación Secundaria Fray Andrés
+800299:Ciudad Real:824503:ollano:176323:Instituto de Educación Secundaria Galileo Galilei
+800299:Ciudad Real:824503:ollano:176056:Instituto de Educación Secundaria Leonardo Da VInci
+800299:Ciudad Real:825046:rta del Bullaque:177133:Colegio Rural Agrupado Montes de Toledo
+800299:Ciudad Real:825135:do (El):177222:Aula de Educación de Adultos de Robledo (El)
+800299:Ciudad Real:825135:do (El):177311:Colegio Rural Agrupado Valle del Bullaque
+800299:Ciudad Real:825224:ra:180004:Colegio de Educación Infantil y Primaria Juan Aguilar Molina
+800299:Ciudad Real:825313:uela:180193:Colegio de Educación Infantil y Primaria VIrgen de las Cruces
+800299:Ciudad Real:825402:arlos del Valle:180282:Colegio de Educación Infantil y Primaria San Juan Bosco
+800299:Ciudad Real:825591:orenzo de Calatrava:180371:Colegio Rural Agrupado Sierra Morena
+800299:Ciudad Real:826034:Cruz de Mudela:181270:Aula de Educación de Adultos de Santa Cruz de Mudela
+800299:Ciudad Real:826034:Cruz de Mudela:181092:Colegio de Educación Infantil y Primaria Cervantes
+800299:Ciudad Real:826034:Cruz de Mudela:181181:Instituto de Educación Secundaria Máximo Laguna
+800299:Ciudad Real:826123:llamos:183168:Aula de Educación de Adultos de Socuellamos
+800299:Ciudad Real:826123:llamos:183079:Colegio de Educación Infantil y Primaria Carmen Arias
+800299:Ciudad Real:826123:llamos:182269:Colegio de Educación Infantil y Primaria el Coso
+800299:Ciudad Real:826123:llamos:182080:Colegio de Educación Infantil y Primaria Gerardo Martínez
+800299:Ciudad Real:826123:llamos:182358:Instituto de Educación Secundaria Fernando de Mena
+800299:Ciudad Real:826212:a (La):184245:Colegio de Educación Infantil y Primaria el Humilladero
+800299:Ciudad Real:826212:a (La):184067:Colegio de Educación Infantil y Primaria el Santo
+800299:Ciudad Real:826212:a (La):185233:Colegio de Educación Infantil y Primaria Federico Romero
+800299:Ciudad Real:826212:a (La):184334:Colegio de Educación Infantil y Primaria Javier Paulino Pérez
+800299:Ciudad Real:826212:a (La):185055:Colegio de Educación Infantil y Primaria la Moheda
+800299:Ciudad Real:826212:a (La):183346:Colegio de Educación Infantil y Primaria Romero Peña
+800299:Ciudad Real:826212:a (La):183257:Colegio de Educación Infantil y Primaria Sagrado Corazón
+800299:Ciudad Real:826212:a (La):185144:Instituto de Educación Secundaria Clara Campoamor
+800299:Ciudad Real:826212:a (La):184156:Instituto de Educación Secundaria Modesto Navarro
+800299:Ciudad Real:826301:nches:185322:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800299:Ciudad Real:826490:loso:188753:Centro de Educación Especial Ponce de León
+800299:Ciudad Real:826490:loso:189652:Centro Público de Educación de Personas Adultas Simienza
+800299:Ciudad Real:826490:loso:189563:Colegio de Educación Infantil y Primaria Almirante Topete
+800299:Ciudad Real:826490:loso:186221:Colegio de Educación Infantil y Primaria Carmelo Cortés
+800299:Ciudad Real:826490:loso:186310:Colegio de Educación Infantil y Primaria Doña Crisanta
+800299:Ciudad Real:826490:loso:188575:Colegio de Educación Infantil y Primaria Embajadores
+800299:Ciudad Real:826490:loso:190369:Colegio de Educación Infantil y Primaria Felix Grande
+800299:Ciudad Real:826490:loso:187031:Colegio de Educación Infantil y Primaria José Antonio
+800299:Ciudad Real:826490:loso:186132:Colegio de Educación Infantil y Primaria José María del Moral
+800299:Ciudad Real:826490:loso:186043:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800299:Ciudad Real:826490:loso:188842:Colegio de Educación Infantil y Primaria San Antonio
+800299:Ciudad Real:826490:loso:188664:Colegio de Educación Infantil y Primaria San Isidro
+800299:Ciudad Real:826490:loso:188486:Colegio de Educación Infantil y Primaria San José de Calasanz
+800299:Ciudad Real:826490:loso:190091:Colegio de Educación Infantil y Primaria VIrgen de las VIñas
+800299:Ciudad Real:826490:loso:189830:Instituto de Educación Secundaria Airén
+800299:Ciudad Real:826490:loso:190180:Instituto de Educación Secundaria Alto Guadiana
+800299:Ciudad Real:826490:loso:187120:Instituto de Educación Secundaria Eladio Cabañero
+800299:Ciudad Real:826490:loso:187309:Instituto de Educación Secundaria Francisco García Pavón
+800299:Ciudad Real:827022:(El):191179:Colegio de Educación Infantil y Primaria Nuestra Señora de Guadalupe
+800299:Ciudad Real:827111:lba de Calatrava:191268:Colegio de Educación Infantil y Primaria Cristo del Consuelo
+800299:Ciudad Real:827200:de Juan Abad:191357:Colegio de Educación Infantil y Primaria Francisco de Quevedo
+800299:Ciudad Real:827489:nueva:192078:Colegio de Educación Infantil y Primaria Santiago el Mayor
+800299:Ciudad Real:827578:manco del Esteras:192167:Colegio de Educación Infantil y Primaria VIrgen del Valle
+800299:Ciudad Real:828655:peñas:195131:Centro de Educación Especial María Luisa Navarro Margati
+800299:Ciudad Real:828655:peñas:194232:Centro Público de Educación de Personas Adultas Francisco de Quevedo
+800299:Ciudad Real:828655:peñas:192256:Colegio de Educación Infantil y Primaria Jesús Baeza
+800299:Ciudad Real:828655:peñas:193066:Colegio de Educación Infantil y Primaria Jesús Castillo
+800299:Ciudad Real:828655:peñas:192345:Colegio de Educación Infantil y Primaria Lorenzo Medina
+800299:Ciudad Real:828655:peñas:193155:Colegio de Educación Infantil y Primaria Lucero
+800299:Ciudad Real:828655:peñas:193244:Colegio de Educación Infantil y Primaria Luis Palacios
+800299:Ciudad Real:828655:peñas:194143:Colegio de Educación Infantil y Primaria Maestro Juan Alcaide
+800299:Ciudad Real:828655:peñas:193333:Instituto de Educación Secundaria Bernardo de Balbuena
+800299:Ciudad Real:828655:peñas:194321:Instituto de Educación Secundaria Francisco Nieva
+800299:Ciudad Real:828655:peñas:194054:Instituto de Educación Secundaria Gregorio Prieto
+800299:Ciudad Real:828744:zuela de Calatrava:195220:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800299:Ciudad Real:828833:rde:196030:Colegio de Educación Infantil y Primaria Alarcos
+800299:Ciudad Real:829643:hermosa:196219:Colegio de Educación Infantil y Primaria San Agustín
+800299:Ciudad Real:829732:manrique:196308:Colegio de Educación Infantil y Primaria Nuestra Señora de Gracia
+800299:Ciudad Real:829821:mayor de Calatrava:197029:Colegio de Educación Infantil y Primaria Inocente Martín
+800299:Ciudad Real:829910:nueva de la Fuente:197118:Colegio de Educación Infantil y Primaria Inmaculada Concepción
+800299:Ciudad Real:829910:nueva de la Fuente:197207:Instituto de Educación Secundaria Obligatoria Mentesa Oretana
+800299:Ciudad Real:830082:nueva de los Infantes:198651:Centro Público de Educación de Personas Adultas Miguel de Cervantes
+800299:Ciudad Real:830082:nueva de los Infantes:197396:Colegio de Educación Infantil y Primaria Arqueólogo García Bellido
+800299:Ciudad Real:830082:nueva de los Infantes:198473:Instituto de Educación Secundaria Francisco de Quevedo
+800299:Ciudad Real:830082:nueva de los Infantes:198562:Instituto de Educación Secundaria Ramón Giraldo
+800299:Ciudad Real:830171:rrubia de los Ojos:199739:Aula de Educación de Adultos de VIllarrubia de los Ojos
+800299:Ciudad Real:830171:rrubia de los Ojos:198740:Colegio de Educación Infantil y Primaria Rufino Blanco
+800299:Ciudad Real:830171:rrubia de los Ojos:199461:Colegio de Educación Infantil y Primaria VIrgen de la Sierra
+800299:Ciudad Real:830171:rrubia de los Ojos:199550:Instituto de Educación Secundaria Guadiana
+800299:Ciudad Real:830260:rta de San Juan:199828:Colegio de Educación Infantil y Primaria Nuestra Señora de la Paz
+800299:Ciudad Real:830449:del Marques:199917:Colegio de Educación Infantil y Primaria Nuestra Señora del Valle
+800299:Ciudad Real:830449:del Marques:200072:Instituto de Educación Secundaria los Batanes
+800388:Cuenca:830538:ca de Zancara (La):214578:Colegio Rural Agrupado Jorge Manrique
+800388:Cuenca:831259:as de Melo:214667:Colegio Rural Agrupado Fermín Caballero
+800388:Cuenca:831348:nte:214756:Colegio de Educación Infantil y Primaria Fray Luis de León
+800388:Cuenca:831348:nte:214845:Instituto de Educación Secundaria San Juan del Castillo
+800388:Cuenca:831437:a:215010:Colegio de Educación Infantil y Primaria VIrgen de la Rosa
+800388:Cuenca:831526:llo de Altobuey:215299:Colegio Rural Agrupado los Pinares
+800388:Cuenca:832069:ares:215388:Colegio Rural Agrupado los Sauces
+800388:Cuenca:832158:eras:215477:Colegio Rural Agrupado los Olivos
+800388:Cuenca:832247:e:215566:Colegio Rural Agrupado Alto Cabriel
+800388:Cuenca:832247:e:215655:Instituto de Educación Secundaria Obligatoria 4 de Junio
+800388:Cuenca:832336:neras de Guadazaon:215833:Colegio Rural Agrupado Miguel Cervantes
+800388:Cuenca:832336:neras de Guadazaon:215744:Instituto de Educación Secundaria Obligatoria Juan de Valdés
+800388:Cuenca:832425:scosa del Campo:216009:Aula de Educación de Adultos de Carrascosa del Campo
+800388:Cuenca:832514:de Benitez:216198:Colegio Rural Agrupado Molinos del Júcar
+800388:Cuenca:833057:de Fernando Alonso:216287:Colegio Rural Agrupado Tomás y Valiente
+800388:Cuenca:833146:imarro:216465:Aula de Educación de Adultos de Casasimarro
+800388:Cuenca:833146:imarro:216376:Colegio de Educación Infantil y Primaria Luis de Mateo
+800388:Cuenca:833146:imarro:216554:Instituto de Educación Secundaria Obligatoria Publio López Mondejar
+800388:Cuenca:833235:a:220235:Aula de Educación de Adultos Centro Penitenciario
+800388:Cuenca:833235:a:218263:Centro de Educación Especial Infanta Elena
+800388:Cuenca:833235:a:218085:Centro Público de Educación de Personas Adultas Lucas Aguirre
+800388:Cuenca:833235:a:217542:Colegio de Educación Infantil y Primaria Casablanca
+800388:Cuenca:833235:a:220502:Colegio de Educación Infantil y Primaria Ciudad Encantada
+800388:Cuenca:833235:a:216643:Colegio de Educación Infantil y Primaria el Carmen
+800388:Cuenca:833235:a:218441:Colegio de Educación Infantil y Primaria Federico Muelas
+800388:Cuenca:833235:a:217631:Colegio de Educación Infantil y Primaria Fray Luis de León
+800388:Cuenca:833235:a:218719:Colegio de Educación Infantil y Primaria Fuente del Oro
+800388:Cuenca:833235:a:220324:Colegio de Educación Infantil y Primaria Hermanos Valdés
+800388:Cuenca:833235:a:220691:Colegio de Educación Infantil y Primaria Isaac Albéniz
+800388:Cuenca:833235:a:216732:Colegio de Educación Infantil y Primaria la Paz
+800388:Cuenca:833235:a:216821:Colegio de Educación Infantil y Primaria Ramón y Cajal
+800388:Cuenca:833235:a:218808:Colegio de Educación Infantil y Primaria San Fernando
+800388:Cuenca:833235:a:218530:Colegio de Educación Infantil y Primaria San Julian
+800388:Cuenca:833235:a:217097:Colegio de Educación Infantil y Primaria Santa Ana
+800388:Cuenca:833235:a:218174:Colegio de Educación Infantil y Primaria Santa Teresa
+800388:Cuenca:833235:a:217186:Instituto de Educación Secundaria Alfonso VIII
+800388:Cuenca:833235:a:217720:Instituto de Educación Secundaria Fernando Zóbel
+800388:Cuenca:833235:a:217275:Instituto de Educación Secundaria Lorenzo Hervás y Panduro
+800388:Cuenca:833235:a:217453:Instituto de Educación Secundaria Pedro Mercedes
+800388:Cuenca:833235:a:217364:Instituto de Educación Secundaria San José
+800388:Cuenca:833235:a:220146:Instituto de Educación Secundaria Santiago Grisolía
+800388:Cuenca:833324:e de Pedro Naharro:220780:Colegio Rural Agrupado Retama
+800388:Cuenca:833413:de Iniesta:220969:Colegio Rural Agrupado Camino Real de Levante
+800388:Cuenca:833502:osos (Los):221045:Colegio Rural Agrupado Airén
+800388:Cuenca:834045:bia:221134:Colegio Rural Agrupado los Girasoles
+800388:Cuenca:834134:jo de Santiago:221312:Aula de Educación de Adultos de Horcajo de Santiago
+800388:Cuenca:834134:jo de Santiago:221223:Colegio de Educación Infantil y Primaria José Montalvo
+800388:Cuenca:834134:jo de Santiago:221401:Instituto de Educación Secundaria Orden de Santiago
+800388:Cuenca:834223::221868:Aula de Educación de Adultos de Huete
+800388:Cuenca:834223::221779:Colegio Rural Agrupado Campos de la Alcarria
+800388:Cuenca:834223::221590:Instituto de Educación Secundaria Obligatoria Ciudad de Luna
+800388:Cuenca:834312:ta:222211:Aula de Educación de Adultos de Iniesta
+800388:Cuenca:834312:ta:222122:Colegio de Educación Infantil y Primaria María Jover
+800388:Cuenca:834312:ta:222033:Instituto de Educación Secundaria Cañada de la Encina
+800388:Cuenca:834401:te:222589:Colegio Rural Agrupado Ojos de Moya
+800388:Cuenca:834401:te:222300:Instituto de Educación Secundaria Serranía Baja
+800388:Cuenca:834590:a:222678:Colegio de Educación Infantil y Primaria San Roque
+800388:Cuenca:835033:(Las):222856:Aula de Educación de Adultos de Mesas (Las)
+800388:Cuenca:835033:(Las):222767:Colegio de Educación Infantil y Primaria Hermanos Amorós Fernández
+800388:Cuenca:835033:(Las):223021:Instituto de Educación Secundaria Obligatoria de Mesas (Las)
+800388:Cuenca:835122:anilla:223110:Colegio de Educación Infantil y Primaria Princesa Sofía
+800388:Cuenca:835122:anilla:223399:Instituto de Educación Secundaria Obligatoria Puerta de Castilla
+800388:Cuenca:835211::223488:Colegio Rural Agrupado Fuente VIeja
+800388:Cuenca:835300:del Cuervo:223666:Aula de Educación de Adultos de Mota del Cuervo
+800388:Cuenca:835300:del Cuervo:223844:Colegio de Educación Infantil y Primaria Santa Rita
+800388:Cuenca:835300:del Cuervo:223577:Colegio de Educación Infantil y Primaria VIrgen de Manjavacas
+800388:Cuenca:835300:del Cuervo:223755:Instituto de Educación Secundaria Julián Zarco
+800388:Cuenca:835589:la del Palancar:224387:Centro Público de Educación de Personas Adultas Cervantes
+800388:Cuenca:835589:la del Palancar:224109:Colegio de Educación Infantil y Primaria San Gil Abad
+800388:Cuenca:835589:la del Palancar:224298:Instituto de Educación Secundaria Jorge Manrique
+800388:Cuenca:836021:ares del Campo:224565:Colegio Rural Agrupado San José de Calasanz
+800388:Cuenca:836110:noso (El):224654:Colegio de Educación Infantil y Primaria Juan Gualberto Avilés
+800388:Cuenca:836399:ñeras (Las):225008:Aula de Educación de Adultos de Pedroñeras (Las)
+800388:Cuenca:836399:ñeras (Las):224743:Colegio de Educación Infantil y Primaria Adolfo Martínez Chicano
+800388:Cuenca:836399:ñeras (Las):224832:Instituto de Educación Secundaria Fray Luis de León
+800388:Cuenca:836488:o:225286:Colegio Rural Agrupado Guadiela
+800388:Cuenca:836488:o:225197:Instituto de Educación Secundaria Diego Jesús Jiménez
+800388:Cuenca:836577:ncio (El):225553:Aula de Educación de Adultos de Provencio (El)
+800388:Cuenca:836577:ncio (El):225375:Colegio de Educación Infantil y Primaria Infanta Cristina
+800388:Cuenca:836577:ncio (El):225464:Instituto de Educación Secundaria Obligatoria Tomás de la Fuente Jurado
+800388:Cuenca:837109:anar del Rey:225820:Aula de Educación de Adultos de Quintanar del Rey
+800388:Cuenca:837109:anar del Rey:226096:Colegio de Educación Infantil y Primaria Paula Soler Sanchiz
+800388:Cuenca:837109:anar del Rey:225642:Colegio de Educación Infantil y Primaria Valdemembra
+800388:Cuenca:837109:anar del Rey:225731:Instituto de Educación Secundaria Fernando de los Ríos
+800388:Cuenca:837298:ces:226185:Colegio Rural Agrupado Segóbriga
+800388:Cuenca:837387:lemente:226452:Centro Público de Educación de Personas Adultas Campos del Záncara
+800388:Cuenca:837387:lemente:226274:Colegio de Educación Infantil y Primaria Rafael López de Haro
+800388:Cuenca:837387:lemente:226363:Instituto de Educación Secundaria Diego Torrente Pérez
+800388:Cuenca:837476:orenzo de la Parrilla:226541:Colegio Rural Agrupado Gloria Fuertes
+800388:Cuenca:837565:te:226630:Colegio de Educación Infantil y Primaria Fernández Turégano
+800388:Cuenca:837565:te:226819:Instituto de Educación Secundaria Obligatoria Camino Romano
+800388:Cuenca:838731:con:227173:Centro Público de Educación de Personas Adultas Altomira
+800388:Cuenca:838731:con:227084:Colegio de Educación Infantil y Primaria Duque de Riánsares
+800388:Cuenca:838731:con:227262:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800388:Cuenca:838731:con:227351:Instituto de Educación Secundaria la Hontanilla
+800388:Cuenca:839819:a de Abajo:227440:Colegio de Educación Infantil y Primaria VIrgen del Rosario
+800388:Cuenca:839819:a de Abajo:227629:Instituto de Educación Secundaria Duque de Alarcón
+800388:Cuenca:839908:rde de Jucar:227718:Colegio Rural Agrupado Ribera del Júcar
+800388:Cuenca:840169:escusa de Haro:227807:Colegio Rural Agrupado Alonso Quijano
+800388:Cuenca:840258:garcia del Llano:230044:Colegio de Educación Infantil y Primaria VIrrey Núñez de Haro
+800388:Cuenca:840347:lba de la Sierra:230133:Colegio Rural Agrupado Miguel Delibes
+800388:Cuenca:840525:lpardo:230222:Colegio Rural Agrupado Manchuela
+800388:Cuenca:841068:mayor de Santiago:230400:Aula de Educación de Adultos de VIllamayor de Santiago
+800388:Cuenca:841068:mayor de Santiago:230311:Colegio de Educación Infantil y Primaria Gúzquez
+800388:Cuenca:841068:mayor de Santiago:230689:Instituto de Educación Secundaria Obligatoria Ítaca
+800388:Cuenca:841157:nueva de la Jara:230778:Colegio de Educación Infantil y Primaria Hermenegildo Moreno
+800388:Cuenca:841157:nueva de la Jara:230867:Instituto de Educación Secundaria Obligatoria de VIllanueva de la Jara
+800388:Cuenca:841246:r de Olalla:230956:Colegio Rural Agrupado Elena Fortún
+800388:Cuenca:841335:res del Saz:231121:Colegio Rural Agrupado el Quijote
+800388:Cuenca:841335:res del Saz:231032:Instituto de Educación Secundaria los Sauces
+800477:Guadalajara:841424:ate de Zorita:237616:Aula de Educación de Adultos de Albalate de Zorita
+800477:Guadalajara:841424:ate de Zorita:237705:Colegio Rural Agrupado la Colmena
+800477:Guadalajara:841513:ea del Pinar:237894:Colegio Rural Agrupado Sierra Ministra
+800477:Guadalajara:842056:uera:240031:Colegio Rural Agrupado Pimafad
+800477:Guadalajara:842145:ra:240676:Aula de Educación de Adultos de Alovera
+800477:Guadalajara:842145:ra:240587:Colegio de Educación Infantil y Primaria Campiña Verde
+800477:Guadalajara:842145:ra:240309:Colegio de Educación Infantil y Primaria Parque Vallejo
+800477:Guadalajara:842145:ra:240120:Colegio de Educación Infantil y Primaria VIrgen de la Paz
+800477:Guadalajara:842145:ra:240498:Instituto de Educación Secundaria Carmen Burgos de Seguí
+800477:Guadalajara:842234:eda (La):240765:Colegio de Educación Infantil y Primaria la Arboleda de Pioz
+800477:Guadalajara:842323:les (Los):240854:Colegio de Educación Infantil y Primaria María Montessori
+800477:Guadalajara:842412:za:240943:Colegio Rural Agrupado Serranía de Atienza
+800477:Guadalajara:842501:eca de Henares:241575:Centro Público de Educación de Personas Adultas Clara Campoamor
+800477:Guadalajara:842501:eca de Henares:242107:Colegio de Educación Infantil y Primaria la Espiga
+800477:Guadalajara:842501:eca de Henares:242018:Colegio de Educación Infantil y Primaria la Paloma
+800477:Guadalajara:842501:eca de Henares:241119:Colegio de Educación Infantil y Primaria la Paz
+800477:Guadalajara:842501:eca de Henares:241664:Colegio de Educación Infantil y Primaria Maestra Plácida Herranz
+800477:Guadalajara:842501:eca de Henares:241842:Colegio de Educación Infantil y Primaria Siglo XXI
+800477:Guadalajara:842501:eca de Henares:241208:Colegio de Educación Infantil y Primaria VIrgen de la Soledad
+800477:Guadalajara:842501:eca de Henares:241397:Instituto de Educación Secundaria Arcipreste de Hita
+800477:Guadalajara:842501:eca de Henares:241753:Instituto de Educación Secundaria Profesor Domínguez Ortiz
+800477:Guadalajara:842501:eca de Henares:241486:Instituto de Educación Secundaria San Isidro
+800477:Guadalajara:842780:ega:242296:Colegio de Educación Infantil y Primaria Nuestra Señora de la Peña
+800477:Guadalajara:842780:ega:242385:Instituto de Educación Secundaria Obligatoria Briocense
+800477:Guadalajara:843044::242474:Colegio Rural Agrupado Santa Lucía
+800477:Guadalajara:843133:illas del Campo:242830:Colegio de Educación Infantil y Primaria la Senda
+800477:Guadalajara:843133:illas del Campo:242741:Colegio de Educación Infantil y Primaria los Olivos
+800477:Guadalajara:843133:illas del Campo:242563:Colegio de Educación Infantil y Primaria San Blas
+800477:Guadalajara:843133:illas del Campo:242652:Instituto de Educación Secundaria Ana María Matute
+800477:Guadalajara:843222:(El):243195:Aula de Educación de Adultos de Casar (El)
+800477:Guadalajara:843222:(El):243006:Colegio de Educación Infantil y Primaria Maestros del Casar
+800477:Guadalajara:843222:(El):243284:Instituto de Educación Secundaria Campiña Alta
+800477:Guadalajara:843222:(El):243373:Instituto de Educación Secundaria Juan García Valdemora
+800477:Guadalajara:843311::243462:Colegio Rural Agrupado Sexma de la Sierra
+800477:Guadalajara:843400:eches:243551:Colegio de Educación Infantil y Primaria José Inglés
+800477:Guadalajara:843400:eches:243640:Instituto de Educación Secundaria Peñalba
+800477:Guadalajara:844032:ntes:243829:Colegio de Educación Infantil y Primaria San Francisco
+800477:Guadalajara:844032:ntes:244094:Instituto de Educación Secundaria Don Juan Manuel
+800477:Guadalajara:844121:ludo:244183:Colegio Rural Agrupado la Encina
+800477:Guadalajara:844210:(El):244272:Colegio de Educación Infantil y Primaria el Coto
+800477:Guadalajara:844499:nar:244361:Colegio de Educación Infantil y Primaria VIrgen de la Soledad
+800477:Guadalajara:844588:agos:244450:Colegio de Educación Infantil y Primaria Clara Sánchez
+800477:Guadalajara:845020:lajara:245716:Centro de Educación Especial VIrgen del Amparo
+800477:Guadalajara:845020:lajara:246615:Centro Público de Educación de Personas Adultas Río Sorbe
+800477:Guadalajara:845020:lajara:244639:Colegio de Educación Infantil y Primaria Alcarria
+800477:Guadalajara:845020:lajara:245805:Colegio de Educación Infantil y Primaria Alvar Fáñez de Minaya
+800477:Guadalajara:845020:lajara:246437:Colegio de Educación Infantil y Primaria Badiel
+800477:Guadalajara:845020:lajara:246070:Colegio de Educación Infantil y Primaria Balconcillo
+800477:Guadalajara:845020:lajara:244728:Colegio de Educación Infantil y Primaria Cardenal Mendoza
+800477:Guadalajara:845020:lajara:246259:Colegio de Educación Infantil y Primaria el Doncel
+800477:Guadalajara:845020:lajara:245082:Colegio de Educación Infantil y Primaria Isidro Almazán
+800477:Guadalajara:845020:lajara:247514:Colegio de Educación Infantil y Primaria las Lomas
+800477:Guadalajara:845020:lajara:246526:Colegio de Educación Infantil y Primaria Ocejón
+800477:Guadalajara:845020:lajara:247792:Colegio de Educación Infantil y Primaria Parque de la Muñeca
+800477:Guadalajara:845020:lajara:245171:Colegio de Educación Infantil y Primaria Pedro Sanz Vázquez
+800477:Guadalajara:845020:lajara:247158:Colegio de Educación Infantil y Primaria Río Henares
+800477:Guadalajara:845020:lajara:246704:Colegio de Educación Infantil y Primaria Río Tajo
+800477:Guadalajara:845020:lajara:245260:Colegio de Educación Infantil y Primaria Rufino Blanco
+800477:Guadalajara:845020:lajara:244817:Colegio de Educación Infantil y Primaria San Pedro Apóstol
+800477:Guadalajara:845020:lajara:247425:Instituto de Educación Secundaria Aguas VIvas
+800477:Guadalajara:845020:lajara:245627:Instituto de Educación Secundaria Antonio Buero Vallejo
+800477:Guadalajara:845020:lajara:245449:Instituto de Educación Secundaria Brianda de Mendoza
+800477:Guadalajara:845020:lajara:246348:Instituto de Educación Secundaria Castilla
+800477:Guadalajara:845020:lajara:247336:Instituto de Educación Secundaria José Luis Sampedro
+800477:Guadalajara:845020:lajara:246893:Instituto de Educación Secundaria Liceo Caracense
+800477:Guadalajara:845020:lajara:245538:Instituto de Educación Secundaria Luis de Lucena
+800477:Guadalajara:845209:e:250029:Colegio de Educación Infantil y Primaria Nº 2
+800477:Guadalajara:845209:e:247881:Colegio de Educación Infantil y Primaria San Roque
+800477:Guadalajara:845398:es:250207:Aula de Educación de Adultos de Humanes
+800477:Guadalajara:845398:es:250118:Colegio de Educación Infantil y Primaria Nuestra Señora de Peñahora
+800477:Guadalajara:845487:al:250396:Colegio Rural Agrupado Francisco Ibáñez
+800477:Guadalajara:845576:que:250485:Colegio de Educación Infantil y Primaria Romualdo de Toledo
+800477:Guadalajara:845576:que:250574:Instituto de Educación Secundaria Valle del Henares
+800477:Guadalajara:846019:na:250663:Colegio de Educación Infantil y Primaria Miguel de la Cuesta
+800477:Guadalajara:846108:yona:250752:Colegio de Educación Infantil y Primaria la Cobatilla
+800477:Guadalajara:846297:amalo:251106:Aula de Educación de Adultos de Marchamalo
+800477:Guadalajara:846297:amalo:250841:Colegio de Educación Infantil y Primaria Cristo de la Esperanza
+800477:Guadalajara:846297:amalo:251017:Colegio de Educación Infantil y Primaria Maestra Teodora
+800477:Guadalajara:846297:amalo:250930:Instituto de Educación Secundaria Alejo Vera
+800477:Guadalajara:846386:a:251473:Aula de Educación de Adultos de Molina
+800477:Guadalajara:846386:a:251295:Colegio de Educación Infantil y Primaria VIrgen de la Hoz
+800477:Guadalajara:846386:a:251384:Instituto de Educación Secundaria Molina de Aragón
+800477:Guadalajara:846475:jar:251651:Centro Público de Educación de Personas Adultas Alcarria Baja
+800477:Guadalajara:846475:jar:251562:Colegio de Educación Infantil y Primaria José Maldonado y Ayuso
+800477:Guadalajara:846475:jar:251740:Instituto de Educación Secundaria Alcarria Baja
+800477:Guadalajara:846564:e de las Castillas:252005:Colegio de Educación Infantil y Primaria las Castillas
+800477:Guadalajara:847007:ana:252372:Aula de Educación de Adultos de Pastrana
+800477:Guadalajara:847007:ana:252283:Colegio Rural Agrupado de Pastrana
+800477:Guadalajara:847007:ana:252194:Instituto de Educación Secundaria Leandro Fernández Moratín
+800477:Guadalajara:847196::252461:Colegio de Educación Infantil y Primaria Castillo de Pioz
+800477:Guadalajara:847285:a de la Sierra:252550:Colegio Rural Agrupado José Luis Sampedro
+800477:Guadalajara:847374:de Guadalajara:252739:Colegio de Educación Infantil y Primaria Santa Brígida
+800477:Guadalajara:847463::252828:Colegio de Educación Infantil y Primaria VIlla de Quer
+800477:Guadalajara:847552:on:253182:Aula de Educación de Adultos de Sacedon
+800477:Guadalajara:847552:on:253093:Colegio de Educación Infantil y Primaria la Isabela
+800477:Guadalajara:847552:on:253271:Instituto de Educación Secundaria Obligatoria Mar de Castilla
+800477:Guadalajara:848729:io de Muriel:253360:Colegio de Educación Infantil y Primaria el Señorío de Muriel
+800477:Guadalajara:848818:nza:253727:Aula de Educación de Adultos de Siguenza
+800477:Guadalajara:848818:nza:253549:Colegio de Educación Infantil y Primaria San Antonio de Portaceli
+800477:Guadalajara:848818:nza:253638:Instituto de Educación Secundaria Martín Vázquez de Arce
+800477:Guadalajara:849628:lla:254081:Colegio Rural Agrupado Valles del Tajuña
+800477:Guadalajara:849717:a:254170:Colegio de Educación Infantil y Primaria VIrgen del Amparo
+800477:Guadalajara:849806:jon del Rey:254359:Colegio de Educación Infantil y Primaria VIrgen de las Candelas
+800477:Guadalajara:849995:la de Henares:254448:Colegio de Educación Infantil y Primaria Sagrado Corazón de Jesús
+800477:Guadalajara:850067:eque:254626:Aula de Educación de Adultos de Trijueque
+800477:Guadalajara:850067:eque:254537:Colegio de Educación Infantil y Primaria San Bernabé
+800477:Guadalajara:850156:o:254804:Aula de Educación de Adultos de Trillo
+800477:Guadalajara:850156:o:254715:Colegio de Educación Infantil y Primaria Ciudad de Capadocia
+800477:Guadalajara:850245::255169:Colegio de Educación Infantil y Primaria García Lorca
+800477:Guadalajara:850334:nueva de la Torre:255347:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800477:Guadalajara:850334:nueva de la Torre:255258:Colegio de Educación Infantil y Primaria Paco Rabal
+800477:Guadalajara:850334:nueva de la Torre:255436:Instituto de Educación Secundaria Newton-Salas
+800477:Guadalajara:850423:l de Mesa:255525:Colegio Rural Agrupado el Rincón de Castilla
+800477:Guadalajara:850512:era de Henares:255892:Colegio de Educación Infantil y Primaria Nº 2
+800477:Guadalajara:850512:era de Henares:255614:Colegio de Educación Infantil y Primaria VIrgen de la Granja
+800477:Guadalajara:850512:era de Henares:255703:Instituto de Educación Secundaria Clara Campoamor
+800566:Toledo:851055:in:266322:Colegio de Educación Infantil y Primaria Jacinto Guerrero
+800566:Toledo:851144:da de la Sagra:267043:Colegio de Educación Infantil y Primaria Nuestra Señora de la Asunción
+800566:Toledo:851233:real de Tajo:267132:Colegio de Educación Infantil y Primaria Benjamín Escalonilla
+800566:Toledo:851322:che del Caudillo:267221:Colegio de Educación Infantil y Primaria San Isidro
+800566:Toledo:851411:on:267310:Colegio de Educación Infantil y Primaria Nuestra Señora de la Aurora
+800566:Toledo:851500:dete de la Jara:269931:Colegio de Educación Infantil y Primaria Rufino Mansi
+800566:Toledo:852043:ea de Tajo:270003:Colegio Rural Agrupado Río Tajo
+800566:Toledo:852132:acid de Toledo:270192:Colegio de Educación Infantil y Primaria VIrgen de la Oliva
+800566:Toledo:852221:ox:270281:Colegio de Educación Infantil y Primaria Silvano Cirujano
+800566:Toledo:852310:r de Tajo:270370:Colegio de Educación Infantil y Primaria Conde de Mayalde
+800566:Toledo:852310:r de Tajo:271091:Instituto de Educación Secundaria San Blas
+800566:Toledo:852599:ollar:271180:Colegio de Educación Infantil y Primaria San Blas
+800566:Toledo:853031::272179:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:853031::271369:Colegio de Educación Infantil y Primaria Tirso de Molina
+800566:Toledo:853120:ence:272268:Colegio de Educación Infantil y Primaria Santa María la Blanca
+800566:Toledo:853309:s:272357:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Sala
+800566:Toledo:853309:s:273078:Instituto de Educación Secundaria Julio Verne
+800566:Toledo:853498:s de la Jara:273167:Colegio de Educación Infantil y Primaria Fernando Jiménez de Gregorio
+800566:Toledo:853498:s de la Jara:273256:Instituto de Educación Secundaria Obligatoria la Jara
+800566:Toledo:853587::273345:Colegio de Educación Infantil y Primaria Nuestra Señora de la Salud
+800566:Toledo:854119:illos de Toledo:274066:Colegio de Educación Infantil y Primaria VIctorio Macho
+800566:Toledo:854208:on:274155:Colegio de Educación Infantil y Primaria Juan XXIII
+800566:Toledo:854397:as de la Sagra:274244:Colegio de Educación Infantil y Primaria San Isidro Labrador
+800566:Toledo:854486:amesada:274333:Colegio de Educación Infantil y Primaria Alonso de Cárdenas
+800566:Toledo:854575:berche:275054:Colegio de Educación Infantil y Primaria Ribera del Alberche
+800566:Toledo:855018:a y Chozas:275143:Colegio de Educación Infantil y Primaria Santísimo Cristo de Chozas
+800566:Toledo:855107:o Fado:275232:Colegio de Educación Infantil y Primaria Calypo
+800566:Toledo:855296:da de Oropesa (La):275321:Colegio Rural Agrupado Campo Arañuelo
+800566:Toledo:855385:ena:276131:Colegio de Educación Infantil y Primaria Alonso Rodríguez
+800566:Toledo:855385:ena:276042:Colegio de Educación Infantil y Primaria María del Mar
+800566:Toledo:855385:ena:276220:Instituto de Educación Secundaria Blas de Prado
+800566:Toledo:855474:enilla:277030:Colegio de Educación Infantil y Primaria Nuestra Señora del Rosario
+800566:Toledo:855563:llo de la Jara (El):277219:Colegio Rural Agrupado la Jara
+800566:Toledo:856006:as:277308:Colegio de Educación Infantil y Primaria Cardenal Cisneros
+800566:Toledo:856195:na:279929:Colegio de Educación Infantil y Primaria Cristo de la Cueva
+800566:Toledo:856284:o de Tajo (El):280090:Colegio de Educación Infantil y Primaria Nuestra Señora de Ronda
+800566:Toledo:856373:nque:280279:Colegio de Educación Infantil y Primaria Guadarrama
+800566:Toledo:856373:nque:281089:Colegio de Educación Infantil y Primaria VIlla de Materno
+800566:Toledo:856373:nque:280368:Instituto de Educación Secundaria Libertad
+800566:Toledo:856462:ches:281178:Colegio de Educación Infantil y Primaria Doctor Cesar González Gómez
+800566:Toledo:856551:de Escalona (El):281267:Colegio de Educación Infantil y Primaria Nuestra Señora de Hortum Sancho
+800566:Toledo:857094:rubios del Monte:281356:Colegio de Educación Infantil y Primaria San Juan de Dios
+800566:Toledo:857272:egas:282077:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:857361:la:282166:Colegio de Educación Infantil y Primaria Nuestra Señora de la Antigua
+800566:Toledo:857361:la:282255:Instituto de Educación Secundaria Arenales del Tajo
+800566:Toledo:857450:lo del Condado:282344:Colegio de Educación Infantil y Primaria Nuestra Señora de la Natividad
+800566:Toledo:858627:lbos (Los):283065:Colegio Rural Agrupado Entrerríos
+800566:Toledo:858716:s de Canales:283154:Colegio de Educación Infantil y Primaria Santa María Magdalena
+800566:Toledo:858805:los:283243:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Misericordia
+800566:Toledo:859615:a:283332:Colegio de Educación Infantil y Primaria San Juan Bautista
+800566:Toledo:859704:a:284053:Colegio de Educación Infantil y Primaria Cardenal Tavera
+800566:Toledo:859704:a:284142:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800566:Toledo:859893:egra:285130:Centro Público de Educación de Personas Adultas Castillo de Consuegra
+800566:Toledo:859893:egra:284320:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:859893:egra:284231:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Vera Cruz
+800566:Toledo:859893:egra:285041:Instituto de Educación Secundaria Consaburum
+800566:Toledo:859982:l de Almaguer:285319:Colegio de Educación Infantil y Primaria Nuestra Señora de la Muela
+800566:Toledo:859982:l de Almaguer:286129:Instituto de Educación Secundaria la Besana
+800566:Toledo:860054:a:286218:Colegio de Educación Infantil y Primaria Soledad Alonso Dorado
+800566:Toledo:860143:go Perez:286307:Colegio Rural Agrupado Campos de Castilla
+800566:Toledo:860232:rrios:287028:Colegio de Educación Infantil y Primaria San Isidro Labrador
+800566:Toledo:860321:ona:287117:Colegio de Educación Infantil y Primaria Inmaculada Concepción
+800566:Toledo:860321:ona:287206:Instituto de Educación Secundaria Lazarillo de Tormes
+800566:Toledo:861042:onilla:287395:Colegio de Educación Infantil y Primaria Sagrados Corazones
+800566:Toledo:861131:vias:288650:Colegio de Educación Infantil y Primaria Catalina de Palacios
+800566:Toledo:861131:vias:288472:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:861131:vias:288561:Instituto de Educación Secundaria Alonso Quijada
+800566:Toledo:861220:alida:289649:Aula de Educación de Adultos de Fuensalida
+800566:Toledo:861220:alida:289738:Colegio de Educación Infantil y Primaria Condes de Fuensalida
+800566:Toledo:861220:alida:288839:Colegio de Educación Infantil y Primaria Tomás Romojaro
+800566:Toledo:861220:alida:289460:Instituto de Educación Secundaria Aldebarán
+800566:Toledo:862030:z:289827:Colegio de Educación Infantil y Primaria San Juan de la Cruz
+800566:Toledo:862030:z:289916:Instituto de Educación Secundaria Montes de Toledo
+800566:Toledo:862219:nal:290088:Colegio de Educación Infantil y Primaria Don Cristóbal López
+800566:Toledo:862308:ndote:290177:Colegio de Educación Infantil y Primaria San José
+800566:Toledo:863029:amur:290266:Colegio de Educación Infantil y Primaria Nuestra Señora de la Natividad
+800566:Toledo:863118:dia (La):290355:Colegio de Educación Infantil y Primaria Valentín Escobar
+800566:Toledo:863207:ncias (Las):291076:Colegio de Educación Infantil y Primaria Vera Cruz
+800566:Toledo:863396:igos:291165:Colegio de Educación Infantil y Primaria VIrgen de la Higuera
+800566:Toledo:864017:as:291254:Colegio de Educación Infantil y Primaria Gregorio Marañón
+800566:Toledo:864106:ta de Valdecarabanos:291343:Colegio de Educación Infantil y Primaria VIrgen del Rosario de Pastores
+800566:Toledo:864295:scas:292331:Centro Público de Educación de Personas Adultas Pedro Gumiel
+800566:Toledo:864295:scas:293230:Colegio de Educación Infantil y Primaria Clara Campoamor
+800566:Toledo:864295:scas:293141:Colegio de Educación Infantil y Primaria Ilarcuris
+800566:Toledo:864295:scas:292242:Colegio de Educación Infantil y Primaria la Constitución
+800566:Toledo:864295:scas:292064:Colegio de Educación Infantil y Primaria Martín Chico
+800566:Toledo:864295:scas:293052:Instituto de Educación Secundaria Condestable Álvaro de Luna
+800566:Toledo:864295:scas:292153:Instituto de Educación Secundaria Juan de Padilla
+800566:Toledo:864384:rtera:294040:Colegio de Educación Infantil y Primaria Jacinto Guerrero
+800566:Toledo:865005:s:294229:Colegio de Educación Infantil y Primaria María Magdalena
+800566:Toledo:865194:o:294318:Colegio de Educación Infantil y Primaria Marcelino Murillo
+800566:Toledo:865283:nchar:295039:Colegio de Educación Infantil y Primaria Ramón y Cajal
+800566:Toledo:865372:dejos:296027:Aula de Educación de Adultos de Madridejos
+800566:Toledo:865372:dejos:296116:Centro de Educación Especial Mingoliva
+800566:Toledo:865372:dejos:295128:Colegio de Educación Infantil y Primaria Garcilaso de la Vega
+800566:Toledo:865372:dejos:295306:Colegio de Educación Infantil y Primaria Santa Ana
+800566:Toledo:865372:dejos:295217:Instituto de Educación Secundaria Valdehierro
+800566:Toledo:866093::296205:Colegio de Educación Infantil y Primaria Santa Marina
+800566:Toledo:866182:ca de Tajo:296394:Colegio de Educación Infantil y Primaria Fulgencio Sánchez Cabezudo
+800566:Toledo:866271:neque:297015:Colegio de Educación Infantil y Primaria Álvarez de Toledo
+800566:Toledo:866360:da:297104:Colegio de Educación Infantil y Primaria Don Álvaro de Luna
+800566:Toledo:867081:liza:297293:Colegio de Educación Infantil y Primaria San Juan
+800566:Toledo:867170:raque:297382:Colegio de Educación Infantil y Primaria Juan de Padilla
+800566:Toledo:867359:(La):298559:Colegio de Educación Infantil y Primaria Severo Ochoa
+800566:Toledo:869602:ambroz:298648:Colegio de Educación Infantil y Primaria Nuestra Señora del Sagrario
+800566:Toledo:869791:ada:298737:Colegio Rural Agrupado Ribera del Guadyerbas
+800566:Toledo:869880:illo (El):298826:Colegio de Educación Infantil y Primaria Ortega Pérez
+800566:Toledo:879789:albas:299458:Colegio de Educación Infantil y Primaria Nuestra Señora de Fátima
+800566:Toledo:879878:ida:299547:Colegio de Educación Infantil y Primaria Luis Solana
+800566:Toledo:879878:ida:299636:Instituto de Educación Secundaria Antonio Jiménez-Landi
+800566:Toledo:879967:l Esteban:299725:Colegio de Educación Infantil y Primaria Cervantes
+800566:Toledo:879967:l Esteban:299814:Instituto de Educación Secundaria Obligatoria Juan Patiño Torres
+800566:Toledo:886980:on:300069:Aula de Educación de Adultos de Mocejon
+800566:Toledo:886980:on:299903:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:888699::300425:Aula de Educación de Adultos de Mora
+800566:Toledo:888699::300247:Colegio de Educación Infantil y Primaria Fernando Martín
+800566:Toledo:888699::300158:Colegio de Educación Infantil y Primaria José Ramón VIlla
+800566:Toledo:888699::300336:Instituto de Educación Secundaria Peñas Negras
+800566:Toledo:888788:oca:300514:Colegio de Educación Infantil y Primaria la Fuente
+800566:Toledo:888877:de Ricomalillo (La):300603:Colegio de Educación Infantil y Primaria Nuestra Señora del Amor de Dios
+800566:Toledo:888966:ermosa:300970:Centro Público de Educación de Personas Adultas la Raña
+800566:Toledo:888966:ermosa:300792:Colegio de Educación Infantil y Primaria San Miguel Arcángel
+800566:Toledo:888966:ermosa:300881:Instituto de Educación Secundaria Obligatoria Manuel de Guzmán
+800566:Toledo:889409:can:301057:Colegio de Educación Infantil y Primaria Blas Tello
+800566:Toledo:889598:morales (Los):301146:Colegio de Educación Infantil y Primaria San Francisco
+800566:Toledo:889598:morales (Los):301235:Instituto de Educación Secundaria los Navalmorales
+800566:Toledo:889687:ucillos (Los):301324:Colegio de Educación Infantil y Primaria Nuestra Señora de las Saleras
+800566:Toledo:889776:orcuende:301413:Colegio Rural Agrupado Sierra de San VIcente
+800566:Toledo:889865:jas:301691:Aula de Educación de Adultos de Noblejas
+800566:Toledo:889865:jas:301502:Colegio de Educación Infantil y Primaria Santísimo Cristo de las Injurias
+800566:Toledo:889954::301780:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Salud
+800566:Toledo:898041:la:302045:Colegio de Educación Infantil y Primaria Cristo de la Nava
+800566:Toledo:898130::302134:Colegio de Educación Infantil y Primaria Nuestra Señora de la Monjia
+800566:Toledo:898319:cia de la Sagra:302223:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Misericordia
+800566:Toledo:898319:cia de la Sagra:302312:Instituto de Educación Secundaria Profesor Emilio Lledó
+800566:Toledo:898408::303033:Aula de Educación de Adultos Centro Penitenciario
+800566:Toledo:898408::302868:Centro Público de Educación de Personas Adultas Gutierre de Cárdenas
+800566:Toledo:898408::303122:Colegio de Educación Infantil y Primaria Pastor Poeta
+800566:Toledo:898408::302401:Colegio de Educación Infantil y Primaria San José de Calasanz
+800566:Toledo:898408::302590:Instituto de Educación Secundaria Alonso de Ercilla
+800566:Toledo:898408::302779:Instituto de Educación Secundaria Miguel Hernández
+800566:Toledo:898597:del Rey:303211:Colegio de Educación Infantil y Primaria Pedro Melendo García
+800566:Toledo:899129:ola:303300:Colegio de Educación Infantil y Primaria VIrgen del Rosario
+800566:Toledo:899218::303589:Colegio de Educación Infantil y Primaria Conde de Orgaz
+800566:Toledo:899307:sa:303678:Colegio de Educación Infantil y Primaria Martín Gallinar
+800566:Toledo:899307:sa:303767:Instituto de Educación Secundaria Alonso de Orozco
+800566:Toledo:899496:eque:303856:Colegio de Educación Infantil y Primaria San Juan Bautista
+800566:Toledo:899585:ja:304021:Colegio de Educación Infantil y Primaria Marqueses de Manzanedo
+800566:Toledo:899674:llas:304110:Colegio de Educación Infantil y Primaria Nuestra Señora de la Luz
+800566:Toledo:899763:ces (Las):304399:Colegio de Educación Infantil y Primaria Pintor Tomás Camarero
+800566:Toledo:899852::304577:Aula de Educación de Adultos de Polan
+800566:Toledo:899852::304488:Colegio de Educación Infantil y Primaria José María Corcuera
+800566:Toledo:900007:llo de Toledo:304666:Colegio de Educación Infantil y Primaria Conde de Ruiseñada
+800566:Toledo:900196:a de Almoradiel (La):305109:Aula de Educación de Adultos de Puebla de Almoradiel (La)
+800566:Toledo:900196:a de Almoradiel (La):304755:Colegio de Educación Infantil y Primaria Ramón y Cajal
+800566:Toledo:900196:a de Almoradiel (La):304844:Instituto de Educación Secundaria Aldonza Lorenzo
+800566:Toledo:900285:a de Montalban (La):305476:Aula de Educación de Adultos de Puebla de Montalban (La)
+800566:Toledo:900285:a de Montalban (La):305298:Colegio de Educación Infantil y Primaria Fernando de Rojas
+800566:Toledo:900285:a de Montalban (La):305387:Instituto de Educación Secundaria Juan de Lucena
+800566:Toledo:900374:anueva (La):305565:Colegio de Educación Infantil y Primaria San Isidro
+800566:Toledo:900463:e del Arzobispo (El):305654:Colegio Rural Agrupado VIllas del Tajo
+800566:Toledo:900552:r:305743:Colegio de Educación Infantil y Primaria Nuestra Señora de la Blanca
+800566:Toledo:901095::305832:Colegio de Educación Infantil y Primaria Santiago Cabañas
+800566:Toledo:901184:anar de la Orden:306375:Centro Público de Educación de Personas Adultas Luis VIves
+800566:Toledo:901184:anar de la Orden:306464:Colegio de Educación Infantil y Primaria Antonio Machado
+800566:Toledo:901184:anar de la Orden:306008:Colegio de Educación Infantil y Primaria Cristóbal Colón
+800566:Toledo:901184:anar de la Orden:306286:Instituto de Educación Secundaria Alonso Quijano
+800566:Toledo:901184:anar de la Orden:306197:Instituto de Educación Secundaria Infante Don Fadrique
+800566:Toledo:901273:ondo:306553:Colegio de Educación Infantil y Primaria Pedro Zamorano
+800566:Toledo:901362:de San Vicente (El):306642:Colegio Rural Agrupado Tierras de VIriato
+800566:Toledo:901451::306731:Colegio de Educación Infantil y Primaria Cesar Cabañas Caballero
+800566:Toledo:901451::306820:Instituto de Educación Secundaria Arcipreste de Canales
+800566:Toledo:901540:es:307096:Colegio de Educación Infantil y Primaria Maximina Felisa Gómez Aguero
+800566:Toledo:902083:al (El):307185:Colegio de Educación Infantil y Primaria Silvano Cirujano
+800566:Toledo:902172:artin de Montalban:307274:Colegio de Educación Infantil y Primaria Santísimo Cristo de la Luz
+800566:Toledo:902261:artin de Pusa:307363:Colegio Rural Agrupado Río Pusa
+800566:Toledo:902350:ablo de los Montes:307452:Colegio de Educación Infantil y Primaria Nuestra Señora de Gracia
+800566:Toledo:902539:oman de los Montes:307541:Colegio de Educación Infantil y Primaria Nuestra Señora del Buen Camino
+800566:Toledo:903071:Cruz de la Zarza:307630:Colegio de Educación Infantil y Primaria Eduardo Palomo Rodríguez
+800566:Toledo:903071:Cruz de la Zarza:307819:Instituto de Educación Secundaria Obligatoria Velsinia
+800566:Toledo:903160:Cruz del Retamar:308084:Colegio de Educación Infantil y Primaria Nuestra Señora de la Paz
+800566:Toledo:903349:Olalla:308173:Colegio de Educación Infantil y Primaria Nuestra Señora de la Piedad
+800566:Toledo:903438:Domingo-Caudilla:308262:Colegio de Educación Infantil y Primaria Santa Ana
+800566:Toledo:903527:io de Illescas (El):308351:Colegio de Educación Infantil y Primaria el Greco
+800566:Toledo:904159:a:308440:Colegio de Educación Infantil y Primaria Gabriel Uriarte
+800566:Toledo:904159:a:310056:Colegio de Educación Infantil y Primaria Juan Carlos I
+800566:Toledo:904159:a:308807:Colegio de Educación Infantil y Primaria Sisius
+800566:Toledo:904159:a:308718:Instituto de Educación Secundaria las Salinas
+800566:Toledo:904159:a:308629:Instituto de Educación Secundaria Margarita Salas
+800566:Toledo:904248:a Nuevo:310323:Centro Público de Educación de Personas Adultas de Seseña Nuevo
+800566:Toledo:904248:a Nuevo:310412:Colegio de Educación Infantil y Primaria el Quiñón
+800566:Toledo:904248:a Nuevo:310145:Colegio de Educación Infantil y Primaria Fernando de Rojas
+800566:Toledo:904248:a Nuevo:310234:Colegio de Educación Infantil y Primaria Gloria Fuertes
+800566:Toledo:904337:ca:310879:Centro Público de Educación de Personas Adultas Cum Laude
+800566:Toledo:904337:ca:310968:Colegio de Educación Infantil y Primaria Peñamiel
+800566:Toledo:904337:ca:310501:Colegio de Educación Infantil y Primaria San Juan Evangelista
+800566:Toledo:904337:ca:310690:Instituto de Educación Secundaria la Sisla
+800566:Toledo:904426:era de la Reina:313487:Centro de Educación Especial Bios
+800566:Toledo:904426:era de la Reina:312677:Centro Público de Educación de Personas Adultas Río Tajo
+800566:Toledo:904426:era de la Reina:312588:Colegio de Educación Infantil y Primaria Antonio Machado
+800566:Toledo:904426:era de la Reina:313576:Colegio de Educación Infantil y Primaria Bartolomé Nicolau
+800566:Toledo:904426:era de la Reina:311044:Colegio de Educación Infantil y Primaria Federico García Lorca
+800566:Toledo:904426:era de la Reina:311311:Colegio de Educación Infantil y Primaria Fray Hernando de Talavera
+800566:Toledo:904426:era de la Reina:312121:Colegio de Educación Infantil y Primaria Hernán Cortés
+800566:Toledo:904426:era de la Reina:312499:Colegio de Educación Infantil y Primaria José Bárcena
+800566:Toledo:904426:era de la Reina:311222:Colegio de Educación Infantil y Primaria Nuestra Señora del Prado
+800566:Toledo:904426:era de la Reina:312855:Colegio de Educación Infantil y Primaria Pablo Iglesias
+800566:Toledo:904426:era de la Reina:311400:Colegio de Educación Infantil y Primaria San Ildefonso
+800566:Toledo:904426:era de la Reina:311689:Colegio de Educación Infantil y Primaria San Juan de Dios
+800566:Toledo:904426:era de la Reina:311133:Colegio de Educación Infantil y Primaria Santa María
+800566:Toledo:904426:era de la Reina:312210:Instituto de Educación Secundaria Gabriel Alonso de Herrera
+800566:Toledo:904426:era de la Reina:311867:Instituto de Educación Secundaria Juan Antonio Castro
+800566:Toledo:904426:era de la Reina:311778:Instituto de Educación Secundaria Padre Juan de Mariana
+800566:Toledo:904426:era de la Reina:313020:Instituto de Educación Secundaria Puerta de Cuartos
+800566:Toledo:904426:era de la Reina:313209:Instituto de Educación Secundaria Ribera del Tajo
+800566:Toledo:904426:era de la Reina:312032:Instituto de Educación Secundaria San Isidro
+800566:Toledo:904515:era la Nueva:313665:Colegio de Educación Infantil y Primaria San Isidro
+800566:Toledo:905058:eque:313754:Colegio de Educación Infantil y Primaria Antonia González
+800566:Toledo:905147:o (El):313843:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:905236:o:317083:Centro de Educación Especial Ciudad de Toledo
+800566:Toledo:905236:o:315730:Centro Público de Educación de Personas Adultas Gustavo Adolfo Bécquer
+800566:Toledo:905236:o:317172:Centro Público de Educación de Personas Adultas Polígono
+800566:Toledo:905236:o:315007:Colegio de Educación Infantil y Primaria Alfonso VI
+800566:Toledo:905236:o:314108:Colegio de Educación Infantil y Primaria Ángel del Alcázar
+800566:Toledo:905236:do:316540:Colegio de Educación Infantil y Primaria Ciudad de Aquisgrán
+800566:Toledo:905236:do:315463:Colegio de Educación Infantil y Primaria Ciudad de Nara
+800566:Toledo:905236:do:316273:Colegio de Educación Infantil y Primaria Escultor Alberto Sánchez
+800566:Toledo:905236:do:317539:Colegio de Educación Infantil y Primaria Europa
+800566:Toledo:905236:do:314297:Colegio de Educación Infantil y Primaria Fábrica de Armas
+800566:Toledo:905236:do:315285:Colegio de Educación Infantil y Primaria Garcilaso de la Vega
+800566:Toledo:905236:do:315374:Colegio de Educación Infantil y Primaria Gómez Manrique
+800566:Toledo:905236:do:316362:Colegio de Educación Infantil y Primaria Gregorio Marañón
+800566:Toledo:905236:do:314742:Colegio de Educación Infantil y Primaria Jaime de Foxa
+800566:Toledo:905236:do:316095:Colegio de Educación Infantil y Primaria Juan de Padilla
+800566:Toledo:905236:do:314019:Colegio de Educación Infantil y Primaria la Candelaria
+800566:Toledo:905236:do:315552:Colegio de Educación Infantil y Primaria San Lucas y María
+800566:Toledo:905236:do:314386:Colegio de Educación Infantil y Primaria Santa Teresa
+800566:Toledo:905236:do:317628:Colegio de Educación Infantil y Primaria Valparaíso
+800566:Toledo:905236:do:315196:Instituto de Educación Secundaria Alfonso X el Sabio
+800566:Toledo:905236:do:314653:Instituto de Educación Secundaria Azarquiel
+800566:Toledo:905236:do:316818:Instituto de Educación Secundaria Carlos III
+800566:Toledo:905236:do:314564:Instituto de Educación Secundaria el Greco
+800566:Toledo:905236:do:315641:Instituto de Educación Secundaria Juanelo Turriano
+800566:Toledo:905236:do:317261:Instituto de Educación Secundaria María Pacheco
+800566:Toledo:905236:do:317350:Instituto de Educación Secundaria Obligatoria Princesa Galiana
+800566:Toledo:905236:do:316451:Instituto de Educación Secundaria Sefarad
+800566:Toledo:905236:do:314475:Instituto de Educación Secundaria Universidad Laboral
+800566:Toledo:905325:e de Esteban Hambran (La):317717:Colegio de Educación Infantil y Primaria Juan Aguado
+800566:Toledo:905414:ijos:318349:Centro Público de Educación de Personas Adultas Teresa Enríquez
+800566:Toledo:905414:ijos:318438:Colegio de Educación Infantil y Primaria Lazarillo de Tormes
+800566:Toledo:905414:ijos:317806:Colegio de Educación Infantil y Primaria VIlla de Torrijos
+800566:Toledo:905414:ijos:318071:Instituto de Educación Secundaria Alonso de Covarrubias
+800566:Toledo:905414:ijos:318160:Instituto de Educación Secundaria Juan de Padilla
+800566:Toledo:905503:nes:318527:Colegio de Educación Infantil y Primaria Inmaculada Concepción
+800566:Toledo:906046:eque:318616:Colegio de Educación Infantil y Primaria Fernán González
+800566:Toledo:906135:a:318705:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:906135:a:318894:Colegio de Educación Infantil y Primaria Tres Torres
+800566:Toledo:906224::320043:Colegio de Educación Infantil y Primaria Santo Cristo
+800566:Toledo:906313:jado:320310:Aula de Educación de Adultos de Valmojado
+800566:Toledo:906313:jado:320132:Colegio de Educación Infantil y Primaria Santo Domingo de Guzmán
+800566:Toledo:906313:jado:320221:Instituto de Educación Secundaria Cañada Real
+800566:Toledo:906402:a:320599:Colegio de Educación Infantil y Primaria Andrés Arango
+800566:Toledo:906591:s con Peña Aguilera (Las):320688:Colegio de Educación Infantil y Primaria Nuestra Señora del Águila
+800566:Toledo:907034:s de Retamosa (Las):320777:Colegio de Educación Infantil y Primaria Santiago Paniego
+800566:Toledo:907123:de Don Fadrique (La):320866:Colegio de Educación Infantil y Primaria Ramón y Cajal
+800566:Toledo:907123:de Don Fadrique (La):320955:Instituto de Educación Secundaria Obligatoria Leonor de Guzmán
+800566:Toledo:907212:cañas:321498:Aula de Educación de Adultos de VIllacañas
+800566:Toledo:907212:cañas:321031:Colegio de Educación Infantil y Primaria Santa Bárbara
+800566:Toledo:907212:cañas:321309:Instituto de Educación Secundaria Enrique de Arfe
+800566:Toledo:907212:cañas:321120:Instituto de Educación Secundaria Garcilaso de la Vega
+800566:Toledo:907301:franca de los Caballeros:321587:Colegio de Educación Infantil y Primaria Miguel de Cervantes
+800566:Toledo:907301:franca de los Caballeros:321676:Instituto de Educación Secundaria Obligatoria la Falcata
+800566:Toledo:907490:luenga de la Sagra:321765:Colegio de Educación Infantil y Primaria Juan Palarea
+800566:Toledo:907490:luenga de la Sagra:321854:Instituto de Educación Secundaria Castillo del Águila
+800566:Toledo:908022:miel de Toledo:322119:Colegio de Educación Infantil y Primaria Nuestra Señora de la Redonda
+800566:Toledo:908111:minaya:322208:Colegio de Educación Infantil y Primaria Santo Domingo de Silos
+800566:Toledo:908200:muelas:322397:Colegio de Educación Infantil y Primaria Santa María Magdalena
+800566:Toledo:908489:nueva de Alcardete:322486:Colegio de Educación Infantil y Primaria Nuestra Señora de la Piedad
+800566:Toledo:908578:nueva de Bogas:322575:Colegio de Educación Infantil y Primaria Santa Ana
+800566:Toledo:909655:rrubia de Santiago:322664:Colegio de Educación Infantil y Primaria Nuestra Señora del Castellar
+800566:Toledo:909744:seca de la Sagra:322753:Colegio de Educación Infantil y Primaria VIrgen de las Angustias
+800566:Toledo:909833:sequilla:322842:Colegio de Educación Infantil y Primaria San Isidro Labrador
+800566:Toledo:910094:tobas:323018:Colegio de Educación Infantil y Primaria Sagrado Corazón de Jesús
+800566:Toledo:910183:de San Juan (El):323107:Colegio de Educación Infantil y Primaria Fernando de Alarcón
+800566:Toledo:910183:de San Juan (El):323296:Colegio de Educación Infantil y Primaria Miguel Delibes
+800566:Toledo:910272:es (Los):323563:Aula de Educación de Adultos de Yebenes (Los)
+800566:Toledo:910272:es (Los):323385:Colegio de Educación Infantil y Primaria San José de Calasanz
+800566:Toledo:910272:es (Los):323474:Instituto de Educación Secundaria Guadalerzas
+800566:Toledo:910361::323652:Colegio de Educación Infantil y Primaria San Antonio
+800566:Toledo:910450::323741:Colegio de Educación Infantil y Primaria Rafael García Valiño
+800566:Toledo:910450::323830:Instituto de Educación Secundaria Carpetania
+800566:Toledo:911082:er:324006:Colegio de Educación Infantil y Primaria Remigio Laín
+800566:Toledo:911171:illos:324195:Colegio de Educación Infantil y Primaria Nuestra Señora de la Salud
+800566:Toledo:911260:s:324462:Colegio de Educación Infantil y Primaria Guillermo Plaza
+800566:Toledo:911260:s:324284:Colegio de Educación Infantil y Primaria Nuestra Señora del Consuelo
+800566:Toledo:911260:s:324551:Colegio de Educación Infantil y Primaria VIlla de Yuncos
+800566:Toledo:911260::324373:Instituto de Educación Secundaria la Cañuela
