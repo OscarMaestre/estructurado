@@ -32,10 +32,11 @@ while not procesador_pdf.eof():
         nom_provincia_actual=linea[pos_inicio_provincia:pos_inicio_codigo-1].strip()
         pos_fin_codigo=pos_inicio_codigo+len(CODIGO)
         cod_provincia_actual=linea[pos_fin_codigo:].strip()
-        
+        procesador_pdf.siguiente_linea()
+        continue
     if linea.find(LOCALIDAD)!=-1:
         #Averiguamos el nombre de la localidad
-        pos_inicio_localidad=linea.find(LOCALIDAD)+len(LOCALIDAD)
+        pos_inicio_localidad=linea.find(LOCALIDAD)
         pos_inicio_codigo=linea.find(CODIGO)
         pos_fin_localidad=pos_inicio_localidad + len(LOCALIDAD)
         #Esta es la localidad

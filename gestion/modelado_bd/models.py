@@ -521,3 +521,43 @@ class RutaOpos2016(models.Model):
     sumario     =   models.CharField ( max_length=250 )
     class Meta:
         db_table="rutas"
+        
+class CentroOpos2016(models.Model):
+    TIPOS=[
+        ("CEIP", "(CEIP) Colegio de primaria"),
+        ("CEE", "(CEE) Centro de Educación Especial"),
+        ("CRA", "(CRA) Centro Rural Agrupado"),
+        #IESO debe aparecer antes que IES
+        ("IESO", "(IESO) Instituto de ESO"),
+        ("IES", "(IES) Instituto de Educación Secundaria"),
+        ("CIPFPU", "(CIPFPU) Centro Integrado de FP"),
+        ("Cifppu", "(CIPFPU) Centro Integrado de FP"),
+        ("Ifp", "(IFP) Centro Integrado de FP"),
+        ("CPM", "(CPM) Conservatorio Profesional de Música"),
+        ("CPD", "(CPM) Conservatorio Profesional de Danza"),
+        ("SES", "(SES) Sección de Educación Secundaria"),
+        ("EA", "(EA) Escuela de Artes"),
+        ("EOI", "(EOI) Escuela Oficial de Idiomas"),
+        ("CEPA", "(CEPA) Centro Educación Personas Adultas"),
+        ("AEPA", "(AEPA) Aul Educación Personas Adultas"),
+        ("UO", "(UO) Unidad de Orientacion"),
+        ("DP", "(DP) Delegación Provincial de Educación"),
+        ("DESC", "(DESC) Desconocido")
+    ]
+    NATURALEZAS=[
+        ("Público", "Público"),
+        ("Privado", "Privado"),
+        ("Concertado", "Concertado"),
+        ("Desconocida", "Desconocida")
+    ]
+    codigo_centro       =   models.CharField(max_length=10, primary_key=True, db_index=True)
+    nombre_centro       =   models.CharField(max_length=60)
+    localidad           =   models.ForeignKey(Localidad)
+    class Meta:
+        db_table = 'centros_opos_2016'
+
+@receiver(pre_save, sender=CentroOpos2016)
+def set_tipo_centro(sender, **argumentos):
+    centro=argumentos["instance"]
+    centro.nombre_centro=corregir_vi ( centro.nombre_centro )
+    
