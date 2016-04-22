@@ -515,7 +515,7 @@ class LocalidadOpos2016(models.Model):
 
 class RutaOpos2016(models.Model):
     origen      =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_origen" )
-    destino     =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_destino" )
+    destino     =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_destino")
     distancia   =   models.IntegerField()
     minutos     =   models.IntegerField()
     sumario     =   models.CharField ( max_length=250 )
@@ -560,4 +560,11 @@ class CentroOpos2016(models.Model):
 def set_tipo_centro(sender, **argumentos):
     centro=argumentos["instance"]
     centro.nombre_centro=corregir_vi ( centro.nombre_centro )
+
+@receiver(pre_save, sender=LocalidadOpos2016)
+def corregir_nombre_localidad(sender, **argumentos):
+    instancia_pueblo=argumentos["instance"]
+    nombre_localidad=instancia_pueblo.nombre_localidad
+    instancia_pueblo.nombre_localidad=rectificar_nombre_localidad ( nombre_localidad )
     
+    return 

@@ -84,8 +84,12 @@ with transaction.atomic():
         nom_localidad   =   trozos[3]
         cod_centro      =   trozos[4]
         nom_centro      =   trozos[5]
+        #Los nombres de localidad suelen tener errores como
+        #llevar el articulo delante
+        nom_localidad=rectificar_nombre_localidad(nom_localidad)
         
         provincia_asociada=objetos_provincia[cod_provincia]
         localidad=crear_localidad(cod_localidad, nom_localidad, provincia_asociada)
+        f=get_fila ( nom_localidad, gestor_bd )
         centro=crear_centro ( cod_centro, nom_centro, localidad)
         
