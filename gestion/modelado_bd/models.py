@@ -510,15 +510,28 @@ class LocalidadOpos2016(models.Model):
     codigo_localidad    =   models.CharField(max_length=12, primary_key=True, db_index=True)
     nombre_localidad    =   models.CharField(max_length=80, blank=False)
     provincia           =   models.ForeignKey(ProvinciaOpos2016)
+    def __str__(self):
+        return self.nombre_localidad
+    
     class Meta:
         db_table = 'localidades_opos_2016'
 
 class RutaOpos2016(models.Model):
-    origen      =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_origen" )
-    destino     =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_destino")
+    origen      =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_origen" , db_index=True)
+    destino     =   models.ForeignKey ( LocalidadOpos2016, related_name="loc_destino", db_index=True)
     distancia   =   models.IntegerField()
     minutos     =   models.IntegerField()
     sumario     =   models.CharField ( max_length=250 )
+    def __str__(self):
+        cad="""
+        {0}--{1}   {2} minutos, {3} km
+        """
+        return cad.format(
+            self.origen,
+            self.destino,
+            self.distancia,
+            self.minutos
+        )
     class Meta:
         db_table="rutas"
         
@@ -552,7 +565,9 @@ class CentroOpos2016(models.Model):
     ]
     codigo_centro       =   models.CharField(max_length=10, primary_key=True, db_index=True)
     nombre_centro       =   models.CharField(max_length=60)
-    localidad           =   models.ForeignKey(Localidad)
+    localidad           =   models.ForeignKey(LocalidadOpos2016)
+    def __str__(self):
+        return self.nombre_centro
     class Meta:
         db_table = 'centros_opos_2016'
 
