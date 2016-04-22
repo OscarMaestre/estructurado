@@ -1,5 +1,22 @@
 Tabla de códigos para {{localidad}}
-=======================================
+======================================================
 
+Este informe contiene un listado detallado de las localidades y centros por cada
+localidad ordenando todo en función de la distancia/tiempo aproximados que se
+necesitaría para desplazarse a cada localidad.
+
+Por favor, recuerda que el cálculo es aproximado y que aunque hemos
+intentado verificar todos los códigos es posible que hayamos cometido algún
+error. Dado que la solicitud electrónica también te muestra los pueblos, por
+favor asegúrate de que introduces la petición de un centro o localidad que
+te interese.
+
+Si crees que hemos cometido algún error,te agradeceríamos que nos lo comentases
+escribiendo a afiliados@anpecr.com
+
+Esperamos que este documento te resulte de utilidad.
+
+Listado de códigos
+-------------------
 
 {{listado}}

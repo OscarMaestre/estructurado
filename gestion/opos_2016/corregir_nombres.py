@@ -5,7 +5,8 @@ modificaciones=[
     ("La Torre de Esteban Hambran", "Torre de Esteban Hambran"),
     ("Cortijos de Arriba", "Cortijo de Arriba"),
     ("Villafranca de los Caballeros", "Villafranca de los"),
-    ("Las Ventas con Peña Aguilera", "Ventas Con Peña Aguilera")
+    ("Las Ventas con Peña Aguilera", "Ventas Con Peña Aguilera"),
+    ("Centro Penitenciario Herrera de la Mancha", "Herrera de la Mancha")
 ]
 
 gf=GestorFicheros()
