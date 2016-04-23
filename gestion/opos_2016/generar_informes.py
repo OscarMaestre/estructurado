@@ -16,16 +16,28 @@ from django.template.loader import render_to_string, get_template
 
 RUTA_INFORMES="./informes"
 
+#Borramos Herrera y todos los centros penitenciarios
+herrera=LocalidadOpos2016.objects.filter(nombre_localidad__contains="Herrera").all()
+herrera.delete()
+
+centros_penitenciarios=CentroOpos2016.objects.filter(
+    nombre_centro__contains="Penitenciari").all()
+print (centros_penitenciarios)
+centros_penitenciarios=CentroOpos2016.objects.filter(
+    nombre_centro__contains="Penitenciari").all()
+centros_penitenciarios.delete()
+
+
 prov_cr=ProvinciaOpos2016.objects.filter(nombre_provincia="Ciudad Real")
 #print (prov_cr)
 localidades=LocalidadOpos2016.objects.filter(provincia=prov_cr)
 #print (localidades)
 
 item_pueblo="""
-- {0}, {1},  {2}, {3} km
+- ``{0}`` {1}  ({2}, {3} km)
 """
 item_centro="""
-  - {0}:{1}
+  -``{0}`` {1}
     
 """
 def convertir_minutos_a_cad(minutos):

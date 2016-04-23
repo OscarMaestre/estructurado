@@ -160,7 +160,8 @@ def crear_entidades(procesador_pdf):
         for c in centros:
             cod_loc_asociada=c[2]
             localidad_asociada=Localidad.objects.get(codigo_localidad=cod_loc_asociada)
-            centro=Centro ( codigo_centro = c[0], nombre_centro=c[1], localidad=localidad_asociada)
+            centro=Centro ( codigo_centro = c[0], nombre_centro=c[1],
+                           localidad=localidad_asociada, tipo_centro="CEIP")
             centro.save()
     with transaction.atomic():
         #print (localidades_asociadas_a_cra)

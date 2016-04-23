@@ -1,20 +1,32 @@
-Tabla de códigos para {{localidad}}
+
+
+.. image:: logo.png
+   :align: center
+
+Solicitud de oposiciones 2016
 ======================================================
 
+  
+  
 Este informe contiene un listado detallado de las localidades y centros por cada
 localidad ordenando todo en función de la distancia/tiempo aproximados que se
-necesitaría para desplazarse a cada localidad.
+necesitaría para desplazarte desde tu localidad de residencia (en tu caso,
+nos has indicado **{{localidad}}**).
 
 Por favor, recuerda que el cálculo es aproximado y que aunque hemos
 intentado verificar todos los códigos es posible que hayamos cometido algún
 error. Dado que la solicitud electrónica también te muestra los pueblos, por
 favor asegúrate de que introduces la petición de un centro o localidad que
-te interese.
+te interese. En este documento
+*no hemos incluido ningún codigo de centro penitenciario*, por lo que si deseas
+solicitar alguno te rogamos los busques en la solicitud.
 
 Si crees que hemos cometido algún error,te agradeceríamos que nos lo comentases
-escribiendo a afiliados@anpecr.com
+escribiendo a afiliados@anpecr.com.
 
 Esperamos que este documento te resulte de utilidad.
+
+
 
 Listado de códigos
 -------------------
