@@ -14,6 +14,8 @@ from modelado_bd.models import *
 zona_clm=Zona.get_zona_clm()
 print (zona_clm)
 
+
+
 nombres_provincia=["Albacete", "Ciudad Real", "Cuenca", "Guadalajara", "Toledo"]
 def crear_entidades ( procesador_pdf ):
     escuelas_adultos=[]
@@ -60,9 +62,11 @@ def crear_entidades ( procesador_pdf ):
             cod_centro=tupla[0]
             nom_centro=tupla[1]
             cod_localidad=tupla[2]
+            
             localidad_asociada=Localidad.objects.get(codigo_localidad=cod_localidad)
             centro=Centro ( codigo_centro=cod_centro, nombre_centro=nom_centro,
-                           localidad=localidad_asociada )
+                           localidad=localidad_asociada,
+                           tipo_centro="EA")
             centro.save()
 
 if __name__ == '__main__':

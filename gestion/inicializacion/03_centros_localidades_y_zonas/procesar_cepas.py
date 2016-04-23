@@ -25,6 +25,12 @@ def extraer_provincia(procesador_pdf, codigo_anterior):
        return codigo_provincia_actual
     return codigo_anterior
 
+def get_tipo_centro(nombre_centro):
+    if nombre_centro.find("CEPA")!=-1:
+        return "CEPA"
+    if nombre_centro.find("AEPA")!=-1:
+        return "AEPA"
+    
 def crear_entidades ( procesador_pdf ):
     cepas=[]
     localidades=[]
@@ -42,8 +48,8 @@ def crear_entidades ( procesador_pdf ):
             nombre_centro=linea_actual[11:ini_cod_localidad-1]
             nombre_localidad=linea_actual[fin_cod_localidad+1:].strip()
             nombre_centro=nombre_centro.strip()
-            
-            cepas.append ( (cod_centro, nombre_centro, cod_localidad) )
+            tipo_centro=get_tipo_centro(nombre_centro)
+            cepas.append ( (cod_centro, nombre_centro, cod_localidad, tipo_centro) )
             localidades.append ( (cod_localidad, nombre_localidad, codigo_provincia_actual) )
             print ("-{0}- -{1}- -{2}- -{3}- -{4}-".format(
                 cod_centro, nombre_centro, cod_localidad, nombre_localidad, codigo_provincia_actual))
@@ -58,7 +64,10 @@ def crear_entidades ( procesador_pdf ):
     with transaction.atomic():
         for c in cepas:
             localidad_asociada=Localidad.objects.get( codigo_localidad=c[2])
-            cepa=Centro(codigo_centro=c[0], nombre_centro=c[1], localidad=localidad_asociada)
+            cepa=Centro(codigo_centro=c[0],
+                        nombre_centro=c[1],
+                        localidad=localidad_asociada,
+                        tipo_centro=c[3])
             cepa.save()
             
 if __name__ == '__main__':

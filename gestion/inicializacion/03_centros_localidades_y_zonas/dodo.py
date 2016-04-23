@@ -10,7 +10,9 @@ ficheros_pdf = ["LocalidadesColegiosCGTConvocadoNov2015.pdf",
                 "LocalidadesEACGTConvocadoNov2015.pdf",
                 "LocalidadesEOICGTConvocadoNov2015.pdf",
                  "LocalidadesCPMCGTConvocadoNov2015.pdf",
-                 "LocalidadesCEPASCGTConvocadoNov2015.pdf"]
+                 "LocalidadesCEPASCGTConvocadoNov2015.pdf",
+                 "LocalidadesCEECGTConvocadoNov2015.pdf",
+                 "LocalidadesCPMCGTConvocadoNov2015.pdf"]
 
 procesador_pdf = ProcesadorPDF()
 gf=GestorFicheros()
@@ -21,8 +23,12 @@ nombre_fichero_ea_txt       =   procesador_pdf.convertir_a_txt ( ficheros_pdf[2]
 nombre_fichero_eoi_txt      =   procesador_pdf.convertir_a_txt ( ficheros_pdf[3] )
 nombre_fichero_cpm_txt      =   procesador_pdf.convertir_a_txt ( ficheros_pdf[4] )
 nombre_fichero_cepas_txt    =   procesador_pdf.convertir_a_txt ( ficheros_pdf[5] )
+nombre_fichero_cees_txt     =   procesador_pdf.convertir_a_txt ( ficheros_pdf[6] )
+nombre_fichero_cpms_txt     =   procesador_pdf.convertir_a_txt ( ficheros_pdf[7] )
 
     
+gf.ejecutar_comando ( "./procesar_cee.py", nombre_fichero_cees_txt)
+gf.ejecutar_comando ( "./procesar_cpm.py", nombre_fichero_cpms_txt)
 gf.ejecutar_comando ( "./procesar_colegios.py", nombre_fichero_coles_txt)
 gf.ejecutar_comando ( "./procesar_ea.py", nombre_fichero_ea_txt)
 gf.ejecutar_comando ( "./procesar_eoi.py", nombre_fichero_eoi_txt)

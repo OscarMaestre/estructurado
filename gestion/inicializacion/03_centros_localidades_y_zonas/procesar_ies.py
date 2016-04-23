@@ -26,10 +26,17 @@ def get_codigo_localidad(procesador_pdf):
         linea_actual=procesador_pdf.get_linea_actual()
         (ini_cod_localidad, fin_cod_localidad, cod_localidad)=procesador_pdf.linea_actual_contiene_codigo_localidad()
     return (ini_cod_localidad, fin_cod_localidad, cod_localidad)
-    
+
+
+def get_tipo_centro(nombre_centro):
+    if nombre_centro.find("IESO")!=-1:
+        return "IESO"
+    if nombre_centro.find("IES")!=-1:
+        return "IES"
+    if nombre_centro.find("SES")!=-1:
+        return "SES"
+    return "CIFP"
 procesador_pdf=ProcesadorPDF()
-
-
 procesador_pdf.abrir_fichero_txt ( sys.argv[1] )
 
 institutos=[]
@@ -44,15 +51,17 @@ while not procesador_pdf.eof():
         #Este instituto casi siempre está mal colocado debido a lo largo que es
         if cod_centro=="13000566C":
             nombre_centro="IES San Juan Bautista de la Concepcion"
-        print (cod_centro, nombre_centro, cod_localidad)
-        institutos.append ( (cod_centro, nombre_centro, cod_localidad ) )
+        tipo_centro=get_tipo_centro ( nombre_centro )
+        print (cod_centro, nombre_centro, cod_localidad, ">"+tipo_centro+"<")
+        institutos.append ( (cod_centro, nombre_centro, cod_localidad, tipo_centro ) )
     procesador_pdf.siguiente_linea()
     
 with transaction.atomic():
     for ies in institutos:
         localidad_asociada=Localidad.objects.get( codigo_localidad = ies[2])
         objeto_centro=Centro (
-            codigo_centro = ies[0],nombre_centro=ies[1], localidad=localidad_asociada
+            codigo_centro = ies[0],nombre_centro=ies[1], localidad=localidad_asociada,
+            tipo_centro=ies[3]
         )
         objeto_centro.save()
   

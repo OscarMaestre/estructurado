@@ -59,7 +59,7 @@ def crear_entidades ( procesador_pdf ):
             localidad_asociada=Localidad.objects.get(codigo_localidad=cod_localidad)
             centro=Centro ( codigo_centro=cod_centro, nombre_centro=nom_centro,
                            localidad=localidad_asociada,
-                           tipo_centro="EOI")
+                           tipo_centro="CEE")
             centro.save()
 
 if __name__ == '__main__':

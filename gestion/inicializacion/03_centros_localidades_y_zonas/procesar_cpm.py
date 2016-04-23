@@ -11,6 +11,12 @@ configurador=Configurador (os.path.sep.join (["..", ".."]) )
 configurador.activar_configuracion ( "gestion.settings")
 from modelado_bd.models import *
 
+
+def get_tipo_centro(nombre_centro):
+    if nombre_centro.find("CPM")!=-1:
+        return "CPM"
+    return "CPD"
+
 zona_clm=Zona.get_zona_clm()
 print (zona_clm)
 
@@ -56,10 +62,11 @@ def crear_entidades ( procesador_pdf ):
             cod_centro=tupla[0]
             nom_centro=tupla[1]
             cod_localidad=tupla[2]
+            tipo_centro=get_tipo_centro(nom_centro)
             localidad_asociada=Localidad.objects.get(codigo_localidad=cod_localidad)
             centro=Centro ( codigo_centro=cod_centro, nombre_centro=nom_centro,
                            localidad=localidad_asociada,
-                           tipo_centro="EOI")
+                           tipo_centro="CEE")
             centro.save()
 
 if __name__ == '__main__':
