@@ -2,7 +2,7 @@ DATOS=../../../..
 all:
 
 clean:
-	rm db.sqlite3; ./manage.py sqlflush; rm index/migrations/*.py; rm traslados/migrations/*.py;rm modelado_bd/migrations/*.py; touch modelado_bd/migrations/__init__.py ; ./manage.py makemigrations; ./manage.py migrate; ./manage.py createsuperuser --username usuario
+	rm db.sqlite3; ./manage.py sqlflush; rm index/migrations/*.py; rm traslados/migrations/*.py;rm modelado_bd/migrations/*.py; touch modelado_bd/migrations/__init__.py ; touch traslados/migrations/__init__.py;  ./manage.py makemigrations; ./manage.py migrate; ./manage.py createsuperuser --username usuario
 
 ini:
 	

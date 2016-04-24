@@ -31,10 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'modelado_bd',
     'index',
     'intcalc',
     'traslados',
-    'modelado_bd',
     'documentos',
     'html_disponibles',
     'django.contrib.admin',

@@ -149,6 +149,8 @@ class Provincia(models.Model):
     class Meta:
         db_table = 'provincias'
         
+    def __str__(self):
+        return self.provincia
     @staticmethod
     def get_codigo(nombre_provincia_pasado):
         for p in Provincia.PROVINCIAS:
@@ -180,6 +182,9 @@ class Localidad(models.Model):
     latitud             =   models.DecimalField(max_digits=11, decimal_places=8, default=0.0)
     longitud            =   models.DecimalField(max_digits=11, decimal_places=8, default=0.0)
     zona                =   models.ForeignKey ( Zona , blank=True)
+    def __str__(self):
+        return self.nombre_localidad
+    
     class Meta:
         db_table = 'localidades'
      
@@ -227,7 +232,24 @@ def corregir_nombre_localidad(sender, **argumentos):
         instancia_pueblo.longitud=longitud
     return 
 
-
+class Ruta(models.Model):
+    origen      =   models.ForeignKey ( Localidad, related_name="loc_origen" , db_index=True)
+    destino     =   models.ForeignKey ( Localidad, related_name="loc_destino", db_index=True)
+    distancia   =   models.IntegerField()
+    minutos     =   models.IntegerField()
+    sumario     =   models.CharField ( max_length=250 )
+    def __str__(self):
+        cad="""
+        {0}--{1}   {2} minutos, {3} km
+        """
+        return cad.format(
+            self.origen,
+            self.destino,
+            self.distancia,
+            self.minutos
+        )
+    class Meta:
+        db_table="rutas"
 
 
 
@@ -533,7 +555,7 @@ class RutaOpos2016(models.Model):
             self.minutos
         )
     class Meta:
-        db_table="rutas"
+        db_table="rutas_opos_2016"
         
 class CentroOpos2016(models.Model):
     TIPOS=[
