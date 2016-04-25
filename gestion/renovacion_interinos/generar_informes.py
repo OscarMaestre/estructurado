@@ -36,7 +36,7 @@ def generar_informe(localidad, filtrado):
     for c in loc_inicial.centro_set.filter(filtrado):
         cad+=item_centro.format (c.codigo_centro, c.nombre_centro)
         
-    rutas=Ruta.objects.filter(origen=localidad).order_by("minutos")
+    rutas=Ruta.objects.filter(origen=localidad).order_by("minutos", "distancia")
     nombre_localidad=localidad.nombre_localidad
     
     for r in rutas:
@@ -58,7 +58,12 @@ def generar_informe(localidad, filtrado):
     return informe
     
 
-filtrado_publico=Q(naturaleza="Público")
+filtrado_publico=Q(naturaleza="Público") & (~Q(codigo_centro__startswith="9999")) \
+                        & (~Q(codigo_centro__startswith="9998")) \
+                        & (~Q(codigo_centro__startswith="9559")) \
+                        & (~Q(codigo_centro__startswith="9955")) \
+                        & (~Q(codigo_centro__startswith="9000")) \
+                        & (~Q(codigo_centro="90C"))
 sufijo_archivo="_".join(sys.argv[1:])
 filtrado=Q()
 for i in range (1, len(sys.argv)):
@@ -67,7 +72,7 @@ for i in range (1, len(sys.argv)):
     filtrado=filtrado | Q(tipo_centro=parametro)
     print (sys.argv[i])
 
-filtrado=filtrado & filtrado_publico
+filtrado=filtrado & (filtrado_publico)
 
 RUTA_INFORMES="./informes"
 
