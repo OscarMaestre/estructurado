@@ -28,9 +28,9 @@ centros_penitenciarios=CentroOpos2016.objects.filter(
 centros_penitenciarios.delete()
 
 
-prov_cr=ProvinciaOpos2016.objects.filter(nombre_provincia="Ciudad Real")
+prov_cr=ProvinciaOpos2016.objects.filter(nombre_provincia="Toledo")
 #print (prov_cr)
-localidades=LocalidadOpos2016.objects.filter(provincia=prov_cr)
+localidades=LocalidadOpos2016.objects.all()
 #print (localidades)
 
 item_pueblo="""
